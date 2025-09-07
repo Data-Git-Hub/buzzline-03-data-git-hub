@@ -1,4 +1,4 @@
-# buzzline-03-case
+# buzzline-03-data-git-hub
 
 Streaming data does not have to be simple text.
 Many of us are familiar with streaming video content and audio (e.g. music) files.
