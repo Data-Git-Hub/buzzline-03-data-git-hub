@@ -1,0 +1,1286 @@
+[
+  {
+    "message": "Data engineering is my passion.",
+    "author": "Eve"
+  },
+  {
+    "message": "I learn in this letter that Don Pedro of Arragon comes this night",
+    "author": "leonato"
+  },
+  {
+    "message": "to Messina.",
+    "author": "leonato"
+  },
+  {
+    "message": "He is very near by this: he was not three leagues off when I left him.",
+    "author": "messenger"
+  },
+  {
+    "message": "How many gentlemen have you lost in this action?",
+    "author": "leonato"
+  },
+  {
+    "message": "But few of any sort, and none of name.",
+    "author": "messenger"
+  },
+  {
+    "message": "A victory is twice itself when the achiever brings home full",
+    "author": "leonato"
+  },
+  {
+    "message": "numbers. I find here that Don Pedro hath bestowed much honour on a",
+    "author": "leonato"
+  },
+  {
+    "message": "young Florentine called Claudio.",
+    "author": "leonato"
+  },
+  {
+    "message": "Much deserved on his part, and equally remembered by Don Pedro.",
+    "author": "messenger"
+  },
+  {
+    "message": "He hath borne himself beyond the promise of his age, doing in the figure",
+    "author": "messenger"
+  },
+  {
+    "message": "of a lamb the feats of a lion: he hath indeed better bettered expectation",
+    "author": "messenger"
+  },
+  {
+    "message": "than you must expect of me to tell you how.",
+    "author": "messenger"
+  },
+  {
+    "message": "He hath an uncle here in Messina will be very much glad of it.",
+    "author": "leonato"
+  },
+  {
+    "message": "I have already delivered him letters, and there appears much",
+    "author": "messenger"
+  },
+  {
+    "message": "joy in him; even so much that joy could not show itself modest enough",
+    "author": "messenger"
+  },
+  {
+    "message": "without a badge of bitterness.",
+    "author": "messenger"
+  },
+  {
+    "message": "Did he break out into tears?",
+    "author": "leonato"
+  },
+  {
+    "message": "In great measure.",
+    "author": "messenger"
+  },
+  {
+    "message": "A kind overflow of kindness. There are no faces truer than those",
+    "author": "leonato"
+  },
+  {
+    "message": "that are so washed; how much better is it to weep at joy than to joy at",
+    "author": "leonato"
+  },
+  {
+    "message": "weeping!",
+    "author": "leonato"
+  },
+  {
+    "message": "I pray you, is Signior Mountanto returned from the wars or no?",
+    "author": "beatrice"
+  },
+  {
+    "message": "I know none of that name, lady: there was none such in the army",
+    "author": "messenger"
+  },
+  {
+    "message": "of any sort.",
+    "author": "messenger"
+  },
+  {
+    "message": "What is he that you ask for, niece?",
+    "author": "leonato"
+  },
+  {
+    "message": "My cousin means Signior Benedick of Padua.",
+    "author": "hero"
+  },
+  {
+    "message": "O! he is returned, and as pleasant as ever he was.",
+    "author": "messenger"
+  },
+  {
+    "message": "He set up his bills here in Messina and challenged Cupid at the",
+    "author": "beatrice"
+  },
+  {
+    "message": "flight; and my uncle’s fool, reading the challenge, subscribed for",
+    "author": "beatrice"
+  },
+  {
+    "message": "Cupid, and challenged him at the bird-bolt. I pray you, how many hath he",
+    "author": "beatrice"
+  },
+  {
+    "message": "killed and eaten in these wars? But how many hath he killed? for, indeed,",
+    "author": "beatrice"
+  },
+  {
+    "message": "I promised to eat all of his killing.",
+    "author": "beatrice"
+  },
+  {
+    "message": "Faith, niece, you tax Signior Benedick too much; but he’ll",
+    "author": "leonato"
+  },
+  {
+    "message": "be meet with you, I doubt it not.",
+    "author": "leonato"
+  },
+  {
+    "message": "He hath done good service, lady, in these wars.",
+    "author": "messenger"
+  },
+  {
+    "message": "You had musty victual, and he hath holp to eat it; he is a very",
+    "author": "beatrice"
+  },
+  {
+    "message": "valiant trencher-man; he hath an excellent stomach.",
+    "author": "beatrice"
+  },
+  {
+    "message": "And a good soldier too, lady.",
+    "author": "messenger"
+  },
+  {
+    "message": "And a good soldier to a lady; but what is he to a lord?",
+    "author": "beatrice"
+  },
+  {
+    "message": "A lord to a lord, a man to a man; stuffed with all honourable",
+    "author": "messenger"
+  },
+  {
+    "message": "virtues.",
+    "author": "messenger"
+  },
+  {
+    "message": "It is so indeed; he is no less than a stuffed man; but for the",
+    "author": "beatrice"
+  },
+  {
+    "message": "stuffing,—well, we are all mortal.",
+    "author": "beatrice"
+  },
+  {
+    "message": "You must not, sir, mistake my niece. There is a kind of merry war",
+    "author": "leonato"
+  },
+  {
+    "message": "betwixt Signior Benedick and her; they never meet but there’s a",
+    "author": "leonato"
+  },
+  {
+    "message": "skirmish of wit between them.",
+    "author": "leonato"
+  },
+  {
+    "message": "Alas! he gets nothing by that. In our last conflict four of his",
+    "author": "beatrice"
+  },
+  {
+    "message": "five wits went halting off, and now is the whole man governed with one! So",
+    "author": "beatrice"
+  },
+  {
+    "message": "that if he have wit enough to keep himself warm, let him bear it for a",
+    "author": "beatrice"
+  },
+  {
+    "message": "difference between himself and his horse; for it is all the wealth that he",
+    "author": "beatrice"
+  },
+  {
+    "message": "hath left to be known a reasonable creature. Who is his companion now? He",
+    "author": "beatrice"
+  },
+  {
+    "message": "hath every month a new sworn brother.",
+    "author": "beatrice"
+  },
+  {
+    "message": "Is’t possible?",
+    "author": "messenger"
+  },
+  {
+    "message": "Very easily possible: he wears his faith but as the fashion of",
+    "author": "beatrice"
+  },
+  {
+    "message": "his hat; it ever changes with the next block.",
+    "author": "beatrice"
+  },
+  {
+    "message": "I see, lady, the gentleman is not in your books.",
+    "author": "messenger"
+  },
+  {
+    "message": "No; and he were, I would burn my study. But I pray you, who is",
+    "author": "beatrice"
+  },
+  {
+    "message": "his companion? Is there no young squarer now that will make a voyage with",
+    "author": "beatrice"
+  },
+  {
+    "message": "him to the devil?",
+    "author": "beatrice"
+  },
+  {
+    "message": "He is most in the company of the right noble Claudio.",
+    "author": "messenger"
+  },
+  {
+    "message": "O Lord, he will hang upon him like a disease: he is sooner",
+    "author": "beatrice"
+  },
+  {
+    "message": "caught than the pestilence, and the taker runs presently mad. God help the",
+    "author": "beatrice"
+  },
+  {
+    "message": "noble Claudio! If he have caught the Benedick, it will cost him a thousand",
+    "author": "beatrice"
+  },
+  {
+    "message": "pound ere he be cured.",
+    "author": "beatrice"
+  },
+  {
+    "message": "I will hold friends with you, lady.",
+    "author": "messenger"
+  },
+  {
+    "message": "Do, good friend.",
+    "author": "beatrice"
+  },
+  {
+    "message": "You will never run mad, niece.",
+    "author": "leonato"
+  },
+  {
+    "message": "No, not till a hot January.",
+    "author": "beatrice"
+  },
+  {
+    "message": "Don Pedro is approached.",
+    "author": "messenger"
+  },
+  {
+    "message": "Balthasar and Others.",
+    "author": "messenger"
+  },
+  {
+    "message": "Good Signior Leonato, you are come to meet your trouble: the",
+    "author": "don pedro"
+  },
+  {
+    "message": "fashion of the world is to avoid cost, and you encounter it.",
+    "author": "don pedro"
+  },
+  {
+    "message": "Never came trouble to my house in the likeness of your Grace, for",
+    "author": "leonato"
+  },
+  {
+    "message": "trouble being gone, comfort should remain; but when you depart from me,",
+    "author": "leonato"
+  },
+  {
+    "message": "sorrow abides and happiness takes his leave.",
+    "author": "leonato"
+  },
+  {
+    "message": "You embrace your charge too willingly. I think this is",
+    "author": "don pedro"
+  },
+  {
+    "message": "your daughter.",
+    "author": "don pedro"
+  },
+  {
+    "message": "Her mother hath many times told me so.",
+    "author": "leonato"
+  },
+  {
+    "message": "Were you in doubt, sir, that you asked her?",
+    "author": "benedick"
+  },
+  {
+    "message": "Signior Benedick, no; for then were you a child.",
+    "author": "leonato"
+  },
+  {
+    "message": "You have it full, Benedick: we may guess by this what you are,",
+    "author": "don pedro"
+  },
+  {
+    "message": "being a man. Truly the lady fathers herself. Be happy, lady, for you are",
+    "author": "don pedro"
+  },
+  {
+    "message": "like an honourable father.",
+    "author": "don pedro"
+  },
+  {
+    "message": "If Signior Leonato be her father, she would not have his head on",
+    "author": "benedick"
+  },
+  {
+    "message": "her shoulders for all Messina, as like him as she is.",
+    "author": "benedick"
+  },
+  {
+    "message": "I wonder that you will still be talking, Signior Benedick:",
+    "author": "beatrice"
+  },
+  {
+    "message": "nobody marks you.",
+    "author": "beatrice"
+  },
+  {
+    "message": "What! my dear Lady Disdain, are you yet living?",
+    "author": "benedick"
+  },
+  {
+    "message": "Is it possible Disdain should die while she hath such meet food",
+    "author": "beatrice"
+  },
+  {
+    "message": "to feed it as Signior Benedick? Courtesy itself must convert to disdain if",
+    "author": "beatrice"
+  },
+  {
+    "message": "you come in her presence.",
+    "author": "beatrice"
+  },
+  {
+    "message": "Then is courtesy a turncoat. But it is certain I am loved of all",
+    "author": "benedick"
+  },
+  {
+    "message": "ladies, only you excepted; and I would I could find in my heart that I had",
+    "author": "benedick"
+  },
+  {
+    "message": "not a hard heart; for, truly, I love none.",
+    "author": "benedick"
+  },
+  {
+    "message": "A dear happiness to women: they would else have been troubled",
+    "author": "beatrice"
+  },
+  {
+    "message": "with a pernicious suitor. I thank God and my cold blood, I am of your",
+    "author": "beatrice"
+  },
+  {
+    "message": "humour for that. I had rather hear my dog bark at a crow than a man swear",
+    "author": "beatrice"
+  },
+  {
+    "message": "he loves me.",
+    "author": "beatrice"
+  },
+  {
+    "message": "God keep your Ladyship still in that mind; so some gentleman or",
+    "author": "benedick"
+  },
+  {
+    "message": "other shall scape a predestinate scratched face.",
+    "author": "benedick"
+  },
+  {
+    "message": "Scratching could not make it worse, and ’twere such a face",
+    "author": "beatrice"
+  },
+  {
+    "message": "as yours were.",
+    "author": "beatrice"
+  },
+  {
+    "message": "Well, you are a rare parrot-teacher.",
+    "author": "benedick"
+  },
+  {
+    "message": "A bird of my tongue is better than a beast of yours.",
+    "author": "beatrice"
+  },
+  {
+    "message": "I would my horse had the speed of your tongue, and so good a",
+    "author": "benedick"
+  },
+  {
+    "message": "continuer. But keep your way, i’ God’s name; I have done.",
+    "author": "benedick"
+  },
+  {
+    "message": "You always end with a jade’s trick: I know you of old.",
+    "author": "beatrice"
+  },
+  {
+    "message": "That is the sum of all, Leonato: Signior Claudio, and Signior",
+    "author": "don pedro"
+  },
+  {
+    "message": "Benedick, my dear friend Leonato hath invited you all. I tell him we shall",
+    "author": "don pedro"
+  },
+  {
+    "message": "stay here at the least a month, and he heartly prays some occasion may",
+    "author": "don pedro"
+  },
+  {
+    "message": "detain us longer: I dare swear he is no hypocrite, but prays from his",
+    "author": "don pedro"
+  },
+  {
+    "message": "heart.",
+    "author": "don pedro"
+  },
+  {
+    "message": "If you swear, my lord, you shall not be forsworn.",
+    "author": "leonato"
+  },
+  {
+    "message": "Let me bid you welcome, my lord: being reconciled to",
+    "author": "leonato"
+  },
+  {
+    "message": "the Prince your brother, I owe you all duty.",
+    "author": "leonato"
+  },
+  {
+    "message": "I thank you: I am not of many words, but I thank you.",
+    "author": "don john"
+  },
+  {
+    "message": "Please it your Grace lead on?",
+    "author": "leonato"
+  },
+  {
+    "message": "Your hand, Leonato; we will go together.",
+    "author": "don pedro"
+  },
+  {
+    "message": "Benedick, didst thou note the daughter of Signior Leonato?",
+    "author": "claudio"
+  },
+  {
+    "message": "I noted her not; but I looked on her.",
+    "author": "benedick"
+  },
+  {
+    "message": "Is she not a modest young lady?",
+    "author": "claudio"
+  },
+  {
+    "message": "Do you question me, as an honest man should do, for my simple",
+    "author": "benedick"
+  },
+  {
+    "message": "true judgment; or would you have me speak after my custom, as being a",
+    "author": "benedick"
+  },
+  {
+    "message": "professed tyrant to their sex?",
+    "author": "benedick"
+  },
+  {
+    "message": "No; I pray thee speak in sober judgment.",
+    "author": "claudio"
+  },
+  {
+    "message": "Why, i’ faith, methinks she’s too low for a high",
+    "author": "benedick"
+  },
+  {
+    "message": "praise, too brown for a fair praise, and too little for a great praise;",
+    "author": "benedick"
+  },
+  {
+    "message": "only this commendation I can afford her, that were she other than she is,",
+    "author": "benedick"
+  },
+  {
+    "message": "she were unhandsome, and being no other but as she is, I do not like her.",
+    "author": "benedick"
+  },
+  {
+    "message": "Thou thinkest I am in sport: I pray thee tell me truly how thou",
+    "author": "claudio"
+  },
+  {
+    "message": "likest her.",
+    "author": "claudio"
+  },
+  {
+    "message": "Would you buy her, that you enquire after her?",
+    "author": "benedick"
+  },
+  {
+    "message": "Can the world buy such a jewel?",
+    "author": "claudio"
+  },
+  {
+    "message": "Yea, and a case to put it into. But speak you this with a sad",
+    "author": "benedick"
+  },
+  {
+    "message": "brow, or do you play the flouting Jack, to tell us Cupid is a good",
+    "author": "benedick"
+  },
+  {
+    "message": "hare-finder, and Vulcan a rare carpenter? Come, in what key shall a man",
+    "author": "benedick"
+  },
+  {
+    "message": "take you, to go in the song?",
+    "author": "benedick"
+  },
+  {
+    "message": "In mine eye she is the sweetest lady that ever I looked on.",
+    "author": "claudio"
+  },
+  {
+    "message": "I can see yet without spectacles and I see no such matter: there’s",
+    "author": "benedick"
+  },
+  {
+    "message": "her cousin and she were not possessed with a fury, exceeds her as much in",
+    "author": "benedick"
+  },
+  {
+    "message": "beauty as the first of May doth the last of December. But I hope you have",
+    "author": "benedick"
+  },
+  {
+    "message": "no intent to turn husband, have you?",
+    "author": "benedick"
+  },
+  {
+    "message": "I would scarce trust myself, though I had sworn to the contrary,",
+    "author": "claudio"
+  },
+  {
+    "message": "if Hero would be my wife.",
+    "author": "claudio"
+  },
+  {
+    "message": "Is’t come to this, in faith? Hath not the world one",
+    "author": "benedick"
+  },
+  {
+    "message": "man but he will wear his cap with suspicion? Shall I never see a bachelor",
+    "author": "benedick"
+  },
+  {
+    "message": "of threescore again? Go to, i’ faith; and thou wilt needs thrust thy",
+    "author": "benedick"
+  },
+  {
+    "message": "neck into a yoke, wear the print of it and sigh away Sundays.",
+    "author": "benedick"
+  },
+  {
+    "message": "Look! Don Pedro is returned to seek you.",
+    "author": "benedick"
+  },
+  {
+    "message": "What secret hath held you here, that you followed not to Leonato’s?",
+    "author": "don pedro"
+  },
+  {
+    "message": "I would your Grace would constrain me to tell.",
+    "author": "benedick"
+  },
+  {
+    "message": "I charge thee on thy allegiance.",
+    "author": "don pedro"
+  },
+  {
+    "message": "You hear, Count Claudio: I can be secret as a dumb man; I would",
+    "author": "benedick"
+  },
+  {
+    "message": "have you think so; but on my allegiance mark you this, on my allegiance:",
+    "author": "benedick"
+  },
+  {
+    "message": "he is in love. With who? now that is your Grace’s part. Mark how",
+    "author": "benedick"
+  },
+  {
+    "message": "short his answer is: with Hero, Leonato’s short daughter.",
+    "author": "benedick"
+  },
+  {
+    "message": "If this were so, so were it uttered.",
+    "author": "claudio"
+  },
+  {
+    "message": "Like the old tale, my lord: ‘it is not so, nor",
+    "author": "benedick"
+  },
+  {
+    "message": "’twas not so; but indeed, God forbid it should be so.’",
+    "author": "benedick"
+  },
+  {
+    "message": "If my passion change not shortly, God forbid it should be otherwise.",
+    "author": "claudio"
+  },
+  {
+    "message": "Amen, if you love her; for the lady is very well worthy.",
+    "author": "don pedro"
+  },
+  {
+    "message": "You speak this to fetch me in, my lord.",
+    "author": "claudio"
+  },
+  {
+    "message": "By my troth, I speak my thought.",
+    "author": "don pedro"
+  },
+  {
+    "message": "And in faith, my lord, I spoke mine.",
+    "author": "claudio"
+  },
+  {
+    "message": "And by my two faiths and troths, my lord, I spoke mine.",
+    "author": "benedick"
+  },
+  {
+    "message": "That I love her, I feel.",
+    "author": "claudio"
+  },
+  {
+    "message": "That she is worthy, I know.",
+    "author": "don pedro"
+  },
+  {
+    "message": "That I neither feel how she should be loved, nor know how she",
+    "author": "benedick"
+  },
+  {
+    "message": "should be worthy, is the opinion that fire cannot melt out of me: I will",
+    "author": "benedick"
+  },
+  {
+    "message": "die in it at the stake.",
+    "author": "benedick"
+  },
+  {
+    "message": "Thou wast ever an obstinate heretic in the despite of beauty.",
+    "author": "don pedro"
+  },
+  {
+    "message": "And never could maintain his part but in the force of his will.",
+    "author": "claudio"
+  },
+  {
+    "message": "That a woman conceived me, I thank her; that she brought me up,",
+    "author": "benedick"
+  },
+  {
+    "message": "I likewise give her most humble thanks; but that I will have a recheat",
+    "author": "benedick"
+  },
+  {
+    "message": "winded in my forehead, or hang my bugle in an invisible baldrick, all",
+    "author": "benedick"
+  },
+  {
+    "message": "women shall pardon me. Because I will not do them the wrong to mistrust",
+    "author": "benedick"
+  },
+  {
+    "message": "any, I will do myself the right to trust none; and the fine is,—for the",
+    "author": "benedick"
+  },
+  {
+    "message": "which I may go the finer,—I will live a bachelor.",
+    "author": "benedick"
+  },
+  {
+    "message": "I shall see thee, ere I die, look pale with love.",
+    "author": "don pedro"
+  },
+  {
+    "message": "With anger, with sickness, or with hunger, my lord; not with",
+    "author": "benedick"
+  },
+  {
+    "message": "love: prove that ever I lose more blood with love than I will get again",
+    "author": "benedick"
+  },
+  {
+    "message": "with drinking, pick out mine eyes with a ballad-maker’s pen and hang",
+    "author": "benedick"
+  },
+  {
+    "message": "me up at the door of a brothel-house for the sign of blind Cupid.",
+    "author": "benedick"
+  },
+  {
+    "message": "Well, if ever thou dost fall from this faith, thou wilt prove a",
+    "author": "don pedro"
+  },
+  {
+    "message": "notable argument.",
+    "author": "don pedro"
+  },
+  {
+    "message": "If I do, hang me in a bottle like a cat and shoot at me; and he",
+    "author": "benedick"
+  },
+  {
+    "message": "that hits me, let him be clapped on the shoulder and called Adam.",
+    "author": "benedick"
+  },
+  {
+    "message": "Well, as time shall try: ‘In time the savage bull",
+    "author": "don pedro"
+  },
+  {
+    "message": "doth bear the yoke.’",
+    "author": "don pedro"
+  },
+  {
+    "message": "The savage bull may; but if ever the sensible Benedick bear it,",
+    "author": "benedick"
+  },
+  {
+    "message": "pluck off the bull’s horns and set them in my forehead; and let me",
+    "author": "benedick"
+  },
+  {
+    "message": "be vilely painted, and in such great letters as they write, ‘Here is",
+    "author": "benedick"
+  },
+  {
+    "message": "good horse to hire,’ let them signify under my sign ‘Here you",
+    "author": "benedick"
+  },
+  {
+    "message": "may see Benedick the married man.’",
+    "author": "benedick"
+  },
+  {
+    "message": "If this should ever happen, thou wouldst be horn-mad.",
+    "author": "claudio"
+  },
+  {
+    "message": "Nay, if Cupid have not spent all his quiver in Venice, thou",
+    "author": "don pedro"
+  },
+  {
+    "message": "wilt quake for this shortly.",
+    "author": "don pedro"
+  },
+  {
+    "message": "I look for an earthquake too then.",
+    "author": "benedick"
+  },
+  {
+    "message": "Well, you will temporize with the hours. In the meantime,",
+    "author": "don pedro"
+  },
+  {
+    "message": "good Signior Benedick, repair to Leonato’s: commend me to him",
+    "author": "don pedro"
+  },
+  {
+    "message": "and tell him I will not fail him at supper; for indeed he hath made",
+    "author": "don pedro"
+  },
+  {
+    "message": "great preparation.",
+    "author": "don pedro"
+  },
+  {
+    "message": "I have almost matter enough in me for such an embassage; and so",
+    "author": "benedick"
+  },
+  {
+    "message": "I commit you—",
+    "author": "benedick"
+  },
+  {
+    "message": "To the tuition of God: from my house, if I had it,—",
+    "author": "claudio"
+  },
+  {
+    "message": "The sixth of July: your loving friend, Benedick.",
+    "author": "don pedro"
+  },
+  {
+    "message": "Nay, mock not, mock not. The body of your discourse is sometime",
+    "author": "benedick"
+  },
+  {
+    "message": "guarded with fragments, and the guards are but slightly basted on neither:",
+    "author": "benedick"
+  },
+  {
+    "message": "ere you flout old ends any further, examine your conscience: and so I",
+    "author": "benedick"
+  },
+  {
+    "message": "leave you.",
+    "author": "benedick"
+  },
+  {
+    "message": "My liege, your Highness now may do me good.",
+    "author": "claudio"
+  },
+  {
+    "message": "My love is thine to teach: teach it but how,",
+    "author": "don pedro"
+  },
+  {
+    "message": "And thou shalt see how apt it is to learn",
+    "author": "don pedro"
+  },
+  {
+    "message": "Any hard lesson that may do thee good.",
+    "author": "don pedro"
+  },
+  {
+    "message": "Hath Leonato any son, my lord?",
+    "author": "claudio"
+  },
+  {
+    "message": "No child but Hero; she’s his only heir. Dost thou affect her, Claudio?",
+    "author": "don pedro"
+  },
+  {
+    "message": "O! my lord,",
+    "author": "claudio"
+  },
+  {
+    "message": "When you went onward on this ended action,",
+    "author": "claudio"
+  },
+  {
+    "message": "I looked upon her with a soldier’s eye,",
+    "author": "claudio"
+  },
+  {
+    "message": "That lik’d, but had a rougher task in hand",
+    "author": "claudio"
+  },
+  {
+    "message": "Than to drive liking to the name of love;",
+    "author": "claudio"
+  },
+  {
+    "message": "But now I am return’d, and that war-thoughts",
+    "author": "claudio"
+  },
+  {
+    "message": "Have left their places vacant, in their rooms",
+    "author": "claudio"
+  },
+  {
+    "message": "Come thronging soft and delicate desires,",
+    "author": "claudio"
+  },
+  {
+    "message": "All prompting me how fair young Hero is,",
+    "author": "claudio"
+  },
+  {
+    "message": "Saying, I lik’d her ere I went to wars.",
+    "author": "claudio"
+  },
+  {
+    "message": "Thou wilt be like a lover presently,",
+    "author": "don pedro"
+  },
+  {
+    "message": "And tire the hearer with a book of words.",
+    "author": "don pedro"
+  },
+  {
+    "message": "If thou dost love fair Hero, cherish it,",
+    "author": "don pedro"
+  },
+  {
+    "message": "And I will break with her, and with her father,",
+    "author": "don pedro"
+  },
+  {
+    "message": "And thou shalt have her. Was’t not to this end",
+    "author": "don pedro"
+  },
+  {
+    "message": "That thou began’st to twist so fine a story?",
+    "author": "don pedro"
+  },
+  {
+    "message": "How sweetly you do minister to love,",
+    "author": "claudio"
+  },
+  {
+    "message": "That know love’s grief by his complexion!",
+    "author": "claudio"
+  },
+  {
+    "message": "But lest my liking might too sudden seem,",
+    "author": "claudio"
+  },
+  {
+    "message": "I would have salv’d it with a longer treatise.",
+    "author": "claudio"
+  },
+  {
+    "message": "What need the bridge much broader than the flood?",
+    "author": "don pedro"
+  },
+  {
+    "message": "Look, what will serve is fit: ’tis once, thou lov’st,",
+    "author": "don pedro"
+  },
+  {
+    "message": "And I will fit thee with the remedy.",
+    "author": "don pedro"
+  },
+  {
+    "message": "I know we shall have revelling tonight:",
+    "author": "don pedro"
+  },
+  {
+    "message": "I will assume thy part in some disguise,",
+    "author": "don pedro"
+  },
+  {
+    "message": "And tell fair Hero I am Claudio;",
+    "author": "don pedro"
+  },
+  {
+    "message": "And in her bosom I’ll unclasp my heart,",
+    "author": "don pedro"
+  },
+  {
+    "message": "And take her hearing prisoner with the force",
+    "author": "don pedro"
+  },
+  {
+    "message": "And strong encounter of my amorous tale:",
+    "author": "don pedro"
+  },
+  {
+    "message": "Then after to her father will I break;",
+    "author": "don pedro"
+  },
+  {
+    "message": "And the conclusion is, she shall be thine.",
+    "author": "don pedro"
+  },
+  {
+    "message": "In practice let us put it presently.",
+    "author": "don pedro"
+  },
+  {
+    "message": "How now, brother? Where is my cousin your son? Hath he provided",
+    "author": "leonato"
+  },
+  {
+    "message": "this music?",
+    "author": "leonato"
+  },
+  {
+    "message": "He is very busy about it. But, brother, I can tell you strange",
+    "author": "antonio"
+  },
+  {
+    "message": "news that you yet dreamt not of.",
+    "author": "antonio"
+  },
+  {
+    "message": "Are they good?",
+    "author": "leonato"
+  },
+  {
+    "message": "As the event stamps them: but they have a good cover; they show",
+    "author": "antonio"
+  },
+  {
+    "message": "well outward. The Prince and Count Claudio, walking in a thick-pleached",
+    "author": "antonio"
+  },
+  {
+    "message": "alley in my orchard, were thus much overheard by a man of mine: the Prince",
+    "author": "antonio"
+  },
+  {
+    "message": "discovered to Claudio that he loved my niece your daughter and meant to",
+    "author": "antonio"
+  },
+  {
+    "message": "acknowledge it this night in a dance; and if he found her accordant, he",
+    "author": "antonio"
+  },
+  {
+    "message": "meant to take the present time by the top and instantly break with you of",
+    "author": "antonio"
+  },
+  {
+    "message": "it.",
+    "author": "antonio"
+  },
+  {
+    "message": "Hath the fellow any wit that told you this?",
+    "author": "leonato"
+  },
+  {
+    "message": "A good sharp fellow: I will send for him; and question him yourself.",
+    "author": "antonio"
+  },
+  {
+    "message": "No, no; we will hold it as a dream till it appear itself: but I",
+    "author": "leonato"
+  },
+  {
+    "message": "will acquaint my daughter withal, that she may be the better prepared for",
+    "author": "leonato"
+  },
+  {
+    "message": "an answer, if peradventure this be true. Go you and tell her of it.",
+    "author": "leonato"
+  },
+  {
+    "message": "Cousins, you know what you have to do. O! I cry you mercy, friend; go you",
+    "author": "leonato"
+  },
+  {
+    "message": "with me, and I will use your skill. Good cousin, have a care this busy",
+    "author": "leonato"
+  },
+  {
+    "message": "time.",
+    "author": "leonato"
+  },
+  {
+    "message": "What the good-year, my lord! why are you thus out of measure sad?",
+    "author": "conrade"
+  },
+  {
+    "message": "There is no measure in the occasion that breeds; therefore the",
+    "author": "don john"
+  },
+  {
+    "message": "sadness is without limit.",
+    "author": "don john"
+  },
+  {
+    "message": "You should hear reason.",
+    "author": "conrade"
+  },
+  {
+    "message": "And when I have heard it, what blessings brings it?",
+    "author": "don john"
+  },
+  {
+    "message": "If not a present remedy, at least a patient sufferance.",
+    "author": "conrade"
+  },
+  {
+    "message": "I wonder that thou (being as thou say’st thou art, born",
+    "author": "don john"
+  },
+  {
+    "message": "under Saturn) goest about to apply a moral medicine to a mortifying",
+    "author": "don john"
+  },
+  {
+    "message": "mischief. I cannot hide what I am: I must be sad when I have cause, and",
+    "author": "don john"
+  },
+  {
+    "message": "smile at no man’s jests; eat when I have stomach, and wait for no",
+    "author": "don john"
+  },
+  {
+    "message": "man’s leisure; sleep when I am drowsy, and tend on no man’s",
+    "author": "don john"
+  },
+  {
+    "message": "business; laugh when I am merry, and claw no man in his humour.",
+    "author": "don john"
+  },
+  {
+    "message": "Yea; but you must not make the full show of this till you may do",
+    "author": "conrade"
+  },
+  {
+    "message": "it without controlment. You have of late stood out against your brother,",
+    "author": "conrade"
+  },
+  {
+    "message": "and he hath ta’en you newly into his grace; where it is impossible",
+    "author": "conrade"
+  },
+  {
+    "message": "you should take true root but by the fair weather that you make yourself:",
+    "author": "conrade"
+  },
+  {
+    "message": "it is needful that you frame the season for your own harvest.",
+    "author": "conrade"
+  },
+  {
+    "message": "I had rather be a canker in a hedge than a rose in his grace;",
+    "author": "don john"
+  },
+  {
+    "message": "and it better fits my blood to be disdained of all than to fashion a",
+    "author": "don john"
+  },
+  {
+    "message": "carriage to rob love from any: in this, though I cannot be said to be a",
+    "author": "don john"
+  },
+  {
+    "message": "flattering honest man, it must not be denied but I am a plain-dealing",
+    "author": "don john"
+  },
+  {
+    "message": "villain. I am trusted with a muzzle and enfranchised with a clog;",
+    "author": "don john"
+  },
+  {
+    "message": "therefore I have decreed not to sing in my cage. If I had my mouth, I",
+    "author": "don john"
+  },
+  {
+    "message": "would bite; if I had my liberty, I would do my liking: in the meantime,",
+    "author": "don john"
+  },
+  {
+    "message": "let me be that I am, and seek not to alter me.",
+    "author": "don john"
+  },
+  {
+    "message": "Can you make no use of your discontent?",
+    "author": "conrade"
+  },
+  {
+    "message": "I make all use of it, for I use it only. Who comes here?",
+    "author": "don john"
+  },
+  {
+    "message": "What news, Borachio?",
+    "author": "don john"
+  },
+  {
+    "message": "I came yonder from a great supper: the Prince your brother is",
+    "author": "borachio"
+  },
+  {
+    "message": "royally entertained by Leonato; and I can give you intelligence of an",
+    "author": "borachio"
+  },
+  {
+    "message": "intended marriage.",
+    "author": "borachio"
+  },
+  {
+    "message": "Will it serve for any model to build mischief on? What is he for",
+    "author": "don john"
+  },
+  {
+    "message": "a fool that betroths himself to unquietness?",
+    "author": "don john"
+  },
+  {
+    "message": "Marry, it is your brother’s right hand.",
+    "author": "borachio"
+  },
+  {
+    "message": "Who? the most exquisite Claudio?",
+    "author": "don john"
+  },
+  {
+    "message": "Even he.",
+    "author": "borachio"
+  },
+  {
+    "message": "A proper squire! And who, and who? which way looks he?",
+    "author": "don john"
+  },
+  {
+    "message": "Marry, on Hero, the daughter and heir of Leonato.",
+    "author": "borachio"
+  },
+  {
+    "message": "A very forward March-chick! How came you to this?",
+    "author": "don john"
+  },
+  {
+    "message": "Being entertained for a perfumer, as I was smoking a musty room,",
+    "author": "borachio"
+  },
+  {
+    "message": "comes me the Prince and Claudio, hand in hand, in sad conference: I whipt",
+    "author": "borachio"
+  },
+  {
+    "message": "me behind the arras, and there heard it agreed upon that the Prince should",
+    "author": "borachio"
+  },
+  {
+    "message": "woo Hero for himself, and having obtained her, give her to Count Claudio.",
+    "author": "borachio"
+  },
+  {
+    "message": "Come, come; let us thither: this may prove food to my",
+    "author": "don john"
+  },
+  {
+    "message": "displeasure. That young start-up hath all the glory of my overthrow: if I",
+    "author": "don john"
+  },
+  {
+    "message": "can cross him any way, I bless myself every way. You are both sure, and",
+    "author": "don john"
+  },
+  {
+    "message": "will assist me?",
+    "author": "don john"
+  },
+  {
+    "message": "To the death, my lord.",
+    "author": "conrade"
+  },
+  {
+    "message": "Let us to the great supper: their cheer is the greater that I am",
+    "author": "don john"
+  },
+  {
+    "message": "subdued. Would the cook were of my mind! Shall we go to prove what’s",
+    "author": "don john"
+  },
+  {
+    "message": "to be done?",
+    "author": "don john"
+  },
+  {
+    "message": "We’ll wait upon your Lordship.",
+    "author": "borachio"
+  }
+]
