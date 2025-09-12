@@ -104,6 +104,8 @@ numpy
 
 # Data manipulation and analysis
 pandas
+polars>=0.20
+pyarrow>=16  # optional but recommended; enables fast IO/types
 
 # ======================================================
 # KAFKA STREAMING MESSAGE BROKER INTEGRATION
