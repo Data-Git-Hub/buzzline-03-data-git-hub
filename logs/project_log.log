@@ -182,3 +182,38 @@
 2025-09-12 18:17:23 | WARNING | Producer interrupted by user.
 2025-09-12 18:17:23 | INFO | Kafka producer closed.
 2025-09-12 18:17:23 | INFO | END Eevee producer (Polars).
+2025-09-12 18:27:19 | INFO | Logging to file: logs/project_log.log
+2025-09-12 18:27:19 | INFO | Log sanitization enabled, personal info removed
+2025-09-12 18:27:19 | INFO | START Eevee CSV producer (Polars).
+2025-09-12 18:27:19 | INFO | Kafka broker address: localhost:9092
+2025-09-12 18:27:19 | INFO | Kafka is ready. Brokers: {'throttle_time_ms': 0, 'brokers': [{'node_id': 1, 'host': '127.0.0.1', 'port': 9092, 'rack': None}], 'cluster_id': 'izX4qtgsSweNTi1cWUWQEA', 'controller_id': 1}
+2025-09-12 18:27:19 | INFO | Kafka topic: eevee_csv_v1
+2025-09-12 18:27:19 | INFO | Loaded 8 evolution rules from data/eevee_rules.csv
+2025-09-12 18:27:19 | INFO | Kafka broker address: localhost:9092
+2025-09-12 18:27:19 | INFO | Connecting to Kafka broker at localhost:9092...
+2025-09-12 18:27:20 | INFO | Kafka producer successfully created.
+2025-09-12 18:27:20 | INFO | Kafka broker address: localhost:9092
+2025-09-12 18:27:20 | INFO | Topic 'eevee_csv_v1' created successfully.
+2025-09-12 18:27:20 | INFO | Producing CSV events to 'eevee_csv_v1'...
+2025-09-12 18:27:20 | INFO | sent: evolution_attempt,Eevee,Espeon,Threw a Poké Ball,False,Eevee tilts its head curiously.,Eevee Engine,2025-09-12T23:27:20+00:00,0
+2025-09-12 18:27:21 | INFO | sent: evolution_attempt,Eevee,Sylveon,Leveled at night with high friendship,False,Eevee is bored.,Eevee Engine,2025-09-12T23:27:21+00:00,1
+2025-09-12 18:27:22 | INFO | sent: evolution_attempt,Eevee,Leafeon,Leveled with a Fire Stone,False,Eevee does nothing.,Eevee Engine,2025-09-12T23:27:22+00:00,2
+2025-09-12 18:27:23 | INFO | sent: evolution_attempt,Eevee,Jolteon,Leveled at night with high friendship,False,Eevee is bored.,Eevee Engine,2025-09-12T23:27:23+00:00,3
+2025-09-12 18:27:24 | INFO | sent: evolution_attempt,Eevee,Vaporeon,Leveled with an Ice Stone,False,Eevee tilts its head curiously.,Eevee Engine,2025-09-12T23:27:24+00:00,4
+2025-09-12 18:27:25 | INFO | sent: evolution_attempt,Eevee,Umbreon,Ate a berry,False,Eevee chases its tail.,Eevee Engine,2025-09-12T23:27:25+00:00,5
+2025-09-12 18:27:26 | INFO | sent: evolution_attempt,Eevee,Espeon,Leveled with a Leaf Stone,False,Eevee does nothing.,Eevee Engine,2025-09-12T23:27:26+00:00,6
+2025-09-12 18:27:27 | INFO | sent: evolution_attempt,Eevee,Espeon,Threw a Poké Ball,False,Eevee tilts its head curiously.,Eevee Engine,2025-09-12T23:27:27+00:00,7
+2025-09-12 18:27:28 | INFO | sent: evolution_attempt,Eevee,Vaporeon,Leveled at night with high friendship,False,Eevee chases its tail.,Eevee Engine,2025-09-12T23:27:28+00:00,8
+2025-09-12 18:27:29 | INFO | sent: evolution_attempt,Eevee,Sylveon,Leveled with a Fire Stone,False,Eevee is smelling a flower.,Eevee Engine,2025-09-12T23:27:29+00:00,9
+2025-09-12 18:27:30 | INFO | sent: evolution_attempt,Eevee,Sylveon,Threw a Poké Ball,False,Eevee chases its tail.,Eevee Engine,2025-09-12T23:27:30+00:00,10
+2025-09-12 18:27:31 | INFO | sent: evolution_attempt,Eevee,Vaporeon,Leveled with an Ice Stone,False,Eevee chases its tail.,Eevee Engine,2025-09-12T23:27:31+00:00,11
+2025-09-12 18:27:32 | INFO | sent: evolution_attempt,Eevee,Espeon,Leveled with a Water Stone,False,Eevee chases its tail.,Eevee Engine,2025-09-12T23:27:32+00:00,12
+2025-09-12 18:27:33 | INFO | sent: evolution_attempt,Eevee,Leafeon,Leveled with a Water Stone,False,Eevee does nothing.,Eevee Engine,2025-09-12T23:27:33+00:00,13
+2025-09-12 18:27:34 | INFO | sent: evolution_attempt,Eevee,Espeon,Leveled during day with high friendship,True,Your Eevee is evolving into Espeon!,Eevee Engine,2025-09-12T23:27:34+00:00,14
+2025-09-12 18:27:35 | INFO | sent: evolution_attempt,Eevee,Leafeon,Leveled with an Ice Stone,False,Eevee is smelling a flower.,Eevee Engine,2025-09-12T23:27:35+00:00,15
+2025-09-12 18:27:36 | INFO | sent: evolution_attempt,Eevee,Glaceon,Leveled during day with high friendship,False,Eevee tilts its head curiously.,Eevee Engine,2025-09-12T23:27:36+00:00,16
+2025-09-12 18:27:37 | INFO | sent: evolution_attempt,Eevee,Leafeon,Took a nap,False,Eevee is smelling a flower.,Eevee Engine,2025-09-12T23:27:37+00:00,17
+2025-09-12 18:27:38 | INFO | sent: evolution_attempt,Eevee,Vaporeon,Took a nap,False,Eevee does nothing.,Eevee Engine,2025-09-12T23:27:38+00:00,18
+2025-09-12 18:27:39 | WARNING | Producer interrupted by user.
+2025-09-12 18:27:39 | INFO | Kafka producer closed.
+2025-09-12 18:27:39 | INFO | END Eevee CSV producer.
