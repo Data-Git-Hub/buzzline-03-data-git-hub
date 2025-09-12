@@ -4,7 +4,7 @@ csv_consumer_eevee_polars.py
 Consume CSV lines from Kafka, parse to dicts, aggregate with Polars, and every N seconds:
   - print overall totals
   - print Top-5 leaderboard (by successes)
-  - render an ASCII bar chart under the Top-5 (no image files)
+  - render an ASCII bar chart under the Top-5 (no image files to maintain lightweight)
 
 Env:
   EEVEE_CSV_TOPIC=eevee_csv_v1

@@ -1,0 +1,89 @@
+2025-09-12 18:49:55 | INFO | Logging to file: logs/csv_consumer_eevee_polars_33908.log
+2025-09-12 18:49:55 | INFO | Log sanitization enabled, personal info removed
+2025-09-12 18:49:55 | INFO | START Eevee CSV consumer | topic='eevee_csv_v1' group='eevee_csv_g1' interval=15.0s
+2025-09-12 18:49:55 | INFO | Kafka broker address: localhost:9092
+2025-09-12 18:49:55 | INFO | Creating Kafka consumer. Topic='eevee_csv_v1' and group ID='eevee_csv_g1'.
+2025-09-12 18:49:55 | INFO | Kafka consumer created successfully.
+2025-09-12 18:50:10 | INFO | === Eevee Evolution Leaderboard (rolling) [CSV] ===
+2025-09-12 18:50:10 | INFO | Overall: total=22  success=3 (13.6%)  fail=19 (86.4%)
+2025-09-12 18:50:10 | INFO | Top 5 by successes:
+2025-09-12 18:50:10 | INFO | 
+- Vaporeon   attempts=7     successes=2     rate= 28.6%
+- Sylveon    attempts=5     successes=1     rate= 20.0%
+- Flareon    attempts=3     successes=0     rate=  0.0%
+- Espeon     attempts=2     successes=0     rate=  0.0%
+- Glaceon    attempts=2     successes=0     rate=  0.0%
+2025-09-12 18:50:10 | INFO | 
+Top-5 Successes (ASCII bars)
+Vaporeon  | ████████████████████████████████████████ | 2 (28.6%)
+Sylveon   | ████████████████████                     | 1 (20.0%)
+Flareon   |                                          | 0 (0.0%)
+Espeon    |                                          | 0 (0.0%)
+Glaceon   |                                          | 0 (0.0%)
+2025-09-12 18:50:25 | INFO | === Eevee Evolution Leaderboard (rolling) [CSV] ===
+2025-09-12 18:50:25 | INFO | Overall: total=37  success=3 (8.1%)  fail=34 (91.9%)
+2025-09-12 18:50:25 | INFO | Top 5 by successes:
+2025-09-12 18:50:25 | INFO | 
+- Vaporeon   attempts=10    successes=2     rate= 20.0%
+- Sylveon    attempts=5     successes=1     rate= 20.0%
+- Flareon    attempts=8     successes=0     rate=  0.0%
+- Espeon     attempts=4     successes=0     rate=  0.0%
+- Glaceon    attempts=4     successes=0     rate=  0.0%
+2025-09-12 18:50:25 | INFO | 
+Top-5 Successes (ASCII bars)
+Vaporeon  | ████████████████████████████████████████ | 2 (20.0%)
+Sylveon   | ████████████████████                     | 1 (20.0%)
+Flareon   |                                          | 0 (0.0%)
+Espeon    |                                          | 0 (0.0%)
+Glaceon   |                                          | 0 (0.0%)
+2025-09-12 18:50:40 | INFO | === Eevee Evolution Leaderboard (rolling) [CSV] ===
+2025-09-12 18:50:40 | INFO | Overall: total=52  success=4 (7.7%)  fail=48 (92.3%)
+2025-09-12 18:50:40 | INFO | Top 5 by successes:
+2025-09-12 18:50:40 | INFO | 
+- Vaporeon   attempts=10    successes=2     rate= 20.0%
+- Sylveon    attempts=8     successes=1     rate= 12.5%
+- Leafeon    attempts=4     successes=1     rate= 25.0%
+- Flareon    attempts=10    successes=0     rate=  0.0%
+- Jolteon    attempts=7     successes=0     rate=  0.0%
+2025-09-12 18:50:40 | INFO | 
+Top-5 Successes (ASCII bars)
+Vaporeon  | ████████████████████████████████████████ | 2 (20.0%)
+Sylveon   | ████████████████████                     | 1 (12.5%)
+Leafeon   | ████████████████████                     | 1 (25.0%)
+Flareon   |                                          | 0 (0.0%)
+Jolteon   |                                          | 0 (0.0%)
+2025-09-12 18:50:55 | INFO | === Eevee Evolution Leaderboard (rolling) [CSV] ===
+2025-09-12 18:50:55 | INFO | Overall: total=67  success=4 (6.0%)  fail=63 (94.0%)
+2025-09-12 18:50:55 | INFO | Top 5 by successes:
+2025-09-12 18:50:55 | INFO | 
+- Vaporeon   attempts=11    successes=2     rate= 18.2%
+- Sylveon    attempts=10    successes=1     rate= 10.0%
+- Leafeon    attempts=5     successes=1     rate= 20.0%
+- Flareon    attempts=12    successes=0     rate=  0.0%
+- Jolteon    attempts=10    successes=0     rate=  0.0%
+2025-09-12 18:50:55 | INFO | 
+Top-5 Successes (ASCII bars)
+Vaporeon  | ████████████████████████████████████████ | 2 (18.2%)
+Sylveon   | ████████████████████                     | 1 (10.0%)
+Leafeon   | ████████████████████                     | 1 (20.0%)
+Flareon   |                                          | 0 (0.0%)
+Jolteon   |                                          | 0 (0.0%)
+2025-09-12 18:51:10 | INFO | === Eevee Evolution Leaderboard (rolling) [CSV] ===
+2025-09-12 18:51:10 | INFO | Overall: total=82  success=4 (4.9%)  fail=78 (95.1%)
+2025-09-12 18:51:10 | INFO | Top 5 by successes:
+2025-09-12 18:51:10 | INFO | 
+- Vaporeon   attempts=13    successes=2     rate= 15.4%
+- Sylveon    attempts=11    successes=1     rate=  9.1%
+- Leafeon    attempts=7     successes=1     rate= 14.3%
+- Flareon    attempts=14    successes=0     rate=  0.0%
+- Jolteon    attempts=13    successes=0     rate=  0.0%
+2025-09-12 18:51:10 | INFO | 
+Top-5 Successes (ASCII bars)
+Vaporeon  | ████████████████████████████████████████ | 2 (15.4%)
+Sylveon   | ████████████████████                     | 1 (9.1%)
+Leafeon   | ████████████████████                     | 1 (14.3%)
+Flareon   |                                          | 0 (0.0%)
+Jolteon   |                                          | 0 (0.0%)
+2025-09-12 18:51:21 | WARNING | Consumer interrupted by user.
+2025-09-12 18:51:21 | INFO | Kafka consumer closed.
+2025-09-12 18:51:21 | INFO | END Eevee CSV consumer.
