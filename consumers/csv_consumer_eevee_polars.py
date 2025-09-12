@@ -3,13 +3,6 @@ csv_consumer_eevee_polars.py
 
 Consume CSV lines from Kafka, parse to dicts, aggregate with Polars, and every N seconds:
   - print overall totals and a Top-5 leaderboard (by successes)
-
-Env:
-  EEVEE_CSV_TOPIC=eevee_csv_v1
-  EEVEE_CSV_GROUP_ID=eevee_csv_g1
-  EEVEE_LEADERBOARD_INTERVAL_SECONDS=15
-
-Requires: polars, kafka-python, python-dotenv, loguru
 """
 
 # Stdlib

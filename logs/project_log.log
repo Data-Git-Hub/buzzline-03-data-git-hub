@@ -1,219 +1,56 @@
-2025-09-12 17:53:26 | INFO | === Eevee Evolution Leaderboard (rolling) ===
-2025-09-12 17:53:26 | INFO | Overall: total=57  success=3 (5.3%)  fail=54 (94.7%)
-2025-09-12 17:53:26 | INFO | Most successful:  Vaporeon  (successes=1, attempts=8, rate=12.5%)
-2025-09-12 17:53:26 | INFO | Least successful: Glaceon  (successes=0, attempts=5, rate=0.0%)
-2025-09-12 17:53:26 | INFO | Top 5 by successes:
-2025-09-12 17:53:26 | INFO | 
-- Vaporeon   attempts=8     successes=1     rate= 12.5%
-- Umbreon    attempts=7     successes=1     rate= 14.3%
-- Jolteon    attempts=5     successes=1     rate= 20.0%
-- Leafeon    attempts=11    successes=0     rate=  0.0%
-- Flareon    attempts=8     successes=0     rate=  0.0%
-2025-09-12 17:53:27 | INFO | sent: {'event': 'evolution_attempt', 'species': 'Eevee', 'chosen_evolution': 'Leafeon', 'chosen_action': 'Leveled at night with high friendship', 'is_valid': False, 'message': 'Eevee tilts its head curiously.', 'author': 'Eevee Engine', 'ts': '2025-09-12T22:53:27+00:00', 'event_id': 58}
-2025-09-12 17:53:28 | INFO | sent: {'event': 'evolution_attempt', 'species': 'Eevee', 'chosen_evolution': 'Sylveon', 'chosen_action': 'Leveled with an Ice Stone', 'is_valid': False, 'message': 'Eevee tilts its head curiously.', 'author': 'Eevee Engine', 'ts': '2025-09-12T22:53:28+00:00', 'event_id': 59}
-2025-09-12 17:53:29 | INFO | sent: {'event': 'evolution_attempt', 'species': 'Eevee', 'chosen_evolution': 'Flareon', 'chosen_action': 'Took a nap', 'is_valid': False, 'message': 'Eevee chases its tail.', 'author': 'Eevee Engine', 'ts': '2025-09-12T22:53:29+00:00', 'event_id': 60}
-2025-09-12 17:53:30 | INFO | sent: {'event': 'evolution_attempt', 'species': 'Eevee', 'chosen_evolution': 'Flareon', 'chosen_action': 'Leveled with a Water Stone', 'is_valid': False, 'message': 'Eevee is smelling a flower.', 'author': 'Eevee Engine', 'ts': '2025-09-12T22:53:30+00:00', 'event_id': 61}
-2025-09-12 17:53:31 | INFO | sent: {'event': 'evolution_attempt', 'species': 'Eevee', 'chosen_evolution': 'Espeon', 'chosen_action': 'Leveled with a Fire Stone', 'is_valid': False, 'message': 'Eevee tilts its head curiously.', 'author': 'Eevee Engine', 'ts': '2025-09-12T22:53:31+00:00', 'event_id': 62}
-2025-09-12 17:53:32 | INFO | sent: {'event': 'evolution_attempt', 'species': 'Eevee', 'chosen_evolution': 'Glaceon', 'chosen_action': 'Ate a berry', 'is_valid': False, 'message': 'Eevee chases its tail.', 'author': 'Eevee Engine', 'ts': '2025-09-12T22:53:32+00:00', 'event_id': 63}
-2025-09-12 17:53:33 | INFO | sent: {'event': 'evolution_attempt', 'species': 'Eevee', 'chosen_evolution': 'Leafeon', 'chosen_action': 'Practiced Quick Attack', 'is_valid': False, 'message': 'Eevee chases its tail.', 'author': 'Eevee Engine', 'ts': '2025-09-12T22:53:33+00:00', 'event_id': 64}
-2025-09-12 17:53:34 | INFO | sent: {'event': 'evolution_attempt', 'species': 'Eevee', 'chosen_evolution': 'Espeon', 'chosen_action': 'Leveled during day with high friendship', 'is_valid': True, 'message': 'Your Eevee is evolving into Espeon!', 'author': 'Eevee Engine', 'ts': '2025-09-12T22:53:34+00:00', 'event_id': 65}
-2025-09-12 17:53:35 | INFO | sent: {'event': 'evolution_attempt', 'species': 'Eevee', 'chosen_evolution': 'Flareon', 'chosen_action': 'Practiced Quick Attack', 'is_valid': False, 'message': 'Eevee does nothing.', 'author': 'Eevee Engine', 'ts': '2025-09-12T22:53:35+00:00', 'event_id': 66}
-2025-09-12 17:53:36 | INFO | sent: {'event': 'evolution_attempt', 'species': 'Eevee', 'chosen_evolution': 'Glaceon', 'chosen_action': 'Leveled at night with high friendship', 'is_valid': False, 'message': 'Eevee does nothing.', 'author': 'Eevee Engine', 'ts': '2025-09-12T22:53:36+00:00', 'event_id': 67}
-2025-09-12 17:53:37 | INFO | sent: {'event': 'evolution_attempt', 'species': 'Eevee', 'chosen_evolution': 'Sylveon', 'chosen_action': 'Leveled with Baby Doll TM with high friendship', 'is_valid': True, 'message': 'Your Eevee is evolving into Sylveon!', 'author': 'Eevee Engine', 'ts': '2025-09-12T22:53:37+00:00', 'event_id': 68}
-2025-09-12 17:53:38 | INFO | sent: {'event': 'evolution_attempt', 'species': 'Eevee', 'chosen_evolution': 'Espeon', 'chosen_action': 'Ate a berry', 'is_valid': False, 'message': 'Eevee tilts its head curiously.', 'author': 'Eevee Engine', 'ts': '2025-09-12T22:53:38+00:00', 'event_id': 69}
-2025-09-12 17:53:39 | INFO | sent: {'event': 'evolution_attempt', 'species': 'Eevee', 'chosen_evolution': 'Jolteon', 'chosen_action': 'Went for a walk', 'is_valid': False, 'message': 'Eevee is bored.', 'author': 'Eevee Engine', 'ts': '2025-09-12T22:53:39+00:00', 'event_id': 70}
-2025-09-12 17:53:40 | INFO | sent: {'event': 'evolution_attempt', 'species': 'Eevee', 'chosen_evolution': 'Jolteon', 'chosen_action': 'Went for a walk', 'is_valid': False, 'message': 'Eevee tilts its head curiously.', 'author': 'Eevee Engine', 'ts': '2025-09-12T22:53:40+00:00', 'event_id': 71}
-2025-09-12 17:53:41 | INFO | sent: {'event': 'evolution_attempt', 'species': 'Eevee', 'chosen_evolution': 'Vaporeon', 'chosen_action': 'Took a nap', 'is_valid': False, 'message': 'Eevee is bored.', 'author': 'Eevee Engine', 'ts': '2025-09-12T22:53:41+00:00', 'event_id': 72}
-2025-09-12 17:53:41 | INFO | === Eevee Evolution Leaderboard (rolling) ===
-2025-09-12 17:53:41 | INFO | Overall: total=73  success=5 (6.8%)  fail=68 (93.2%)
-2025-09-12 17:53:41 | INFO | Most successful:  Vaporeon  (successes=1, attempts=10, rate=10.0%)
-2025-09-12 17:53:41 | INFO | Least successful: Glaceon  (successes=0, attempts=7, rate=0.0%)
-2025-09-12 17:53:41 | INFO | Top 5 by successes:
-2025-09-12 17:53:41 | INFO | 
-- Vaporeon   attempts=10    successes=1     rate= 10.0%
-- Espeon     attempts=9     successes=1     rate= 11.1%
-- Sylveon    attempts=9     successes=1     rate= 11.1%
-- Umbreon    attempts=7     successes=1     rate= 14.3%
-- Jolteon    attempts=7     successes=1     rate= 14.3%
-2025-09-12 17:53:42 | INFO | sent: {'event': 'evolution_attempt', 'species': 'Eevee', 'chosen_evolution': 'Jolteon', 'chosen_action': 'Leveled with a Water Stone', 'is_valid': False, 'message': 'Eevee is bored.', 'author': 'Eevee Engine', 'ts': '2025-09-12T22:53:42+00:00', 'event_id': 73}
-2025-09-12 17:53:43 | INFO | sent: {'event': 'evolution_attempt', 'species': 'Eevee', 'chosen_evolution': 'Glaceon', 'chosen_action': 'Took a nap', 'is_valid': False, 'message': 'Eevee does nothing.', 'author': 'Eevee Engine', 'ts': '2025-09-12T22:53:43+00:00', 'event_id': 74}
-2025-09-12 17:53:44 | INFO | sent: {'event': 'evolution_attempt', 'species': 'Eevee', 'chosen_evolution': 'Leafeon', 'chosen_action': 'Leveled with an Ice Stone', 'is_valid': False, 'message': 'Eevee is bored.', 'author': 'Eevee Engine', 'ts': '2025-09-12T22:53:44+00:00', 'event_id': 75}
-2025-09-12 17:53:45 | INFO | sent: {'event': 'evolution_attempt', 'species': 'Eevee', 'chosen_evolution': 'Flareon', 'chosen_action': 'Leveled during day with high friendship', 'is_valid': False, 'message': 'Eevee chases its tail.', 'author': 'Eevee Engine', 'ts': '2025-09-12T22:53:45+00:00', 'event_id': 76}
-2025-09-12 17:53:46 | INFO | sent: {'event': 'evolution_attempt', 'species': 'Eevee', 'chosen_evolution': 'Umbreon', 'chosen_action': 'Leveled with a Thunder Stone', 'is_valid': False, 'message': 'Eevee is smelling a flower.', 'author': 'Eevee Engine', 'ts': '2025-09-12T22:53:46+00:00', 'event_id': 77}
-2025-09-12 17:53:47 | INFO | sent: {'event': 'evolution_attempt', 'species': 'Eevee', 'chosen_evolution': 'Leafeon', 'chosen_action': 'Took a nap', 'is_valid': False, 'message': 'Eevee tilts its head curiously.', 'author': 'Eevee Engine', 'ts': '2025-09-12T22:53:47+00:00', 'event_id': 78}
-2025-09-12 17:53:48 | INFO | sent: {'event': 'evolution_attempt', 'species': 'Eevee', 'chosen_evolution': 'Jolteon', 'chosen_action': 'Leveled at night with high friendship', 'is_valid': False, 'message': 'Eevee tilts its head curiously.', 'author': 'Eevee Engine', 'ts': '2025-09-12T22:53:48+00:00', 'event_id': 79}
-2025-09-12 17:53:49 | INFO | sent: {'event': 'evolution_attempt', 'species': 'Eevee', 'chosen_evolution': 'Glaceon', 'chosen_action': 'Leveled at night with high friendship', 'is_valid': False, 'message': 'Eevee is smelling a flower.', 'author': 'Eevee Engine', 'ts': '2025-09-12T22:53:49+00:00', 'event_id': 80}
-2025-09-12 17:53:50 | INFO | sent: {'event': 'evolution_attempt', 'species': 'Eevee', 'chosen_evolution': 'Umbreon', 'chosen_action': 'Leveled with a Water Stone', 'is_valid': False, 'message': 'Eevee is smelling a flower.', 'author': 'Eevee Engine', 'ts': '2025-09-12T22:53:50+00:00', 'event_id': 81}
-2025-09-12 17:53:51 | INFO | sent: {'event': 'evolution_attempt', 'species': 'Eevee', 'chosen_evolution': 'Vaporeon', 'chosen_action': 'Took a nap', 'is_valid': False, 'message': 'Eevee tilts its head curiously.', 'author': 'Eevee Engine', 'ts': '2025-09-12T22:53:51+00:00', 'event_id': 82}
-2025-09-12 17:53:52 | INFO | sent: {'event': 'evolution_attempt', 'species': 'Eevee', 'chosen_evolution': 'Flareon', 'chosen_action': 'Leveled with Baby Doll TM with high friendship', 'is_valid': False, 'message': 'Eevee is bored.', 'author': 'Eevee Engine', 'ts': '2025-09-12T22:53:52+00:00', 'event_id': 83}
-2025-09-12 17:53:53 | INFO | sent: {'event': 'evolution_attempt', 'species': 'Eevee', 'chosen_evolution': 'Sylveon', 'chosen_action': 'Ate a berry', 'is_valid': False, 'message': 'Eevee tilts its head curiously.', 'author': 'Eevee Engine', 'ts': '2025-09-12T22:53:53+00:00', 'event_id': 84}
-2025-09-12 17:53:54 | INFO | sent: {'event': 'evolution_attempt', 'species': 'Eevee', 'chosen_evolution': 'Leafeon', 'chosen_action': 'Took a nap', 'is_valid': False, 'message': 'Eevee does nothing.', 'author': 'Eevee Engine', 'ts': '2025-09-12T22:53:54+00:00', 'event_id': 85}
-2025-09-12 17:53:55 | INFO | sent: {'event': 'evolution_attempt', 'species': 'Eevee', 'chosen_evolution': 'Leafeon', 'chosen_action': 'Leveled with a Thunder Stone', 'is_valid': False, 'message': 'Eevee is bored.', 'author': 'Eevee Engine', 'ts': '2025-09-12T22:53:55+00:00', 'event_id': 86}
-2025-09-12 17:53:56 | INFO | sent: {'event': 'evolution_attempt', 'species': 'Eevee', 'chosen_evolution': 'Flareon', 'chosen_action': 'Leveled with Baby Doll TM with high friendship', 'is_valid': False, 'message': 'Eevee tilts its head curiously.', 'author': 'Eevee Engine', 'ts': '2025-09-12T22:53:56+00:00', 'event_id': 87}
-2025-09-12 17:53:56 | INFO | === Eevee Evolution Leaderboard (rolling) ===
-2025-09-12 17:53:56 | INFO | Overall: total=87  success=5 (5.7%)  fail=82 (94.3%)
-2025-09-12 17:53:56 | INFO | Most successful:  Vaporeon  (successes=1, attempts=11, rate=9.1%)
-2025-09-12 17:53:56 | INFO | Least successful: Glaceon  (successes=0, attempts=9, rate=0.0%)
-2025-09-12 17:53:56 | INFO | Top 5 by successes:
-2025-09-12 17:53:56 | INFO | 
-- Vaporeon   attempts=11    successes=1     rate=  9.1%
-- Sylveon    attempts=10    successes=1     rate= 10.0%
-- Espeon     attempts=9     successes=1     rate= 11.1%
-- Umbreon    attempts=9     successes=1     rate= 11.1%
-- Jolteon    attempts=9     successes=1     rate= 11.1%
-2025-09-12 17:53:57 | INFO | sent: {'event': 'evolution_attempt', 'species': 'Eevee', 'chosen_evolution': 'Espeon', 'chosen_action': 'Leveled at night with high friendship', 'is_valid': False, 'message': 'Eevee tilts its head curiously.', 'author': 'Eevee Engine', 'ts': '2025-09-12T22:53:57+00:00', 'event_id': 88}
-2025-09-12 17:53:58 | INFO | sent: {'event': 'evolution_attempt', 'species': 'Eevee', 'chosen_evolution': 'Espeon', 'chosen_action': 'Went for a walk', 'is_valid': False, 'message': 'Eevee is bored.', 'author': 'Eevee Engine', 'ts': '2025-09-12T22:53:58+00:00', 'event_id': 89}
-2025-09-12 17:53:59 | INFO | sent: {'event': 'evolution_attempt', 'species': 'Eevee', 'chosen_evolution': 'Flareon', 'chosen_action': 'Leveled with a Thunder Stone', 'is_valid': False, 'message': 'Eevee chases its tail.', 'author': 'Eevee Engine', 'ts': '2025-09-12T22:53:59+00:00', 'event_id': 90}
-2025-09-12 17:54:00 | INFO | sent: {'event': 'evolution_attempt', 'species': 'Eevee', 'chosen_evolution': 'Vaporeon', 'chosen_action': 'Practiced Quick Attack', 'is_valid': False, 'message': 'Eevee does nothing.', 'author': 'Eevee Engine', 'ts': '2025-09-12T22:54:00+00:00', 'event_id': 91}
-2025-09-12 17:54:01 | INFO | sent: {'event': 'evolution_attempt', 'species': 'Eevee', 'chosen_evolution': 'Leafeon', 'chosen_action': 'Went for a walk', 'is_valid': False, 'message': 'Eevee tilts its head curiously.', 'author': 'Eevee Engine', 'ts': '2025-09-12T22:54:01+00:00', 'event_id': 92}
-2025-09-12 17:54:02 | INFO | sent: {'event': 'evolution_attempt', 'species': 'Eevee', 'chosen_evolution': 'Vaporeon', 'chosen_action': 'Leveled at night with high friendship', 'is_valid': False, 'message': 'Eevee is bored.', 'author': 'Eevee Engine', 'ts': '2025-09-12T22:54:02+00:00', 'event_id': 93}
-2025-09-12 17:54:03 | INFO | sent: {'event': 'evolution_attempt', 'species': 'Eevee', 'chosen_evolution': 'Flareon', 'chosen_action': 'Took a nap', 'is_valid': False, 'message': 'Eevee does nothing.', 'author': 'Eevee Engine', 'ts': '2025-09-12T22:54:03+00:00', 'event_id': 94}
-2025-09-12 17:54:04 | INFO | sent: {'event': 'evolution_attempt', 'species': 'Eevee', 'chosen_evolution': 'Umbreon', 'chosen_action': 'Leveled with a Thunder Stone', 'is_valid': False, 'message': 'Eevee chases its tail.', 'author': 'Eevee Engine', 'ts': '2025-09-12T22:54:04+00:00', 'event_id': 95}
-2025-09-12 17:54:05 | INFO | sent: {'event': 'evolution_attempt', 'species': 'Eevee', 'chosen_evolution': 'Flareon', 'chosen_action': 'Leveled with an Ice Stone', 'is_valid': False, 'message': 'Eevee tilts its head curiously.', 'author': 'Eevee Engine', 'ts': '2025-09-12T22:54:05+00:00', 'event_id': 96}
-2025-09-12 17:54:06 | INFO | sent: {'event': 'evolution_attempt', 'species': 'Eevee', 'chosen_evolution': 'Jolteon', 'chosen_action': 'Practiced Quick Attack', 'is_valid': False, 'message': 'Eevee does nothing.', 'author': 'Eevee Engine', 'ts': '2025-09-12T22:54:06+00:00', 'event_id': 97}
-2025-09-12 17:54:07 | INFO | sent: {'event': 'evolution_attempt', 'species': 'Eevee', 'chosen_evolution': 'Jolteon', 'chosen_action': 'Leveled with a Fire Stone', 'is_valid': False, 'message': 'Eevee tilts its head curiously.', 'author': 'Eevee Engine', 'ts': '2025-09-12T22:54:07+00:00', 'event_id': 98}
-2025-09-12 17:54:08 | INFO | sent: {'event': 'evolution_attempt', 'species': 'Eevee', 'chosen_evolution': 'Flareon', 'chosen_action': 'Took a nap', 'is_valid': False, 'message': 'Eevee tilts its head curiously.', 'author': 'Eevee Engine', 'ts': '2025-09-12T22:54:08+00:00', 'event_id': 99}
-2025-09-12 17:54:09 | INFO | sent: {'event': 'evolution_attempt', 'species': 'Eevee', 'chosen_evolution': 'Vaporeon', 'chosen_action': 'Leveled during day with high friendship', 'is_valid': False, 'message': 'Eevee is bored.', 'author': 'Eevee Engine', 'ts': '2025-09-12T22:54:09+00:00', 'event_id': 100}
-2025-09-12 17:54:10 | INFO | sent: {'event': 'evolution_attempt', 'species': 'Eevee', 'chosen_evolution': 'Umbreon', 'chosen_action': 'Ate a berry', 'is_valid': False, 'message': 'Eevee is smelling a flower.', 'author': 'Eevee Engine', 'ts': '2025-09-12T22:54:10+00:00', 'event_id': 101}
-2025-09-12 17:54:11 | INFO | sent: {'event': 'evolution_attempt', 'species': 'Eevee', 'chosen_evolution': 'Espeon', 'chosen_action': 'Leveled with a Leaf Stone', 'is_valid': False, 'message': 'Eevee tilts its head curiously.', 'author': 'Eevee Engine', 'ts': '2025-09-12T22:54:11+00:00', 'event_id': 102}
-2025-09-12 17:54:11 | INFO | === Eevee Evolution Leaderboard (rolling) ===
-2025-09-12 17:54:11 | INFO | Overall: total=103  success=5 (4.9%)  fail=98 (95.1%)
-2025-09-12 17:54:11 | INFO | Most successful:  Vaporeon  (successes=1, attempts=14, rate=7.1%)
-2025-09-12 17:54:11 | INFO | Least successful: Glaceon  (successes=0, attempts=9, rate=0.0%)
-2025-09-12 17:54:11 | INFO | Top 5 by successes:
-2025-09-12 17:54:11 | INFO | 
-- Vaporeon   attempts=14    successes=1     rate=  7.1%
-- Espeon     attempts=12    successes=1     rate=  8.3%
-- Umbreon    attempts=11    successes=1     rate=  9.1%
-- Jolteon    attempts=11    successes=1     rate=  9.1%
-- Sylveon    attempts=10    successes=1     rate= 10.0%
-2025-09-12 17:54:12 | INFO | sent: {'event': 'evolution_attempt', 'species': 'Eevee', 'chosen_evolution': 'Espeon', 'chosen_action': 'Leveled with a Leaf Stone', 'is_valid': False, 'message': 'Eevee tilts its head curiously.', 'author': 'Eevee Engine', 'ts': '2025-09-12T22:54:12+00:00', 'event_id': 103}
-2025-09-12 17:54:13 | INFO | sent: {'event': 'evolution_attempt', 'species': 'Eevee', 'chosen_evolution': 'Vaporeon', 'chosen_action': 'Leveled with a Water Stone', 'is_valid': True, 'message': 'Your Eevee is evolving into Vaporeon!', 'author': 'Eevee Engine', 'ts': '2025-09-12T22:54:13+00:00', 'event_id': 104}
-2025-09-12 17:54:14 | INFO | sent: {'event': 'evolution_attempt', 'species': 'Eevee', 'chosen_evolution': 'Espeon', 'chosen_action': 'Leveled with a Water Stone', 'is_valid': False, 'message': 'Eevee tilts its head curiously.', 'author': 'Eevee Engine', 'ts': '2025-09-12T22:54:14+00:00', 'event_id': 105}
-2025-09-12 17:54:15 | INFO | sent: {'event': 'evolution_attempt', 'species': 'Eevee', 'chosen_evolution': 'Sylveon', 'chosen_action': 'Took a nap', 'is_valid': False, 'message': 'Eevee is smelling a flower.', 'author': 'Eevee Engine', 'ts': '2025-09-12T22:54:15+00:00', 'event_id': 106}
-2025-09-12 17:54:16 | INFO | sent: {'event': 'evolution_attempt', 'species': 'Eevee', 'chosen_evolution': 'Vaporeon', 'chosen_action': 'Leveled with a Thunder Stone', 'is_valid': False, 'message': 'Eevee does nothing.', 'author': 'Eevee Engine', 'ts': '2025-09-12T22:54:16+00:00', 'event_id': 107}
-2025-09-12 17:54:17 | INFO | sent: {'event': 'evolution_attempt', 'species': 'Eevee', 'chosen_evolution': 'Vaporeon', 'chosen_action': 'Leveled with an Ice Stone', 'is_valid': False, 'message': 'Eevee does nothing.', 'author': 'Eevee Engine', 'ts': '2025-09-12T22:54:17+00:00', 'event_id': 108}
-2025-09-12 17:54:18 | INFO | sent: {'event': 'evolution_attempt', 'species': 'Eevee', 'chosen_evolution': 'Leafeon', 'chosen_action': 'Practiced Quick Attack', 'is_valid': False, 'message': 'Eevee is bored.', 'author': 'Eevee Engine', 'ts': '2025-09-12T22:54:18+00:00', 'event_id': 109}
-2025-09-12 17:54:19 | INFO | sent: {'event': 'evolution_attempt', 'species': 'Eevee', 'chosen_evolution': 'Flareon', 'chosen_action': 'Ate a berry', 'is_valid': False, 'message': 'Eevee is smelling a flower.', 'author': 'Eevee Engine', 'ts': '2025-09-12T22:54:19+00:00', 'event_id': 110}
-2025-09-12 17:54:20 | INFO | sent: {'event': 'evolution_attempt', 'species': 'Eevee', 'chosen_evolution': 'Leafeon', 'chosen_action': 'Threw a Poké Ball', 'is_valid': False, 'message': 'Eevee is bored.', 'author': 'Eevee Engine', 'ts': '2025-09-12T22:54:20+00:00', 'event_id': 111}
-2025-09-12 17:54:21 | INFO | sent: {'event': 'evolution_attempt', 'species': 'Eevee', 'chosen_evolution': 'Vaporeon', 'chosen_action': 'Leveled during day with high friendship', 'is_valid': False, 'message': 'Eevee is smelling a flower.', 'author': 'Eevee Engine', 'ts': '2025-09-12T22:54:21+00:00', 'event_id': 112}
-2025-09-12 17:54:22 | INFO | sent: {'event': 'evolution_attempt', 'species': 'Eevee', 'chosen_evolution': 'Flareon', 'chosen_action': 'Threw a Poké Ball', 'is_valid': False, 'message': 'Eevee tilts its head curiously.', 'author': 'Eevee Engine', 'ts': '2025-09-12T22:54:22+00:00', 'event_id': 113}
-2025-09-12 17:54:22 | WARNING | Consumer interrupted by user.
-2025-09-12 17:54:22 | INFO | Kafka consumer closed.
-2025-09-12 17:54:22 | INFO | END Eevee Polars consumer.
-2025-09-12 17:54:23 | INFO | sent: {'event': 'evolution_attempt', 'species': 'Eevee', 'chosen_evolution': 'Jolteon', 'chosen_action': 'Leveled with a Fire Stone', 'is_valid': False, 'message': 'Eevee is smelling a flower.', 'author': 'Eevee Engine', 'ts': '2025-09-12T22:54:23+00:00', 'event_id': 114}
-2025-09-12 17:54:24 | INFO | sent: {'event': 'evolution_attempt', 'species': 'Eevee', 'chosen_evolution': 'Sylveon', 'chosen_action': 'Leveled with Baby Doll TM with high friendship', 'is_valid': True, 'message': 'Your Eevee is evolving into Sylveon!', 'author': 'Eevee Engine', 'ts': '2025-09-12T22:54:24+00:00', 'event_id': 115}
-2025-09-12 17:54:25 | INFO | sent: {'event': 'evolution_attempt', 'species': 'Eevee', 'chosen_evolution': 'Leafeon', 'chosen_action': 'Leveled during day with high friendship', 'is_valid': False, 'message': 'Eevee is smelling a flower.', 'author': 'Eevee Engine', 'ts': '2025-09-12T22:54:25+00:00', 'event_id': 116}
-2025-09-12 17:54:26 | INFO | sent: {'event': 'evolution_attempt', 'species': 'Eevee', 'chosen_evolution': 'Espeon', 'chosen_action': 'Leveled with Baby Doll TM with high friendship', 'is_valid': False, 'message': 'Eevee tilts its head curiously.', 'author': 'Eevee Engine', 'ts': '2025-09-12T22:54:26+00:00', 'event_id': 117}
-2025-09-12 17:54:27 | INFO | sent: {'event': 'evolution_attempt', 'species': 'Eevee', 'chosen_evolution': 'Flareon', 'chosen_action': 'Leveled with a Leaf Stone', 'is_valid': False, 'message': 'Eevee is bored.', 'author': 'Eevee Engine', 'ts': '2025-09-12T22:54:27+00:00', 'event_id': 118}
-2025-09-12 17:54:28 | INFO | sent: {'event': 'evolution_attempt', 'species': 'Eevee', 'chosen_evolution': 'Sylveon', 'chosen_action': 'Leveled with a Fire Stone', 'is_valid': False, 'message': 'Eevee tilts its head curiously.', 'author': 'Eevee Engine', 'ts': '2025-09-12T22:54:28+00:00', 'event_id': 119}
-2025-09-12 17:54:29 | INFO | sent: {'event': 'evolution_attempt', 'species': 'Eevee', 'chosen_evolution': 'Leafeon', 'chosen_action': 'Leveled with a Leaf Stone', 'is_valid': True, 'message': 'Your Eevee is evolving into Leafeon!', 'author': 'Eevee Engine', 'ts': '2025-09-12T22:54:29+00:00', 'event_id': 120}
-2025-09-12 17:54:30 | WARNING | Producer interrupted by user.
-2025-09-12 17:54:30 | INFO | Kafka producer closed.
-2025-09-12 17:54:30 | INFO | END Eevee producer (Polars).
-2025-09-12 18:16:49 | INFO | Logging to file: logs/project_log.log
-2025-09-12 18:16:49 | INFO | Log sanitization enabled, personal info removed
-2025-09-12 18:16:50 | INFO | START Eevee producer (Polars).
-2025-09-12 18:16:50 | INFO | Kafka broker address: localhost:9092
-2025-09-12 18:16:50 | INFO | Kafka is ready. Brokers: {'throttle_time_ms': 0, 'brokers': [{'node_id': 1, 'host': '127.0.0.1', 'port': 9092, 'rack': None}], 'cluster_id': 'izX4qtgsSweNTi1cWUWQEA', 'controller_id': 1}
-2025-09-12 18:16:50 | INFO | Kafka topic: eevee_json_v1
-2025-09-12 18:16:50 | INFO | Loaded 8 evolution rules from data/eevee_rules.csv
-2025-09-12 18:16:50 | INFO | Kafka broker address: localhost:9092
-2025-09-12 18:16:50 | INFO | Connecting to Kafka broker at localhost:9092...
-2025-09-12 18:16:50 | INFO | Kafka producer successfully created.
-2025-09-12 18:16:50 | INFO | Kafka broker address: localhost:9092
-2025-09-12 18:16:50 | INFO | Topic 'eevee_json_v1' already exists. Recreating fresh...
-2025-09-12 18:16:50 | INFO | Requested deletion of topic 'eevee_json_v1'.
-2025-09-12 18:16:50 | INFO | Topic 'eevee_json_v1' created successfully.
-2025-09-12 18:16:50 | INFO | Producing Eevee evolution attempts to 'eevee_json_v1'...
-2025-09-12 18:16:50 | INFO | sent: {'event': 'evolution_attempt', 'species': 'Eevee', 'chosen_evolution': 'Espeon', 'chosen_action': 'Leveled with a Thunder Stone', 'is_valid': False, 'message': 'Eevee is smelling a flower.', 'author': 'Eevee Engine', 'ts': '2025-09-12T23:16:50+00:00', 'event_id': 0}
-2025-09-12 18:16:51 | INFO | sent: {'event': 'evolution_attempt', 'species': 'Eevee', 'chosen_evolution': 'Umbreon', 'chosen_action': 'Leveled at night with high friendship', 'is_valid': True, 'message': 'Your Eevee is evolving into Umbreon!', 'author': 'Eevee Engine', 'ts': '2025-09-12T23:16:51+00:00', 'event_id': 1}
-2025-09-12 18:16:52 | INFO | sent: {'event': 'evolution_attempt', 'species': 'Eevee', 'chosen_evolution': 'Flareon', 'chosen_action': 'Leveled with a Thunder Stone', 'is_valid': False, 'message': 'Eevee chases its tail.', 'author': 'Eevee Engine', 'ts': '2025-09-12T23:16:52+00:00', 'event_id': 2}
-2025-09-12 18:16:53 | INFO | sent: {'event': 'evolution_attempt', 'species': 'Eevee', 'chosen_evolution': 'Sylveon', 'chosen_action': 'Practiced Quick Attack', 'is_valid': False, 'message': 'Eevee is bored.', 'author': 'Eevee Engine', 'ts': '2025-09-12T23:16:53+00:00', 'event_id': 3}
-2025-09-12 18:16:54 | INFO | sent: {'event': 'evolution_attempt', 'species': 'Eevee', 'chosen_evolution': 'Espeon', 'chosen_action': 'Leveled with a Water Stone', 'is_valid': False, 'message': 'Eevee chases its tail.', 'author': 'Eevee Engine', 'ts': '2025-09-12T23:16:54+00:00', 'event_id': 4}
-2025-09-12 18:16:55 | INFO | sent: {'event': 'evolution_attempt', 'species': 'Eevee', 'chosen_evolution': 'Jolteon', 'chosen_action': 'Leveled with Baby Doll TM with high friendship', 'is_valid': False, 'message': 'Eevee tilts its head curiously.', 'author': 'Eevee Engine', 'ts': '2025-09-12T23:16:55+00:00', 'event_id': 5}
-2025-09-12 18:16:56 | INFO | sent: {'event': 'evolution_attempt', 'species': 'Eevee', 'chosen_evolution': 'Glaceon', 'chosen_action': 'Leveled during day with high friendship', 'is_valid': False, 'message': 'Eevee does nothing.', 'author': 'Eevee Engine', 'ts': '2025-09-12T23:16:56+00:00', 'event_id': 6}
-2025-09-12 18:16:57 | INFO | sent: {'event': 'evolution_attempt', 'species': 'Eevee', 'chosen_evolution': 'Glaceon', 'chosen_action': 'Ate a berry', 'is_valid': False, 'message': 'Eevee is bored.', 'author': 'Eevee Engine', 'ts': '2025-09-12T23:16:57+00:00', 'event_id': 7}
-2025-09-12 18:16:58 | INFO | sent: {'event': 'evolution_attempt', 'species': 'Eevee', 'chosen_evolution': 'Leafeon', 'chosen_action': 'Practiced Quick Attack', 'is_valid': False, 'message': 'Eevee does nothing.', 'author': 'Eevee Engine', 'ts': '2025-09-12T23:16:58+00:00', 'event_id': 8}
-2025-09-12 18:16:59 | INFO | Logging to file: logs/project_log.log
-2025-09-12 18:16:59 | INFO | Log sanitization enabled, personal info removed
-2025-09-12 18:16:59 | INFO | START Eevee Polars consumer | topic='eevee_json_v1' group='eevee_g1' interval=15.0s
-2025-09-12 18:16:59 | INFO | Kafka broker address: localhost:9092
-2025-09-12 18:16:59 | INFO | Creating Kafka consumer. Topic='eevee_json_v1' and group ID='eevee_g1'.
-2025-09-12 18:16:59 | INFO | Kafka consumer created successfully.
-2025-09-12 18:16:59 | INFO | sent: {'event': 'evolution_attempt', 'species': 'Eevee', 'chosen_evolution': 'Flareon', 'chosen_action': 'Leveled with a Fire Stone', 'is_valid': True, 'message': 'Your Eevee is evolving into Flareon!', 'author': 'Eevee Engine', 'ts': '2025-09-12T23:16:59+00:00', 'event_id': 9}
-2025-09-12 18:17:00 | INFO | sent: {'event': 'evolution_attempt', 'species': 'Eevee', 'chosen_evolution': 'Espeon', 'chosen_action': 'Leveled with a Thunder Stone', 'is_valid': False, 'message': 'Eevee is bored.', 'author': 'Eevee Engine', 'ts': '2025-09-12T23:17:00+00:00', 'event_id': 10}
-2025-09-12 18:17:01 | INFO | sent: {'event': 'evolution_attempt', 'species': 'Eevee', 'chosen_evolution': 'Vaporeon', 'chosen_action': 'Leveled with a Thunder Stone', 'is_valid': False, 'message': 'Eevee does nothing.', 'author': 'Eevee Engine', 'ts': '2025-09-12T23:17:01+00:00', 'event_id': 11}
-2025-09-12 18:17:02 | INFO | sent: {'event': 'evolution_attempt', 'species': 'Eevee', 'chosen_evolution': 'Jolteon', 'chosen_action': 'Took a nap', 'is_valid': False, 'message': 'Eevee tilts its head curiously.', 'author': 'Eevee Engine', 'ts': '2025-09-12T23:17:02+00:00', 'event_id': 12}
-2025-09-12 18:17:03 | INFO | sent: {'event': 'evolution_attempt', 'species': 'Eevee', 'chosen_evolution': 'Leafeon', 'chosen_action': 'Threw a Poké Ball', 'is_valid': False, 'message': 'Eevee chases its tail.', 'author': 'Eevee Engine', 'ts': '2025-09-12T23:17:03+00:00', 'event_id': 13}
-2025-09-12 18:17:04 | INFO | sent: {'event': 'evolution_attempt', 'species': 'Eevee', 'chosen_evolution': 'Sylveon', 'chosen_action': 'Leveled with a Leaf Stone', 'is_valid': False, 'message': 'Eevee tilts its head curiously.', 'author': 'Eevee Engine', 'ts': '2025-09-12T23:17:04+00:00', 'event_id': 14}
-2025-09-12 18:17:05 | INFO | sent: {'event': 'evolution_attempt', 'species': 'Eevee', 'chosen_evolution': 'Jolteon', 'chosen_action': 'Leveled at night with high friendship', 'is_valid': False, 'message': 'Eevee is smelling a flower.', 'author': 'Eevee Engine', 'ts': '2025-09-12T23:17:05+00:00', 'event_id': 15}
-2025-09-12 18:17:06 | INFO | sent: {'event': 'evolution_attempt', 'species': 'Eevee', 'chosen_evolution': 'Sylveon', 'chosen_action': 'Leveled during day with high friendship', 'is_valid': False, 'message': 'Eevee is smelling a flower.', 'author': 'Eevee Engine', 'ts': '2025-09-12T23:17:06+00:00', 'event_id': 16}
-2025-09-12 18:17:07 | INFO | sent: {'event': 'evolution_attempt', 'species': 'Eevee', 'chosen_evolution': 'Sylveon', 'chosen_action': 'Ate a berry', 'is_valid': False, 'message': 'Eevee tilts its head curiously.', 'author': 'Eevee Engine', 'ts': '2025-09-12T23:17:07+00:00', 'event_id': 17}
-2025-09-12 18:17:08 | INFO | sent: {'event': 'evolution_attempt', 'species': 'Eevee', 'chosen_evolution': 'Espeon', 'chosen_action': 'Leveled with an Ice Stone', 'is_valid': False, 'message': 'Eevee chases its tail.', 'author': 'Eevee Engine', 'ts': '2025-09-12T23:17:08+00:00', 'event_id': 18}
-2025-09-12 18:17:09 | INFO | sent: {'event': 'evolution_attempt', 'species': 'Eevee', 'chosen_evolution': 'Sylveon', 'chosen_action': 'Leveled with a Water Stone', 'is_valid': False, 'message': 'Eevee does nothing.', 'author': 'Eevee Engine', 'ts': '2025-09-12T23:17:09+00:00', 'event_id': 19}
-2025-09-12 18:17:10 | INFO | sent: {'event': 'evolution_attempt', 'species': 'Eevee', 'chosen_evolution': 'Vaporeon', 'chosen_action': 'Went for a walk', 'is_valid': False, 'message': 'Eevee is smelling a flower.', 'author': 'Eevee Engine', 'ts': '2025-09-12T23:17:10+00:00', 'event_id': 20}
-2025-09-12 18:17:11 | INFO | sent: {'event': 'evolution_attempt', 'species': 'Eevee', 'chosen_evolution': 'Espeon', 'chosen_action': 'Took a nap', 'is_valid': False, 'message': 'Eevee tilts its head curiously.', 'author': 'Eevee Engine', 'ts': '2025-09-12T23:17:11+00:00', 'event_id': 21}
-2025-09-12 18:17:12 | INFO | sent: {'event': 'evolution_attempt', 'species': 'Eevee', 'chosen_evolution': 'Jolteon', 'chosen_action': 'Leveled during day with high friendship', 'is_valid': False, 'message': 'Eevee tilts its head curiously.', 'author': 'Eevee Engine', 'ts': '2025-09-12T23:17:12+00:00', 'event_id': 22}
-2025-09-12 18:17:13 | INFO | sent: {'event': 'evolution_attempt', 'species': 'Eevee', 'chosen_evolution': 'Glaceon', 'chosen_action': 'Leveled with a Leaf Stone', 'is_valid': False, 'message': 'Eevee is bored.', 'author': 'Eevee Engine', 'ts': '2025-09-12T23:17:13+00:00', 'event_id': 23}
-2025-09-12 18:17:14 | INFO | sent: {'event': 'evolution_attempt', 'species': 'Eevee', 'chosen_evolution': 'Glaceon', 'chosen_action': 'Threw a Poké Ball', 'is_valid': False, 'message': 'Eevee is smelling a flower.', 'author': 'Eevee Engine', 'ts': '2025-09-12T23:17:14+00:00', 'event_id': 24}
-2025-09-12 18:17:14 | INFO | === Eevee Evolution Leaderboard (rolling) ===
-2025-09-12 18:17:14 | INFO | Overall: total=25  success=2 (8.0%)  fail=23 (92.0%)
-2025-09-12 18:17:14 | INFO | Most successful:  Flareon  (successes=1, attempts=2, rate=50.0%)
-2025-09-12 18:17:14 | INFO | Least successful: Leafeon  (successes=0, attempts=2, rate=0.0%)
-2025-09-12 18:17:14 | INFO | Top 5 by successes:
-2025-09-12 18:17:14 | INFO | 
-- Flareon    attempts=2     successes=1     rate= 50.0%
-- Umbreon    attempts=1     successes=1     rate=100.0%
-- Espeon     attempts=5     successes=0     rate=  0.0%
-- Sylveon    attempts=5     successes=0     rate=  0.0%
-- Jolteon    attempts=4     successes=0     rate=  0.0%
-2025-09-12 18:17:15 | INFO | sent: {'event': 'evolution_attempt', 'species': 'Eevee', 'chosen_evolution': 'Sylveon', 'chosen_action': 'Leveled with a Water Stone', 'is_valid': False, 'message': 'Eevee does nothing.', 'author': 'Eevee Engine', 'ts': '2025-09-12T23:17:15+00:00', 'event_id': 25}
-2025-09-12 18:17:16 | INFO | sent: {'event': 'evolution_attempt', 'species': 'Eevee', 'chosen_evolution': 'Sylveon', 'chosen_action': 'Threw a Poké Ball', 'is_valid': False, 'message': 'Eevee does nothing.', 'author': 'Eevee Engine', 'ts': '2025-09-12T23:17:16+00:00', 'event_id': 26}
-2025-09-12 18:17:17 | INFO | sent: {'event': 'evolution_attempt', 'species': 'Eevee', 'chosen_evolution': 'Vaporeon', 'chosen_action': 'Leveled with Baby Doll TM with high friendship', 'is_valid': False, 'message': 'Eevee is smelling a flower.', 'author': 'Eevee Engine', 'ts': '2025-09-12T23:17:17+00:00', 'event_id': 27}
-2025-09-12 18:17:18 | INFO | sent: {'event': 'evolution_attempt', 'species': 'Eevee', 'chosen_evolution': 'Glaceon', 'chosen_action': 'Leveled with a Water Stone', 'is_valid': False, 'message': 'Eevee tilts its head curiously.', 'author': 'Eevee Engine', 'ts': '2025-09-12T23:17:18+00:00', 'event_id': 28}
-2025-09-12 18:17:19 | INFO | sent: {'event': 'evolution_attempt', 'species': 'Eevee', 'chosen_evolution': 'Umbreon', 'chosen_action': 'Leveled with Baby Doll TM with high friendship', 'is_valid': False, 'message': 'Eevee chases its tail.', 'author': 'Eevee Engine', 'ts': '2025-09-12T23:17:19+00:00', 'event_id': 29}
-2025-09-12 18:17:19 | WARNING | Consumer interrupted by user.
-2025-09-12 18:17:19 | INFO | Kafka consumer closed.
-2025-09-12 18:17:19 | INFO | END Eevee Polars consumer.
-2025-09-12 18:17:20 | INFO | sent: {'event': 'evolution_attempt', 'species': 'Eevee', 'chosen_evolution': 'Glaceon', 'chosen_action': 'Leveled with Baby Doll TM with high friendship', 'is_valid': False, 'message': 'Eevee chases its tail.', 'author': 'Eevee Engine', 'ts': '2025-09-12T23:17:20+00:00', 'event_id': 30}
-2025-09-12 18:17:21 | INFO | sent: {'event': 'evolution_attempt', 'species': 'Eevee', 'chosen_evolution': 'Sylveon', 'chosen_action': 'Took a nap', 'is_valid': False, 'message': 'Eevee is bored.', 'author': 'Eevee Engine', 'ts': '2025-09-12T23:17:21+00:00', 'event_id': 31}
-2025-09-12 18:17:22 | INFO | sent: {'event': 'evolution_attempt', 'species': 'Eevee', 'chosen_evolution': 'Glaceon', 'chosen_action': 'Practiced Quick Attack', 'is_valid': False, 'message': 'Eevee does nothing.', 'author': 'Eevee Engine', 'ts': '2025-09-12T23:17:22+00:00', 'event_id': 32}
-2025-09-12 18:17:23 | WARNING | Producer interrupted by user.
-2025-09-12 18:17:23 | INFO | Kafka producer closed.
-2025-09-12 18:17:23 | INFO | END Eevee producer (Polars).
-2025-09-12 18:27:19 | INFO | Logging to file: logs/project_log.log
-2025-09-12 18:27:19 | INFO | Log sanitization enabled, personal info removed
-2025-09-12 18:27:19 | INFO | START Eevee CSV producer (Polars).
-2025-09-12 18:27:19 | INFO | Kafka broker address: localhost:9092
-2025-09-12 18:27:19 | INFO | Kafka is ready. Brokers: {'throttle_time_ms': 0, 'brokers': [{'node_id': 1, 'host': '127.0.0.1', 'port': 9092, 'rack': None}], 'cluster_id': 'izX4qtgsSweNTi1cWUWQEA', 'controller_id': 1}
-2025-09-12 18:27:19 | INFO | Kafka topic: eevee_csv_v1
-2025-09-12 18:27:19 | INFO | Loaded 8 evolution rules from data/eevee_rules.csv
-2025-09-12 18:27:19 | INFO | Kafka broker address: localhost:9092
-2025-09-12 18:27:19 | INFO | Connecting to Kafka broker at localhost:9092...
-2025-09-12 18:27:20 | INFO | Kafka producer successfully created.
-2025-09-12 18:27:20 | INFO | Kafka broker address: localhost:9092
-2025-09-12 18:27:20 | INFO | Topic 'eevee_csv_v1' created successfully.
-2025-09-12 18:27:20 | INFO | Producing CSV events to 'eevee_csv_v1'...
-2025-09-12 18:27:20 | INFO | sent: evolution_attempt,Eevee,Espeon,Threw a Poké Ball,False,Eevee tilts its head curiously.,Eevee Engine,2025-09-12T23:27:20+00:00,0
-2025-09-12 18:27:21 | INFO | sent: evolution_attempt,Eevee,Sylveon,Leveled at night with high friendship,False,Eevee is bored.,Eevee Engine,2025-09-12T23:27:21+00:00,1
-2025-09-12 18:27:22 | INFO | sent: evolution_attempt,Eevee,Leafeon,Leveled with a Fire Stone,False,Eevee does nothing.,Eevee Engine,2025-09-12T23:27:22+00:00,2
-2025-09-12 18:27:23 | INFO | sent: evolution_attempt,Eevee,Jolteon,Leveled at night with high friendship,False,Eevee is bored.,Eevee Engine,2025-09-12T23:27:23+00:00,3
-2025-09-12 18:27:24 | INFO | sent: evolution_attempt,Eevee,Vaporeon,Leveled with an Ice Stone,False,Eevee tilts its head curiously.,Eevee Engine,2025-09-12T23:27:24+00:00,4
-2025-09-12 18:27:25 | INFO | sent: evolution_attempt,Eevee,Umbreon,Ate a berry,False,Eevee chases its tail.,Eevee Engine,2025-09-12T23:27:25+00:00,5
-2025-09-12 18:27:26 | INFO | sent: evolution_attempt,Eevee,Espeon,Leveled with a Leaf Stone,False,Eevee does nothing.,Eevee Engine,2025-09-12T23:27:26+00:00,6
-2025-09-12 18:27:27 | INFO | sent: evolution_attempt,Eevee,Espeon,Threw a Poké Ball,False,Eevee tilts its head curiously.,Eevee Engine,2025-09-12T23:27:27+00:00,7
-2025-09-12 18:27:28 | INFO | sent: evolution_attempt,Eevee,Vaporeon,Leveled at night with high friendship,False,Eevee chases its tail.,Eevee Engine,2025-09-12T23:27:28+00:00,8
-2025-09-12 18:27:29 | INFO | sent: evolution_attempt,Eevee,Sylveon,Leveled with a Fire Stone,False,Eevee is smelling a flower.,Eevee Engine,2025-09-12T23:27:29+00:00,9
-2025-09-12 18:27:30 | INFO | sent: evolution_attempt,Eevee,Sylveon,Threw a Poké Ball,False,Eevee chases its tail.,Eevee Engine,2025-09-12T23:27:30+00:00,10
-2025-09-12 18:27:31 | INFO | sent: evolution_attempt,Eevee,Vaporeon,Leveled with an Ice Stone,False,Eevee chases its tail.,Eevee Engine,2025-09-12T23:27:31+00:00,11
-2025-09-12 18:27:32 | INFO | sent: evolution_attempt,Eevee,Espeon,Leveled with a Water Stone,False,Eevee chases its tail.,Eevee Engine,2025-09-12T23:27:32+00:00,12
-2025-09-12 18:27:33 | INFO | sent: evolution_attempt,Eevee,Leafeon,Leveled with a Water Stone,False,Eevee does nothing.,Eevee Engine,2025-09-12T23:27:33+00:00,13
-2025-09-12 18:27:34 | INFO | sent: evolution_attempt,Eevee,Espeon,Leveled during day with high friendship,True,Your Eevee is evolving into Espeon!,Eevee Engine,2025-09-12T23:27:34+00:00,14
-2025-09-12 18:27:35 | INFO | sent: evolution_attempt,Eevee,Leafeon,Leveled with an Ice Stone,False,Eevee is smelling a flower.,Eevee Engine,2025-09-12T23:27:35+00:00,15
-2025-09-12 18:27:36 | INFO | sent: evolution_attempt,Eevee,Glaceon,Leveled during day with high friendship,False,Eevee tilts its head curiously.,Eevee Engine,2025-09-12T23:27:36+00:00,16
-2025-09-12 18:27:37 | INFO | sent: evolution_attempt,Eevee,Leafeon,Took a nap,False,Eevee is smelling a flower.,Eevee Engine,2025-09-12T23:27:37+00:00,17
-2025-09-12 18:27:38 | INFO | sent: evolution_attempt,Eevee,Vaporeon,Took a nap,False,Eevee does nothing.,Eevee Engine,2025-09-12T23:27:38+00:00,18
-2025-09-12 18:27:39 | WARNING | Producer interrupted by user.
-2025-09-12 18:27:39 | INFO | Kafka producer closed.
-2025-09-12 18:27:39 | INFO | END Eevee CSV producer.
+2025-09-12 18:33:05 | INFO | Kafka broker address: localhost:9092
+2025-09-12 18:33:05 | INFO | Creating Kafka consumer. Topic='eevee_csv_v1' and group ID='eevee_csv_g1'.
+2025-09-12 18:33:05 | INFO | sent: evolution_attempt,Eevee,Umbreon,Leveled with a Thunder Stone,False,Eevee is bored.,Eevee Engine,2025-09-12T23:33:05+00:00,48
+2025-09-12 18:33:05 | INFO | Kafka consumer created successfully.
+2025-09-12 18:33:05 | ERROR | Error while consuming messages: Invalid file descriptor: -1
+2025-09-12 18:33:05 | INFO | Kafka consumer closed.
+2025-09-12 18:33:05 | INFO | END Eevee CSV consumer.
+2025-09-12 18:33:06 | INFO | sent: evolution_attempt,Eevee,Jolteon,Leveled with a Leaf Stone,False,Eevee is smelling a flower.,Eevee Engine,2025-09-12T23:33:06+00:00,49
+2025-09-12 18:33:07 | INFO | sent: evolution_attempt,Eevee,Glaceon,Leveled during day with high friendship,False,Eevee tilts its head curiously.,Eevee Engine,2025-09-12T23:33:07+00:00,50
+2025-09-12 18:33:08 | INFO | sent: evolution_attempt,Eevee,Vaporeon,Leveled during day with high friendship,False,Eevee tilts its head curiously.,Eevee Engine,2025-09-12T23:33:08+00:00,51
+2025-09-12 18:33:09 | INFO | sent: evolution_attempt,Eevee,Glaceon,Went for a walk,False,Eevee chases its tail.,Eevee Engine,2025-09-12T23:33:09+00:00,52
+2025-09-12 18:33:10 | INFO | sent: evolution_attempt,Eevee,Glaceon,Went for a walk,False,Eevee chases its tail.,Eevee Engine,2025-09-12T23:33:10+00:00,53
+2025-09-12 18:33:11 | INFO | sent: evolution_attempt,Eevee,Jolteon,Leveled with a Leaf Stone,False,Eevee is smelling a flower.,Eevee Engine,2025-09-12T23:33:11+00:00,54
+2025-09-12 18:33:12 | INFO | sent: evolution_attempt,Eevee,Vaporeon,Leveled with Baby Doll TM with high friendship,False,Eevee chases its tail.,Eevee Engine,2025-09-12T23:33:12+00:00,55
+2025-09-12 18:33:13 | INFO | sent: evolution_attempt,Eevee,Umbreon,Leveled with a Fire Stone,False,Eevee does nothing.,Eevee Engine,2025-09-12T23:33:13+00:00,56
+2025-09-12 18:33:14 | INFO | sent: evolution_attempt,Eevee,Jolteon,Threw a Poké Ball,False,Eevee chases its tail.,Eevee Engine,2025-09-12T23:33:14+00:00,57
+2025-09-12 18:33:15 | INFO | sent: evolution_attempt,Eevee,Jolteon,Leveled with a Water Stone,False,Eevee chases its tail.,Eevee Engine,2025-09-12T23:33:15+00:00,58
+2025-09-12 18:33:16 | INFO | sent: evolution_attempt,Eevee,Sylveon,Ate a berry,False,Eevee is bored.,Eevee Engine,2025-09-12T23:33:16+00:00,59
+2025-09-12 18:33:17 | INFO | sent: evolution_attempt,Eevee,Flareon,Leveled during day with high friendship,False,Eevee tilts its head curiously.,Eevee Engine,2025-09-12T23:33:17+00:00,60
+2025-09-12 18:33:18 | INFO | sent: evolution_attempt,Eevee,Espeon,Went for a walk,False,Eevee does nothing.,Eevee Engine,2025-09-12T23:33:18+00:00,61
+2025-09-12 18:33:19 | INFO | sent: evolution_attempt,Eevee,Sylveon,Took a nap,False,Eevee tilts its head curiously.,Eevee Engine,2025-09-12T23:33:19+00:00,62
+2025-09-12 18:33:20 | INFO | sent: evolution_attempt,Eevee,Flareon,Leveled at night with high friendship,False,Eevee tilts its head curiously.,Eevee Engine,2025-09-12T23:33:20+00:00,63
+2025-09-12 18:33:21 | INFO | sent: evolution_attempt,Eevee,Umbreon,Practiced Quick Attack,False,Eevee does nothing.,Eevee Engine,2025-09-12T23:33:21+00:00,64
+2025-09-12 18:33:22 | INFO | sent: evolution_attempt,Eevee,Sylveon,Leveled with a Leaf Stone,False,Eevee is bored.,Eevee Engine,2025-09-12T23:33:22+00:00,65
+2025-09-12 18:33:23 | INFO | sent: evolution_attempt,Eevee,Espeon,Took a nap,False,Eevee is smelling a flower.,Eevee Engine,2025-09-12T23:33:23+00:00,66
+2025-09-12 18:33:24 | INFO | sent: evolution_attempt,Eevee,Glaceon,Leveled with a Water Stone,False,Eevee chases its tail.,Eevee Engine,2025-09-12T23:33:24+00:00,67
+2025-09-12 18:33:25 | INFO | sent: evolution_attempt,Eevee,Sylveon,Took a nap,False,Eevee does nothing.,Eevee Engine,2025-09-12T23:33:25+00:00,68
+2025-09-12 18:33:26 | INFO | sent: evolution_attempt,Eevee,Sylveon,Leveled with a Thunder Stone,False,Eevee does nothing.,Eevee Engine,2025-09-12T23:33:26+00:00,69
+2025-09-12 18:33:27 | INFO | sent: evolution_attempt,Eevee,Glaceon,Leveled with a Water Stone,False,Eevee chases its tail.,Eevee Engine,2025-09-12T23:33:27+00:00,70
+2025-09-12 18:33:28 | INFO | sent: evolution_attempt,Eevee,Flareon,Ate a berry,False,Eevee does nothing.,Eevee Engine,2025-09-12T23:33:28+00:00,71
+2025-09-12 18:33:29 | INFO | sent: evolution_attempt,Eevee,Sylveon,Practiced Quick Attack,False,Eevee tilts its head curiously.,Eevee Engine,2025-09-12T23:33:29+00:00,72
+2025-09-12 18:33:30 | INFO | sent: evolution_attempt,Eevee,Espeon,Went for a walk,False,Eevee does nothing.,Eevee Engine,2025-09-12T23:33:30+00:00,73
+2025-09-12 18:33:31 | INFO | sent: evolution_attempt,Eevee,Sylveon,Leveled with an Ice Stone,False,Eevee tilts its head curiously.,Eevee Engine,2025-09-12T23:33:31+00:00,74
+2025-09-12 18:33:32 | INFO | sent: evolution_attempt,Eevee,Jolteon,Leveled with a Fire Stone,False,Eevee is smelling a flower.,Eevee Engine,2025-09-12T23:33:32+00:00,75
+2025-09-12 18:33:33 | INFO | sent: evolution_attempt,Eevee,Sylveon,Leveled with a Thunder Stone,False,Eevee chases its tail.,Eevee Engine,2025-09-12T23:33:33+00:00,76
+2025-09-12 18:33:34 | INFO | sent: evolution_attempt,Eevee,Vaporeon,Leveled with a Water Stone,True,Your Eevee is evolving into Vaporeon!,Eevee Engine,2025-09-12T23:33:34+00:00,77
+2025-09-12 18:33:35 | INFO | sent: evolution_attempt,Eevee,Leafeon,Leveled with a Leaf Stone,True,Your Eevee is evolving into Leafeon!,Eevee Engine,2025-09-12T23:33:35+00:00,78
+2025-09-12 18:33:36 | INFO | sent: evolution_attempt,Eevee,Leafeon,Leveled with an Ice Stone,False,Eevee does nothing.,Eevee Engine,2025-09-12T23:33:36+00:00,79
+2025-09-12 18:33:37 | INFO | sent: evolution_attempt,Eevee,Leafeon,Threw a Poké Ball,False,Eevee chases its tail.,Eevee Engine,2025-09-12T23:33:37+00:00,80
+2025-09-12 18:33:38 | INFO | sent: evolution_attempt,Eevee,Jolteon,Leveled with a Fire Stone,False,Eevee does nothing.,Eevee Engine,2025-09-12T23:33:38+00:00,81
+2025-09-12 18:33:39 | INFO | sent: evolution_attempt,Eevee,Glaceon,Leveled with a Fire Stone,False,Eevee is bored.,Eevee Engine,2025-09-12T23:33:39+00:00,82
+2025-09-12 18:33:40 | INFO | sent: evolution_attempt,Eevee,Umbreon,Leveled at night with high friendship,True,Your Eevee is evolving into Umbreon!,Eevee Engine,2025-09-12T23:33:40+00:00,83
+2025-09-12 18:33:41 | INFO | sent: evolution_attempt,Eevee,Umbreon,Went for a walk,False,Eevee tilts its head curiously.,Eevee Engine,2025-09-12T23:33:41+00:00,84
+2025-09-12 18:33:42 | INFO | sent: evolution_attempt,Eevee,Sylveon,Leveled with a Thunder Stone,False,Eevee does nothing.,Eevee Engine,2025-09-12T23:33:42+00:00,85
+2025-09-12 18:33:43 | INFO | sent: evolution_attempt,Eevee,Jolteon,Leveled with an Ice Stone,False,Eevee chases its tail.,Eevee Engine,2025-09-12T23:33:43+00:00,86
+2025-09-12 18:33:44 | INFO | sent: evolution_attempt,Eevee,Sylveon,Leveled at night with high friendship,False,Eevee tilts its head curiously.,Eevee Engine,2025-09-12T23:33:44+00:00,87
+2025-09-12 18:33:45 | INFO | sent: evolution_attempt,Eevee,Vaporeon,Leveled during day with high friendship,False,Eevee is smelling a flower.,Eevee Engine,2025-09-12T23:33:45+00:00,88
+2025-09-12 18:33:46 | INFO | sent: evolution_attempt,Eevee,Vaporeon,Leveled with a Thunder Stone,False,Eevee is bored.,Eevee Engine,2025-09-12T23:33:46+00:00,89
+2025-09-12 18:33:47 | INFO | sent: evolution_attempt,Eevee,Sylveon,Leveled with an Ice Stone,False,Eevee is bored.,Eevee Engine,2025-09-12T23:33:47+00:00,90
+2025-09-12 18:33:48 | INFO | sent: evolution_attempt,Eevee,Leafeon,Went for a walk,False,Eevee chases its tail.,Eevee Engine,2025-09-12T23:33:48+00:00,91
+2025-09-12 18:33:49 | INFO | sent: evolution_attempt,Eevee,Flareon,Took a nap,False,Eevee tilts its head curiously.,Eevee Engine,2025-09-12T23:33:49+00:00,92
+2025-09-12 18:33:50 | INFO | sent: evolution_attempt,Eevee,Umbreon,Leveled with a Fire Stone,False,Eevee is bored.,Eevee Engine,2025-09-12T23:33:50+00:00,93
+2025-09-12 18:33:51 | INFO | sent: evolution_attempt,Eevee,Leafeon,Practiced Quick Attack,False,Eevee chases its tail.,Eevee Engine,2025-09-12T23:33:51+00:00,94
+2025-09-12 18:33:52 | WARNING | Producer interrupted by user.
+2025-09-12 18:33:52 | INFO | Kafka producer closed.
+2025-09-12 18:33:52 | INFO | END Eevee CSV producer.
