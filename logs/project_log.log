@@ -1,254 +1,113 @@
-2025-09-07 16:15:35 | INFO | Processed JSON message: {'timestamp': '2025-09-07T21:15:35.813856', 'temperature': 104.4}
-2025-09-07 16:15:35 | INFO | Rolling window size: 10
-2025-09-07 16:15:35 | INFO | Max stall temperature range: 0.2 F
-2025-09-07 16:15:36 | INFO | Sent message to topic 'buzzline_json': {'message': 'Streaming data is fun.', 'author': 'Diana'}
-2025-09-07 16:15:36 | INFO | Processed JSON message: {'message': 'Streaming data is fun.', 'author': 'Diana'}
-2025-09-07 16:15:36 | INFO | Message received from author: Diana
-2025-09-07 16:15:36 | INFO | Updated author counts: {'Eve': 78, 'Alice': 116, 'Charlie': 72, 'Diana': 131, 'Bob': 82}
-2025-09-07 16:15:37 | INFO | Sent message to topic 'buzzline_json': {'message': 'Data engineering is my passion.', 'author': 'Eve'}
-2025-09-07 16:15:37 | INFO | Processed JSON message: {'message': 'Data engineering is my passion.', 'author': 'Eve'}
-2025-09-07 16:15:37 | INFO | Message received from author: Eve
-2025-09-07 16:15:37 | INFO | Updated author counts: {'Eve': 79, 'Alice': 116, 'Charlie': 72, 'Diana': 131, 'Bob': 82}
-2025-09-07 16:15:38 | INFO | Sent message to topic 'buzzline_json': {'message': 'Buzz messages for everyone.', 'author': 'Eve'}
-2025-09-07 16:15:38 | INFO | Processed JSON message: {'message': 'Buzz messages for everyone.', 'author': 'Eve'}
-2025-09-07 16:15:38 | INFO | Message received from author: Eve
-2025-09-07 16:15:38 | INFO | Updated author counts: {'Eve': 80, 'Alice': 116, 'Charlie': 72, 'Diana': 131, 'Bob': 82}
-2025-09-07 16:15:39 | INFO | Sent message to topic 'buzzline_json': {'message': 'JSON makes life easier.', 'author': 'Eve'}
-2025-09-07 16:15:39 | INFO | Processed JSON message: {'message': 'JSON makes life easier.', 'author': 'Eve'}
-2025-09-07 16:15:39 | INFO | Message received from author: Eve
-2025-09-07 16:15:39 | INFO | Updated author counts: {'Eve': 81, 'Alice': 116, 'Charlie': 72, 'Diana': 131, 'Bob': 82}
-2025-09-07 16:15:40 | INFO | Sent message to topic 'buzzline_json': {'message': 'Have a great day!', 'author': 'Alice'}
-2025-09-07 16:15:40 | INFO | Processed JSON message: {'message': 'Have a great day!', 'author': 'Alice'}
-2025-09-07 16:15:40 | INFO | Message received from author: Alice
-2025-09-07 16:15:40 | INFO | Updated author counts: {'Eve': 81, 'Alice': 117, 'Charlie': 72, 'Diana': 131, 'Bob': 82}
-2025-09-07 16:15:40 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-07T21:15:40.815083', 'temperature': 104.8}
-2025-09-07 16:15:40 | INFO | Processed JSON message: {'timestamp': '2025-09-07T21:15:40.815083', 'temperature': 104.8}
-2025-09-07 16:15:40 | INFO | Rolling window size: 10
-2025-09-07 16:15:40 | INFO | Max stall temperature range: 0.2 F
-2025-09-07 16:15:41 | INFO | Sent message to topic 'buzzline_json': {'message': 'I love Python!', 'author': 'Bob'}
-2025-09-07 16:15:41 | INFO | Processed JSON message: {'message': 'I love Python!', 'author': 'Bob'}
-2025-09-07 16:15:41 | INFO | Message received from author: Bob
-2025-09-07 16:15:41 | INFO | Updated author counts: {'Eve': 81, 'Alice': 117, 'Charlie': 72, 'Diana': 131, 'Bob': 83}
-2025-09-07 16:15:42 | INFO | Sent message to topic 'buzzline_json': {'message': 'I love Python!', 'author': 'Bob'}
-2025-09-07 16:15:42 | INFO | Processed JSON message: {'message': 'I love Python!', 'author': 'Bob'}
-2025-09-07 16:15:42 | INFO | Message received from author: Bob
-2025-09-07 16:15:42 | INFO | Updated author counts: {'Eve': 81, 'Alice': 117, 'Charlie': 72, 'Diana': 131, 'Bob': 84}
-2025-09-07 16:15:43 | INFO | Sent message to topic 'buzzline_json': {'message': 'This is a buzz message.', 'author': 'Eve'}
-2025-09-07 16:15:43 | INFO | Processed JSON message: {'message': 'This is a buzz message.', 'author': 'Eve'}
-2025-09-07 16:15:43 | INFO | Message received from author: Eve
-2025-09-07 16:15:43 | INFO | Updated author counts: {'Eve': 82, 'Alice': 117, 'Charlie': 72, 'Diana': 131, 'Bob': 84}
-2025-09-07 16:15:44 | INFO | Sent message to topic 'buzzline_json': {'message': 'This is a buzz message.', 'author': 'Alice'}
-2025-09-07 16:15:44 | INFO | Processed JSON message: {'message': 'This is a buzz message.', 'author': 'Alice'}
-2025-09-07 16:15:44 | INFO | Message received from author: Alice
-2025-09-07 16:15:44 | INFO | Updated author counts: {'Eve': 82, 'Alice': 118, 'Charlie': 72, 'Diana': 131, 'Bob': 84}
-2025-09-07 16:15:45 | INFO | Sent message to topic 'buzzline_json': {'message': 'Distributed systems are fascinating.', 'author': 'Diana'}
-2025-09-07 16:15:45 | INFO | Processed JSON message: {'message': 'Distributed systems are fascinating.', 'author': 'Diana'}
-2025-09-07 16:15:45 | INFO | Message received from author: Diana
-2025-09-07 16:15:45 | INFO | Updated author counts: {'Eve': 82, 'Alice': 118, 'Charlie': 72, 'Diana': 132, 'Bob': 84}
-2025-09-07 16:15:45 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-07T21:15:45.816212', 'temperature': 105.2}
-2025-09-07 16:15:45 | INFO | Processed JSON message: {'timestamp': '2025-09-07T21:15:45.816212', 'temperature': 105.2}
-2025-09-07 16:15:45 | INFO | Rolling window size: 10
-2025-09-07 16:15:45 | INFO | Max stall temperature range: 0.2 F
-2025-09-07 16:15:46 | INFO | Sent message to topic 'buzzline_json': {'message': 'Streaming data is fun.', 'author': 'Eve'}
-2025-09-07 16:15:46 | INFO | Processed JSON message: {'message': 'Streaming data is fun.', 'author': 'Eve'}
-2025-09-07 16:15:46 | INFO | Message received from author: Eve
-2025-09-07 16:15:46 | INFO | Updated author counts: {'Eve': 83, 'Alice': 118, 'Charlie': 72, 'Diana': 132, 'Bob': 84}
-2025-09-07 16:15:47 | INFO | Sent message to topic 'buzzline_json': {'message': 'Have a great day!', 'author': 'Charlie'}
-2025-09-07 16:15:47 | INFO | Processed JSON message: {'message': 'Have a great day!', 'author': 'Charlie'}
-2025-09-07 16:15:47 | INFO | Message received from author: Charlie
-2025-09-07 16:15:47 | INFO | Updated author counts: {'Eve': 83, 'Alice': 118, 'Charlie': 73, 'Diana': 132, 'Bob': 84}
-2025-09-07 16:15:48 | INFO | Sent message to topic 'buzzline_json': {'message': 'JSON makes life easier.', 'author': 'Eve'}
-2025-09-07 16:15:48 | INFO | Processed JSON message: {'message': 'JSON makes life easier.', 'author': 'Eve'}
-2025-09-07 16:15:48 | INFO | Message received from author: Eve
-2025-09-07 16:15:48 | INFO | Updated author counts: {'Eve': 84, 'Alice': 118, 'Charlie': 73, 'Diana': 132, 'Bob': 84}
-2025-09-07 16:15:49 | INFO | Sent message to topic 'buzzline_json': {'message': 'Buzz messages for everyone.', 'author': 'Diana'}
-2025-09-07 16:15:49 | INFO | Processed JSON message: {'message': 'Buzz messages for everyone.', 'author': 'Diana'}
-2025-09-07 16:15:49 | INFO | Message received from author: Diana
-2025-09-07 16:15:49 | INFO | Updated author counts: {'Eve': 84, 'Alice': 118, 'Charlie': 73, 'Diana': 133, 'Bob': 84}
-2025-09-07 16:15:50 | INFO | Sent message to topic 'buzzline_json': {'message': 'This is a buzz message.', 'author': 'Charlie'}
-2025-09-07 16:15:50 | INFO | Processed JSON message: {'message': 'This is a buzz message.', 'author': 'Charlie'}
-2025-09-07 16:15:50 | INFO | Message received from author: Charlie
-2025-09-07 16:15:50 | INFO | Updated author counts: {'Eve': 84, 'Alice': 118, 'Charlie': 74, 'Diana': 133, 'Bob': 84}
-2025-09-07 16:15:50 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-07T21:15:50.817969', 'temperature': 105.6}
-2025-09-07 16:15:50 | INFO | Processed JSON message: {'timestamp': '2025-09-07T21:15:50.817969', 'temperature': 105.6}
-2025-09-07 16:15:50 | INFO | Rolling window size: 10
-2025-09-07 16:15:50 | INFO | Max stall temperature range: 0.2 F
-2025-09-07 16:15:51 | INFO | Sent message to topic 'buzzline_json': {'message': 'Distributed systems are fascinating.', 'author': 'Charlie'}
-2025-09-07 16:15:51 | INFO | Processed JSON message: {'message': 'Distributed systems are fascinating.', 'author': 'Charlie'}
-2025-09-07 16:15:51 | INFO | Message received from author: Charlie
-2025-09-07 16:15:51 | INFO | Updated author counts: {'Eve': 84, 'Alice': 118, 'Charlie': 75, 'Diana': 133, 'Bob': 84}
-2025-09-07 16:15:52 | INFO | Sent message to topic 'buzzline_json': {'message': 'Buzz messages for everyone.', 'author': 'Bob'}
-2025-09-07 16:15:52 | INFO | Processed JSON message: {'message': 'Buzz messages for everyone.', 'author': 'Bob'}
-2025-09-07 16:15:52 | INFO | Message received from author: Bob
-2025-09-07 16:15:52 | INFO | Updated author counts: {'Eve': 84, 'Alice': 118, 'Charlie': 75, 'Diana': 133, 'Bob': 85}
-2025-09-07 16:15:53 | INFO | Sent message to topic 'buzzline_json': {'message': 'This is a buzz message.', 'author': 'Eve'}
-2025-09-07 16:15:53 | INFO | Processed JSON message: {'message': 'This is a buzz message.', 'author': 'Eve'}
-2025-09-07 16:15:53 | INFO | Message received from author: Eve
-2025-09-07 16:15:53 | INFO | Updated author counts: {'Eve': 85, 'Alice': 118, 'Charlie': 75, 'Diana': 133, 'Bob': 85}
-2025-09-07 16:15:54 | INFO | Sent message to topic 'buzzline_json': {'message': 'Data engineering is my passion.', 'author': 'Diana'}
-2025-09-07 16:15:54 | INFO | Processed JSON message: {'message': 'Data engineering is my passion.', 'author': 'Diana'}
-2025-09-07 16:15:54 | INFO | Message received from author: Diana
-2025-09-07 16:15:54 | INFO | Updated author counts: {'Eve': 85, 'Alice': 118, 'Charlie': 75, 'Diana': 134, 'Bob': 85}
-2025-09-07 16:15:55 | INFO | Sent message to topic 'buzzline_json': {'message': 'Data engineering is my passion.', 'author': 'Alice'}
-2025-09-07 16:15:55 | INFO | Processed JSON message: {'message': 'Data engineering is my passion.', 'author': 'Alice'}
-2025-09-07 16:15:55 | INFO | Message received from author: Alice
-2025-09-07 16:15:55 | INFO | Updated author counts: {'Eve': 85, 'Alice': 119, 'Charlie': 75, 'Diana': 134, 'Bob': 85}
-2025-09-07 16:15:55 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-07T21:15:55.818762', 'temperature': 106.0}
-2025-09-07 16:15:55 | INFO | Processed JSON message: {'timestamp': '2025-09-07T21:15:55.818762', 'temperature': 106.0}
-2025-09-07 16:15:55 | INFO | Rolling window size: 10
-2025-09-07 16:15:55 | INFO | Max stall temperature range: 0.2 F
-2025-09-07 16:15:56 | INFO | Sent message to topic 'buzzline_json': {'message': 'Buzz messages for everyone.', 'author': 'Diana'}
-2025-09-07 16:15:56 | INFO | Processed JSON message: {'message': 'Buzz messages for everyone.', 'author': 'Diana'}
-2025-09-07 16:15:56 | INFO | Message received from author: Diana
-2025-09-07 16:15:56 | INFO | Updated author counts: {'Eve': 85, 'Alice': 119, 'Charlie': 75, 'Diana': 135, 'Bob': 85}
-2025-09-07 16:15:57 | INFO | Sent message to topic 'buzzline_json': {'message': 'JSON makes life easier.', 'author': 'Alice'}
-2025-09-07 16:15:57 | INFO | Processed JSON message: {'message': 'JSON makes life easier.', 'author': 'Alice'}
-2025-09-07 16:15:57 | INFO | Message received from author: Alice
-2025-09-07 16:15:57 | INFO | Updated author counts: {'Eve': 85, 'Alice': 120, 'Charlie': 75, 'Diana': 135, 'Bob': 85}
-2025-09-07 16:15:58 | INFO | Opening data file in read mode: PROJECT_ROOT/data/buzz.json
-2025-09-07 16:15:58 | INFO | Reading data from file: PROJECT_ROOT/data/buzz.json
-2025-09-07 16:15:58 | INFO | Sent message to topic 'buzzline_json': {'message': 'Data engineering is my passion.', 'author': 'Eve'}
-2025-09-07 16:15:58 | INFO | Processed JSON message: {'message': 'Data engineering is my passion.', 'author': 'Eve'}
-2025-09-07 16:15:58 | INFO | Message received from author: Eve
-2025-09-07 16:15:58 | INFO | Updated author counts: {'Eve': 86, 'Alice': 120, 'Charlie': 75, 'Diana': 135, 'Bob': 85}
-2025-09-07 16:15:59 | INFO | Sent message to topic 'buzzline_json': {'message': 'Distributed systems are fascinating.', 'author': 'Alice'}
-2025-09-07 16:15:59 | INFO | Processed JSON message: {'message': 'Distributed systems are fascinating.', 'author': 'Alice'}
-2025-09-07 16:15:59 | INFO | Message received from author: Alice
-2025-09-07 16:15:59 | INFO | Updated author counts: {'Eve': 86, 'Alice': 121, 'Charlie': 75, 'Diana': 135, 'Bob': 85}
-2025-09-07 16:16:00 | INFO | Sent message to topic 'buzzline_json': {'message': 'Have a great day!', 'author': 'Charlie'}
-2025-09-07 16:16:00 | INFO | Processed JSON message: {'message': 'Have a great day!', 'author': 'Charlie'}
-2025-09-07 16:16:00 | INFO | Message received from author: Charlie
-2025-09-07 16:16:00 | INFO | Updated author counts: {'Eve': 86, 'Alice': 121, 'Charlie': 76, 'Diana': 135, 'Bob': 85}
-2025-09-07 16:16:00 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-07T21:16:00.819559', 'temperature': 106.4}
-2025-09-07 16:16:00 | INFO | Processed JSON message: {'timestamp': '2025-09-07T21:16:00.819559', 'temperature': 106.4}
-2025-09-07 16:16:00 | INFO | Rolling window size: 10
-2025-09-07 16:16:00 | INFO | Max stall temperature range: 0.2 F
-2025-09-07 16:16:01 | INFO | Sent message to topic 'buzzline_json': {'message': 'Data engineering is my passion.', 'author': 'Alice'}
-2025-09-07 16:16:01 | INFO | Processed JSON message: {'message': 'Data engineering is my passion.', 'author': 'Alice'}
-2025-09-07 16:16:01 | INFO | Message received from author: Alice
-2025-09-07 16:16:01 | INFO | Updated author counts: {'Eve': 86, 'Alice': 122, 'Charlie': 76, 'Diana': 135, 'Bob': 85}
-2025-09-07 16:16:02 | INFO | Sent message to topic 'buzzline_json': {'message': 'Distributed systems are fascinating.', 'author': 'Diana'}
-2025-09-07 16:16:02 | INFO | Processed JSON message: {'message': 'Distributed systems are fascinating.', 'author': 'Diana'}
-2025-09-07 16:16:02 | INFO | Message received from author: Diana
-2025-09-07 16:16:02 | INFO | Updated author counts: {'Eve': 86, 'Alice': 122, 'Charlie': 76, 'Diana': 136, 'Bob': 85}
-2025-09-07 16:16:03 | INFO | Sent message to topic 'buzzline_json': {'message': 'Buzz messages for everyone.', 'author': 'Alice'}
-2025-09-07 16:16:03 | INFO | Processed JSON message: {'message': 'Buzz messages for everyone.', 'author': 'Alice'}
-2025-09-07 16:16:03 | INFO | Message received from author: Alice
-2025-09-07 16:16:03 | INFO | Updated author counts: {'Eve': 86, 'Alice': 123, 'Charlie': 76, 'Diana': 136, 'Bob': 85}
-2025-09-07 16:16:04 | INFO | Sent message to topic 'buzzline_json': {'message': 'Hello, Kafka world!', 'author': 'Diana'}
-2025-09-07 16:16:04 | INFO | Processed JSON message: {'message': 'Hello, Kafka world!', 'author': 'Diana'}
-2025-09-07 16:16:04 | INFO | Message received from author: Diana
-2025-09-07 16:16:04 | INFO | Updated author counts: {'Eve': 86, 'Alice': 123, 'Charlie': 76, 'Diana': 137, 'Bob': 85}
-2025-09-07 16:16:05 | INFO | Sent message to topic 'buzzline_json': {'message': 'This is a buzz message.', 'author': 'Eve'}
-2025-09-07 16:16:05 | INFO | Processed JSON message: {'message': 'This is a buzz message.', 'author': 'Eve'}
-2025-09-07 16:16:05 | INFO | Message received from author: Eve
-2025-09-07 16:16:05 | INFO | Updated author counts: {'Eve': 87, 'Alice': 123, 'Charlie': 76, 'Diana': 137, 'Bob': 85}
-2025-09-07 16:16:05 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-07T21:16:05.821096', 'temperature': 106.8}
-2025-09-07 16:16:05 | INFO | Processed JSON message: {'timestamp': '2025-09-07T21:16:05.821096', 'temperature': 106.8}
-2025-09-07 16:16:05 | INFO | Rolling window size: 10
-2025-09-07 16:16:05 | INFO | Max stall temperature range: 0.2 F
-2025-09-07 16:16:06 | INFO | Sent message to topic 'buzzline_json': {'message': 'JSON makes life easier.', 'author': 'Eve'}
-2025-09-07 16:16:06 | INFO | Processed JSON message: {'message': 'JSON makes life easier.', 'author': 'Eve'}
-2025-09-07 16:16:06 | INFO | Message received from author: Eve
-2025-09-07 16:16:06 | INFO | Updated author counts: {'Eve': 88, 'Alice': 123, 'Charlie': 76, 'Diana': 137, 'Bob': 85}
-2025-09-07 16:16:07 | INFO | Sent message to topic 'buzzline_json': {'message': 'JSON makes life easier.', 'author': 'Alice'}
-2025-09-07 16:16:07 | INFO | Processed JSON message: {'message': 'JSON makes life easier.', 'author': 'Alice'}
-2025-09-07 16:16:07 | INFO | Message received from author: Alice
-2025-09-07 16:16:07 | INFO | Updated author counts: {'Eve': 88, 'Alice': 124, 'Charlie': 76, 'Diana': 137, 'Bob': 85}
-2025-09-07 16:16:08 | INFO | Sent message to topic 'buzzline_json': {'message': 'Data engineering is my passion.', 'author': 'Diana'}
-2025-09-07 16:16:08 | INFO | Processed JSON message: {'message': 'Data engineering is my passion.', 'author': 'Diana'}
-2025-09-07 16:16:08 | INFO | Message received from author: Diana
-2025-09-07 16:16:08 | INFO | Updated author counts: {'Eve': 88, 'Alice': 124, 'Charlie': 76, 'Diana': 138, 'Bob': 85}
-2025-09-07 16:16:09 | INFO | Sent message to topic 'buzzline_json': {'message': 'JSON makes life easier.', 'author': 'Diana'}
-2025-09-07 16:16:09 | INFO | Processed JSON message: {'message': 'JSON makes life easier.', 'author': 'Diana'}
-2025-09-07 16:16:09 | INFO | Message received from author: Diana
-2025-09-07 16:16:09 | INFO | Updated author counts: {'Eve': 88, 'Alice': 124, 'Charlie': 76, 'Diana': 139, 'Bob': 85}
-2025-09-07 16:16:10 | INFO | Sent message to topic 'buzzline_json': {'message': 'Kafka is awesome.', 'author': 'Charlie'}
-2025-09-07 16:16:10 | INFO | Processed JSON message: {'message': 'Kafka is awesome.', 'author': 'Charlie'}
-2025-09-07 16:16:10 | INFO | Message received from author: Charlie
-2025-09-07 16:16:10 | INFO | Updated author counts: {'Eve': 88, 'Alice': 124, 'Charlie': 77, 'Diana': 139, 'Bob': 85}
-2025-09-07 16:16:10 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-07T21:16:10.822158', 'temperature': 107.2}
-2025-09-07 16:16:10 | INFO | Processed JSON message: {'timestamp': '2025-09-07T21:16:10.822158', 'temperature': 107.2}
-2025-09-07 16:16:10 | INFO | Rolling window size: 10
-2025-09-07 16:16:10 | INFO | Max stall temperature range: 0.2 F
-2025-09-07 16:16:11 | INFO | Sent message to topic 'buzzline_json': {'message': 'JSON makes life easier.', 'author': 'Bob'}
-2025-09-07 16:16:11 | INFO | Processed JSON message: {'message': 'JSON makes life easier.', 'author': 'Bob'}
-2025-09-07 16:16:11 | INFO | Message received from author: Bob
-2025-09-07 16:16:11 | INFO | Updated author counts: {'Eve': 88, 'Alice': 124, 'Charlie': 77, 'Diana': 139, 'Bob': 86}
-2025-09-07 16:16:12 | INFO | Sent message to topic 'buzzline_json': {'message': 'I love Python!', 'author': 'Bob'}
-2025-09-07 16:16:12 | INFO | Processed JSON message: {'message': 'I love Python!', 'author': 'Bob'}
-2025-09-07 16:16:12 | INFO | Message received from author: Bob
-2025-09-07 16:16:12 | INFO | Updated author counts: {'Eve': 88, 'Alice': 124, 'Charlie': 77, 'Diana': 139, 'Bob': 87}
-2025-09-07 16:16:13 | WARNING | Consumer interrupted by user.
-2025-09-07 16:16:13 | INFO | Kafka consumer for topic 'smoker_csv' closed.
-2025-09-07 16:16:13 | INFO | Sent message to topic 'buzzline_json': {'message': 'This is a buzz message.', 'author': 'Eve'}
-2025-09-07 16:16:13 | INFO | Processed JSON message: {'message': 'This is a buzz message.', 'author': 'Eve'}
-2025-09-07 16:16:13 | INFO | Message received from author: Eve
-2025-09-07 16:16:13 | INFO | Updated author counts: {'Eve': 89, 'Alice': 124, 'Charlie': 77, 'Diana': 139, 'Bob': 87}
-2025-09-07 16:16:14 | INFO | Sent message to topic 'buzzline_json': {'message': 'I love Python!', 'author': 'Eve'}
-2025-09-07 16:16:14 | INFO | Processed JSON message: {'message': 'I love Python!', 'author': 'Eve'}
-2025-09-07 16:16:14 | INFO | Message received from author: Eve
-2025-09-07 16:16:14 | INFO | Updated author counts: {'Eve': 90, 'Alice': 124, 'Charlie': 77, 'Diana': 139, 'Bob': 87}
-2025-09-07 16:16:15 | INFO | Sent message to topic 'buzzline_json': {'message': 'Buzz messages for everyone.', 'author': 'Alice'}
-2025-09-07 16:16:15 | INFO | Processed JSON message: {'message': 'Buzz messages for everyone.', 'author': 'Alice'}
-2025-09-07 16:16:15 | INFO | Message received from author: Alice
-2025-09-07 16:16:15 | INFO | Updated author counts: {'Eve': 90, 'Alice': 125, 'Charlie': 77, 'Diana': 139, 'Bob': 87}
-2025-09-07 16:16:15 | WARNING | Producer interrupted by user.
-2025-09-07 16:16:15 | INFO | Kafka producer closed.
-2025-09-07 16:16:15 | INFO | END producer.
-2025-09-07 16:16:16 | INFO | Sent message to topic 'buzzline_json': {'message': 'This is a buzz message.', 'author': 'Alice'}
-2025-09-07 16:16:16 | INFO | Processed JSON message: {'message': 'This is a buzz message.', 'author': 'Alice'}
-2025-09-07 16:16:16 | INFO | Message received from author: Alice
-2025-09-07 16:16:16 | INFO | Updated author counts: {'Eve': 90, 'Alice': 126, 'Charlie': 77, 'Diana': 139, 'Bob': 87}
-2025-09-07 16:16:17 | INFO | Sent message to topic 'buzzline_json': {'message': 'Data engineering is my passion.', 'author': 'Diana'}
-2025-09-07 16:16:17 | INFO | Processed JSON message: {'message': 'Data engineering is my passion.', 'author': 'Diana'}
-2025-09-07 16:16:17 | INFO | Message received from author: Diana
-2025-09-07 16:16:17 | INFO | Updated author counts: {'Eve': 90, 'Alice': 126, 'Charlie': 77, 'Diana': 140, 'Bob': 87}
-2025-09-07 16:16:18 | INFO | Sent message to topic 'buzzline_json': {'message': 'I love Python!', 'author': 'Eve'}
-2025-09-07 16:16:18 | WARNING | Consumer interrupted by user.
-2025-09-07 16:16:18 | INFO | Kafka consumer for topic 'buzzline_json' closed.
-2025-09-07 16:16:18 | INFO | END consumer for topic 'buzzline_json' and group 'buzz_group'.
-2025-09-07 16:16:19 | INFO | Sent message to topic 'buzzline_json': {'message': 'JSON makes life easier.', 'author': 'Charlie'}
-2025-09-07 16:16:20 | INFO | Sent message to topic 'buzzline_json': {'message': 'Have a great day!', 'author': 'Bob'}
-2025-09-07 16:16:20 | WARNING | Producer interrupted by user.
-2025-09-07 16:16:20 | INFO | Kafka producer closed.
-2025-09-07 16:16:20 | INFO | END producer.
-2025-09-12 17:41:01 | INFO | Logging to file: logs/project_log.log
-2025-09-12 17:41:01 | INFO | Log sanitization enabled, personal info removed
-2025-09-12 17:41:01 | INFO | START Eevee producer (Polars).
-2025-09-12 17:41:01 | INFO | Kafka broker address: localhost:9092
-2025-09-12 17:41:01 | INFO | Kafka is ready. Brokers: {'throttle_time_ms': 0, 'brokers': [{'node_id': 1, 'host': '127.0.0.1', 'port': 9092, 'rack': None}], 'cluster_id': 'izX4qtgsSweNTi1cWUWQEA', 'controller_id': 1}
-2025-09-12 17:41:01 | INFO | Kafka topic: eevee_json_v1
-2025-09-12 17:41:01 | INFO | Loaded 8 evolution rules from data/eevee_rules.csv
-2025-09-12 17:41:01 | INFO | Kafka broker address: localhost:9092
-2025-09-12 17:41:01 | INFO | Connecting to Kafka broker at localhost:9092...
-2025-09-12 17:41:01 | INFO | Kafka producer successfully created.
-2025-09-12 17:41:01 | INFO | Kafka broker address: localhost:9092
-2025-09-12 17:41:02 | INFO | Topic 'eevee_json_v1' created successfully.
-2025-09-12 17:41:02 | INFO | Producing Eevee evolution attempts to 'eevee_json_v1'...
-2025-09-12 17:41:02 | INFO | sent: {'event': 'evolution_attempt', 'species': 'Eevee', 'chosen_evolution': 'Umbreon', 'chosen_action': 'Leveled with Baby Doll TM with high friendship', 'is_valid': False, 'message': 'Eevee does nothing.', 'author': 'Eevee Engine', 'ts': '2025-09-12T22:41:02+00:00', 'event_id': 0}
-2025-09-12 17:41:03 | INFO | sent: {'event': 'evolution_attempt', 'species': 'Eevee', 'chosen_evolution': 'Leafeon', 'chosen_action': 'Leveled with a Fire Stone', 'is_valid': False, 'message': 'Eevee chases its tail.', 'author': 'Eevee Engine', 'ts': '2025-09-12T22:41:03+00:00', 'event_id': 1}
-2025-09-12 17:41:04 | INFO | sent: {'event': 'evolution_attempt', 'species': 'Eevee', 'chosen_evolution': 'Sylveon', 'chosen_action': 'Ate a berry', 'is_valid': False, 'message': 'Eevee does nothing.', 'author': 'Eevee Engine', 'ts': '2025-09-12T22:41:04+00:00', 'event_id': 2}
-2025-09-12 17:41:05 | INFO | sent: {'event': 'evolution_attempt', 'species': 'Eevee', 'chosen_evolution': 'Espeon', 'chosen_action': 'Threw a Poké Ball', 'is_valid': False, 'message': 'Eevee is smelling a flower.', 'author': 'Eevee Engine', 'ts': '2025-09-12T22:41:05+00:00', 'event_id': 3}
-2025-09-12 17:41:06 | INFO | sent: {'event': 'evolution_attempt', 'species': 'Eevee', 'chosen_evolution': 'Leafeon', 'chosen_action': 'Went for a walk', 'is_valid': False, 'message': 'Eevee chases its tail.', 'author': 'Eevee Engine', 'ts': '2025-09-12T22:41:06+00:00', 'event_id': 4}
-2025-09-12 17:41:07 | INFO | sent: {'event': 'evolution_attempt', 'species': 'Eevee', 'chosen_evolution': 'Sylveon', 'chosen_action': 'Leveled during day with high friendship', 'is_valid': False, 'message': 'Eevee does nothing.', 'author': 'Eevee Engine', 'ts': '2025-09-12T22:41:07+00:00', 'event_id': 5}
-2025-09-12 17:41:08 | INFO | sent: {'event': 'evolution_attempt', 'species': 'Eevee', 'chosen_evolution': 'Sylveon', 'chosen_action': 'Leveled at night with high friendship', 'is_valid': False, 'message': 'Eevee tilts its head curiously.', 'author': 'Eevee Engine', 'ts': '2025-09-12T22:41:08+00:00', 'event_id': 6}
-2025-09-12 17:41:09 | INFO | sent: {'event': 'evolution_attempt', 'species': 'Eevee', 'chosen_evolution': 'Espeon', 'chosen_action': 'Practiced Quick Attack', 'is_valid': False, 'message': 'Eevee does nothing.', 'author': 'Eevee Engine', 'ts': '2025-09-12T22:41:09+00:00', 'event_id': 7}
-2025-09-12 17:41:10 | INFO | sent: {'event': 'evolution_attempt', 'species': 'Eevee', 'chosen_evolution': 'Umbreon', 'chosen_action': 'Threw a Poké Ball', 'is_valid': False, 'message': 'Eevee is smelling a flower.', 'author': 'Eevee Engine', 'ts': '2025-09-12T22:41:10+00:00', 'event_id': 8}
-2025-09-12 17:41:11 | INFO | sent: {'event': 'evolution_attempt', 'species': 'Eevee', 'chosen_evolution': 'Sylveon', 'chosen_action': 'Leveled with a Water Stone', 'is_valid': False, 'message': 'Eevee tilts its head curiously.', 'author': 'Eevee Engine', 'ts': '2025-09-12T22:41:11+00:00', 'event_id': 9}
-2025-09-12 17:41:12 | INFO | sent: {'event': 'evolution_attempt', 'species': 'Eevee', 'chosen_evolution': 'Jolteon', 'chosen_action': 'Leveled during day with high friendship', 'is_valid': False, 'message': 'Eevee chases its tail.', 'author': 'Eevee Engine', 'ts': '2025-09-12T22:41:12+00:00', 'event_id': 10}
-2025-09-12 17:41:13 | INFO | sent: {'event': 'evolution_attempt', 'species': 'Eevee', 'chosen_evolution': 'Umbreon', 'chosen_action': 'Threw a Poké Ball', 'is_valid': False, 'message': 'Eevee tilts its head curiously.', 'author': 'Eevee Engine', 'ts': '2025-09-12T22:41:13+00:00', 'event_id': 11}
-2025-09-12 17:41:14 | INFO | sent: {'event': 'evolution_attempt', 'species': 'Eevee', 'chosen_evolution': 'Umbreon', 'chosen_action': 'Practiced Quick Attack', 'is_valid': False, 'message': 'Eevee is bored.', 'author': 'Eevee Engine', 'ts': '2025-09-12T22:41:14+00:00', 'event_id': 12}
-2025-09-12 17:41:15 | INFO | sent: {'event': 'evolution_attempt', 'species': 'Eevee', 'chosen_evolution': 'Espeon', 'chosen_action': 'Leveled with an Ice Stone', 'is_valid': False, 'message': 'Eevee tilts its head curiously.', 'author': 'Eevee Engine', 'ts': '2025-09-12T22:41:15+00:00', 'event_id': 13}
-2025-09-12 17:41:16 | INFO | sent: {'event': 'evolution_attempt', 'species': 'Eevee', 'chosen_evolution': 'Glaceon', 'chosen_action': 'Went for a walk', 'is_valid': False, 'message': 'Eevee chases its tail.', 'author': 'Eevee Engine', 'ts': '2025-09-12T22:41:16+00:00', 'event_id': 14}
-2025-09-12 17:41:17 | INFO | sent: {'event': 'evolution_attempt', 'species': 'Eevee', 'chosen_evolution': 'Leafeon', 'chosen_action': 'Leveled during day with high friendship', 'is_valid': False, 'message': 'Eevee does nothing.', 'author': 'Eevee Engine', 'ts': '2025-09-12T22:41:17+00:00', 'event_id': 15}
-2025-09-12 17:41:18 | INFO | sent: {'event': 'evolution_attempt', 'species': 'Eevee', 'chosen_evolution': 'Jolteon', 'chosen_action': 'Leveled with an Ice Stone', 'is_valid': False, 'message': 'Eevee chases its tail.', 'author': 'Eevee Engine', 'ts': '2025-09-12T22:41:18+00:00', 'event_id': 16}
-2025-09-12 17:41:19 | INFO | sent: {'event': 'evolution_attempt', 'species': 'Eevee', 'chosen_evolution': 'Umbreon', 'chosen_action': 'Leveled with a Thunder Stone', 'is_valid': False, 'message': 'Eevee tilts its head curiously.', 'author': 'Eevee Engine', 'ts': '2025-09-12T22:41:19+00:00', 'event_id': 17}
-2025-09-12 17:41:20 | INFO | sent: {'event': 'evolution_attempt', 'species': 'Eevee', 'chosen_evolution': 'Jolteon', 'chosen_action': 'Leveled with a Fire Stone', 'is_valid': False, 'message': 'Eevee is smelling a flower.', 'author': 'Eevee Engine', 'ts': '2025-09-12T22:41:20+00:00', 'event_id': 18}
-2025-09-12 17:41:21 | INFO | sent: {'event': 'evolution_attempt', 'species': 'Eevee', 'chosen_evolution': 'Sylveon', 'chosen_action': 'Took a nap', 'is_valid': False, 'message': 'Eevee is bored.', 'author': 'Eevee Engine', 'ts': '2025-09-12T22:41:21+00:00', 'event_id': 19}
-2025-09-12 17:41:22 | INFO | sent: {'event': 'evolution_attempt', 'species': 'Eevee', 'chosen_evolution': 'Leafeon', 'chosen_action': 'Leveled with a Fire Stone', 'is_valid': False, 'message': 'Eevee is smelling a flower.', 'author': 'Eevee Engine', 'ts': '2025-09-12T22:41:22+00:00', 'event_id': 20}
-2025-09-12 17:41:23 | INFO | sent: {'event': 'evolution_attempt', 'species': 'Eevee', 'chosen_evolution': 'Umbreon', 'chosen_action': 'Leveled during day with high friendship', 'is_valid': False, 'message': 'Eevee is smelling a flower.', 'author': 'Eevee Engine', 'ts': '2025-09-12T22:41:23+00:00', 'event_id': 21}
-2025-09-12 17:41:24 | INFO | sent: {'event': 'evolution_attempt', 'species': 'Eevee', 'chosen_evolution': 'Flareon', 'chosen_action': 'Took a nap', 'is_valid': False, 'message': 'Eevee tilts its head curiously.', 'author': 'Eevee Engine', 'ts': '2025-09-12T22:41:24+00:00', 'event_id': 22}
-2025-09-12 17:41:24 | WARNING | Producer interrupted by user.
-2025-09-12 17:41:24 | INFO | Kafka producer closed.
-2025-09-12 17:41:24 | INFO | END Eevee producer (Polars).
+2025-09-12 17:53:26 | INFO | === Eevee Evolution Leaderboard (rolling) ===
+2025-09-12 17:53:26 | INFO | Overall: total=57  success=3 (5.3%)  fail=54 (94.7%)
+2025-09-12 17:53:26 | INFO | Most successful:  Vaporeon  (successes=1, attempts=8, rate=12.5%)
+2025-09-12 17:53:26 | INFO | Least successful: Glaceon  (successes=0, attempts=5, rate=0.0%)
+2025-09-12 17:53:26 | INFO | Top 5 by successes:
+2025-09-12 17:53:26 | INFO | 
+- Vaporeon   attempts=8     successes=1     rate= 12.5%
+- Umbreon    attempts=7     successes=1     rate= 14.3%
+- Jolteon    attempts=5     successes=1     rate= 20.0%
+- Leafeon    attempts=11    successes=0     rate=  0.0%
+- Flareon    attempts=8     successes=0     rate=  0.0%
+2025-09-12 17:53:27 | INFO | sent: {'event': 'evolution_attempt', 'species': 'Eevee', 'chosen_evolution': 'Leafeon', 'chosen_action': 'Leveled at night with high friendship', 'is_valid': False, 'message': 'Eevee tilts its head curiously.', 'author': 'Eevee Engine', 'ts': '2025-09-12T22:53:27+00:00', 'event_id': 58}
+2025-09-12 17:53:28 | INFO | sent: {'event': 'evolution_attempt', 'species': 'Eevee', 'chosen_evolution': 'Sylveon', 'chosen_action': 'Leveled with an Ice Stone', 'is_valid': False, 'message': 'Eevee tilts its head curiously.', 'author': 'Eevee Engine', 'ts': '2025-09-12T22:53:28+00:00', 'event_id': 59}
+2025-09-12 17:53:29 | INFO | sent: {'event': 'evolution_attempt', 'species': 'Eevee', 'chosen_evolution': 'Flareon', 'chosen_action': 'Took a nap', 'is_valid': False, 'message': 'Eevee chases its tail.', 'author': 'Eevee Engine', 'ts': '2025-09-12T22:53:29+00:00', 'event_id': 60}
+2025-09-12 17:53:30 | INFO | sent: {'event': 'evolution_attempt', 'species': 'Eevee', 'chosen_evolution': 'Flareon', 'chosen_action': 'Leveled with a Water Stone', 'is_valid': False, 'message': 'Eevee is smelling a flower.', 'author': 'Eevee Engine', 'ts': '2025-09-12T22:53:30+00:00', 'event_id': 61}
+2025-09-12 17:53:31 | INFO | sent: {'event': 'evolution_attempt', 'species': 'Eevee', 'chosen_evolution': 'Espeon', 'chosen_action': 'Leveled with a Fire Stone', 'is_valid': False, 'message': 'Eevee tilts its head curiously.', 'author': 'Eevee Engine', 'ts': '2025-09-12T22:53:31+00:00', 'event_id': 62}
+2025-09-12 17:53:32 | INFO | sent: {'event': 'evolution_attempt', 'species': 'Eevee', 'chosen_evolution': 'Glaceon', 'chosen_action': 'Ate a berry', 'is_valid': False, 'message': 'Eevee chases its tail.', 'author': 'Eevee Engine', 'ts': '2025-09-12T22:53:32+00:00', 'event_id': 63}
+2025-09-12 17:53:33 | INFO | sent: {'event': 'evolution_attempt', 'species': 'Eevee', 'chosen_evolution': 'Leafeon', 'chosen_action': 'Practiced Quick Attack', 'is_valid': False, 'message': 'Eevee chases its tail.', 'author': 'Eevee Engine', 'ts': '2025-09-12T22:53:33+00:00', 'event_id': 64}
+2025-09-12 17:53:34 | INFO | sent: {'event': 'evolution_attempt', 'species': 'Eevee', 'chosen_evolution': 'Espeon', 'chosen_action': 'Leveled during day with high friendship', 'is_valid': True, 'message': 'Your Eevee is evolving into Espeon!', 'author': 'Eevee Engine', 'ts': '2025-09-12T22:53:34+00:00', 'event_id': 65}
+2025-09-12 17:53:35 | INFO | sent: {'event': 'evolution_attempt', 'species': 'Eevee', 'chosen_evolution': 'Flareon', 'chosen_action': 'Practiced Quick Attack', 'is_valid': False, 'message': 'Eevee does nothing.', 'author': 'Eevee Engine', 'ts': '2025-09-12T22:53:35+00:00', 'event_id': 66}
+2025-09-12 17:53:36 | INFO | sent: {'event': 'evolution_attempt', 'species': 'Eevee', 'chosen_evolution': 'Glaceon', 'chosen_action': 'Leveled at night with high friendship', 'is_valid': False, 'message': 'Eevee does nothing.', 'author': 'Eevee Engine', 'ts': '2025-09-12T22:53:36+00:00', 'event_id': 67}
+2025-09-12 17:53:37 | INFO | sent: {'event': 'evolution_attempt', 'species': 'Eevee', 'chosen_evolution': 'Sylveon', 'chosen_action': 'Leveled with Baby Doll TM with high friendship', 'is_valid': True, 'message': 'Your Eevee is evolving into Sylveon!', 'author': 'Eevee Engine', 'ts': '2025-09-12T22:53:37+00:00', 'event_id': 68}
+2025-09-12 17:53:38 | INFO | sent: {'event': 'evolution_attempt', 'species': 'Eevee', 'chosen_evolution': 'Espeon', 'chosen_action': 'Ate a berry', 'is_valid': False, 'message': 'Eevee tilts its head curiously.', 'author': 'Eevee Engine', 'ts': '2025-09-12T22:53:38+00:00', 'event_id': 69}
+2025-09-12 17:53:39 | INFO | sent: {'event': 'evolution_attempt', 'species': 'Eevee', 'chosen_evolution': 'Jolteon', 'chosen_action': 'Went for a walk', 'is_valid': False, 'message': 'Eevee is bored.', 'author': 'Eevee Engine', 'ts': '2025-09-12T22:53:39+00:00', 'event_id': 70}
+2025-09-12 17:53:40 | INFO | sent: {'event': 'evolution_attempt', 'species': 'Eevee', 'chosen_evolution': 'Jolteon', 'chosen_action': 'Went for a walk', 'is_valid': False, 'message': 'Eevee tilts its head curiously.', 'author': 'Eevee Engine', 'ts': '2025-09-12T22:53:40+00:00', 'event_id': 71}
+2025-09-12 17:53:41 | INFO | sent: {'event': 'evolution_attempt', 'species': 'Eevee', 'chosen_evolution': 'Vaporeon', 'chosen_action': 'Took a nap', 'is_valid': False, 'message': 'Eevee is bored.', 'author': 'Eevee Engine', 'ts': '2025-09-12T22:53:41+00:00', 'event_id': 72}
+2025-09-12 17:53:41 | INFO | === Eevee Evolution Leaderboard (rolling) ===
+2025-09-12 17:53:41 | INFO | Overall: total=73  success=5 (6.8%)  fail=68 (93.2%)
+2025-09-12 17:53:41 | INFO | Most successful:  Vaporeon  (successes=1, attempts=10, rate=10.0%)
+2025-09-12 17:53:41 | INFO | Least successful: Glaceon  (successes=0, attempts=7, rate=0.0%)
+2025-09-12 17:53:41 | INFO | Top 5 by successes:
+2025-09-12 17:53:41 | INFO | 
+- Vaporeon   attempts=10    successes=1     rate= 10.0%
+- Espeon     attempts=9     successes=1     rate= 11.1%
+- Sylveon    attempts=9     successes=1     rate= 11.1%
+- Umbreon    attempts=7     successes=1     rate= 14.3%
+- Jolteon    attempts=7     successes=1     rate= 14.3%
+2025-09-12 17:53:42 | INFO | sent: {'event': 'evolution_attempt', 'species': 'Eevee', 'chosen_evolution': 'Jolteon', 'chosen_action': 'Leveled with a Water Stone', 'is_valid': False, 'message': 'Eevee is bored.', 'author': 'Eevee Engine', 'ts': '2025-09-12T22:53:42+00:00', 'event_id': 73}
+2025-09-12 17:53:43 | INFO | sent: {'event': 'evolution_attempt', 'species': 'Eevee', 'chosen_evolution': 'Glaceon', 'chosen_action': 'Took a nap', 'is_valid': False, 'message': 'Eevee does nothing.', 'author': 'Eevee Engine', 'ts': '2025-09-12T22:53:43+00:00', 'event_id': 74}
+2025-09-12 17:53:44 | INFO | sent: {'event': 'evolution_attempt', 'species': 'Eevee', 'chosen_evolution': 'Leafeon', 'chosen_action': 'Leveled with an Ice Stone', 'is_valid': False, 'message': 'Eevee is bored.', 'author': 'Eevee Engine', 'ts': '2025-09-12T22:53:44+00:00', 'event_id': 75}
+2025-09-12 17:53:45 | INFO | sent: {'event': 'evolution_attempt', 'species': 'Eevee', 'chosen_evolution': 'Flareon', 'chosen_action': 'Leveled during day with high friendship', 'is_valid': False, 'message': 'Eevee chases its tail.', 'author': 'Eevee Engine', 'ts': '2025-09-12T22:53:45+00:00', 'event_id': 76}
+2025-09-12 17:53:46 | INFO | sent: {'event': 'evolution_attempt', 'species': 'Eevee', 'chosen_evolution': 'Umbreon', 'chosen_action': 'Leveled with a Thunder Stone', 'is_valid': False, 'message': 'Eevee is smelling a flower.', 'author': 'Eevee Engine', 'ts': '2025-09-12T22:53:46+00:00', 'event_id': 77}
+2025-09-12 17:53:47 | INFO | sent: {'event': 'evolution_attempt', 'species': 'Eevee', 'chosen_evolution': 'Leafeon', 'chosen_action': 'Took a nap', 'is_valid': False, 'message': 'Eevee tilts its head curiously.', 'author': 'Eevee Engine', 'ts': '2025-09-12T22:53:47+00:00', 'event_id': 78}
+2025-09-12 17:53:48 | INFO | sent: {'event': 'evolution_attempt', 'species': 'Eevee', 'chosen_evolution': 'Jolteon', 'chosen_action': 'Leveled at night with high friendship', 'is_valid': False, 'message': 'Eevee tilts its head curiously.', 'author': 'Eevee Engine', 'ts': '2025-09-12T22:53:48+00:00', 'event_id': 79}
+2025-09-12 17:53:49 | INFO | sent: {'event': 'evolution_attempt', 'species': 'Eevee', 'chosen_evolution': 'Glaceon', 'chosen_action': 'Leveled at night with high friendship', 'is_valid': False, 'message': 'Eevee is smelling a flower.', 'author': 'Eevee Engine', 'ts': '2025-09-12T22:53:49+00:00', 'event_id': 80}
+2025-09-12 17:53:50 | INFO | sent: {'event': 'evolution_attempt', 'species': 'Eevee', 'chosen_evolution': 'Umbreon', 'chosen_action': 'Leveled with a Water Stone', 'is_valid': False, 'message': 'Eevee is smelling a flower.', 'author': 'Eevee Engine', 'ts': '2025-09-12T22:53:50+00:00', 'event_id': 81}
+2025-09-12 17:53:51 | INFO | sent: {'event': 'evolution_attempt', 'species': 'Eevee', 'chosen_evolution': 'Vaporeon', 'chosen_action': 'Took a nap', 'is_valid': False, 'message': 'Eevee tilts its head curiously.', 'author': 'Eevee Engine', 'ts': '2025-09-12T22:53:51+00:00', 'event_id': 82}
+2025-09-12 17:53:52 | INFO | sent: {'event': 'evolution_attempt', 'species': 'Eevee', 'chosen_evolution': 'Flareon', 'chosen_action': 'Leveled with Baby Doll TM with high friendship', 'is_valid': False, 'message': 'Eevee is bored.', 'author': 'Eevee Engine', 'ts': '2025-09-12T22:53:52+00:00', 'event_id': 83}
+2025-09-12 17:53:53 | INFO | sent: {'event': 'evolution_attempt', 'species': 'Eevee', 'chosen_evolution': 'Sylveon', 'chosen_action': 'Ate a berry', 'is_valid': False, 'message': 'Eevee tilts its head curiously.', 'author': 'Eevee Engine', 'ts': '2025-09-12T22:53:53+00:00', 'event_id': 84}
+2025-09-12 17:53:54 | INFO | sent: {'event': 'evolution_attempt', 'species': 'Eevee', 'chosen_evolution': 'Leafeon', 'chosen_action': 'Took a nap', 'is_valid': False, 'message': 'Eevee does nothing.', 'author': 'Eevee Engine', 'ts': '2025-09-12T22:53:54+00:00', 'event_id': 85}
+2025-09-12 17:53:55 | INFO | sent: {'event': 'evolution_attempt', 'species': 'Eevee', 'chosen_evolution': 'Leafeon', 'chosen_action': 'Leveled with a Thunder Stone', 'is_valid': False, 'message': 'Eevee is bored.', 'author': 'Eevee Engine', 'ts': '2025-09-12T22:53:55+00:00', 'event_id': 86}
+2025-09-12 17:53:56 | INFO | sent: {'event': 'evolution_attempt', 'species': 'Eevee', 'chosen_evolution': 'Flareon', 'chosen_action': 'Leveled with Baby Doll TM with high friendship', 'is_valid': False, 'message': 'Eevee tilts its head curiously.', 'author': 'Eevee Engine', 'ts': '2025-09-12T22:53:56+00:00', 'event_id': 87}
+2025-09-12 17:53:56 | INFO | === Eevee Evolution Leaderboard (rolling) ===
+2025-09-12 17:53:56 | INFO | Overall: total=87  success=5 (5.7%)  fail=82 (94.3%)
+2025-09-12 17:53:56 | INFO | Most successful:  Vaporeon  (successes=1, attempts=11, rate=9.1%)
+2025-09-12 17:53:56 | INFO | Least successful: Glaceon  (successes=0, attempts=9, rate=0.0%)
+2025-09-12 17:53:56 | INFO | Top 5 by successes:
+2025-09-12 17:53:56 | INFO | 
+- Vaporeon   attempts=11    successes=1     rate=  9.1%
+- Sylveon    attempts=10    successes=1     rate= 10.0%
+- Espeon     attempts=9     successes=1     rate= 11.1%
+- Umbreon    attempts=9     successes=1     rate= 11.1%
+- Jolteon    attempts=9     successes=1     rate= 11.1%
+2025-09-12 17:53:57 | INFO | sent: {'event': 'evolution_attempt', 'species': 'Eevee', 'chosen_evolution': 'Espeon', 'chosen_action': 'Leveled at night with high friendship', 'is_valid': False, 'message': 'Eevee tilts its head curiously.', 'author': 'Eevee Engine', 'ts': '2025-09-12T22:53:57+00:00', 'event_id': 88}
+2025-09-12 17:53:58 | INFO | sent: {'event': 'evolution_attempt', 'species': 'Eevee', 'chosen_evolution': 'Espeon', 'chosen_action': 'Went for a walk', 'is_valid': False, 'message': 'Eevee is bored.', 'author': 'Eevee Engine', 'ts': '2025-09-12T22:53:58+00:00', 'event_id': 89}
+2025-09-12 17:53:59 | INFO | sent: {'event': 'evolution_attempt', 'species': 'Eevee', 'chosen_evolution': 'Flareon', 'chosen_action': 'Leveled with a Thunder Stone', 'is_valid': False, 'message': 'Eevee chases its tail.', 'author': 'Eevee Engine', 'ts': '2025-09-12T22:53:59+00:00', 'event_id': 90}
+2025-09-12 17:54:00 | INFO | sent: {'event': 'evolution_attempt', 'species': 'Eevee', 'chosen_evolution': 'Vaporeon', 'chosen_action': 'Practiced Quick Attack', 'is_valid': False, 'message': 'Eevee does nothing.', 'author': 'Eevee Engine', 'ts': '2025-09-12T22:54:00+00:00', 'event_id': 91}
+2025-09-12 17:54:01 | INFO | sent: {'event': 'evolution_attempt', 'species': 'Eevee', 'chosen_evolution': 'Leafeon', 'chosen_action': 'Went for a walk', 'is_valid': False, 'message': 'Eevee tilts its head curiously.', 'author': 'Eevee Engine', 'ts': '2025-09-12T22:54:01+00:00', 'event_id': 92}
+2025-09-12 17:54:02 | INFO | sent: {'event': 'evolution_attempt', 'species': 'Eevee', 'chosen_evolution': 'Vaporeon', 'chosen_action': 'Leveled at night with high friendship', 'is_valid': False, 'message': 'Eevee is bored.', 'author': 'Eevee Engine', 'ts': '2025-09-12T22:54:02+00:00', 'event_id': 93}
+2025-09-12 17:54:03 | INFO | sent: {'event': 'evolution_attempt', 'species': 'Eevee', 'chosen_evolution': 'Flareon', 'chosen_action': 'Took a nap', 'is_valid': False, 'message': 'Eevee does nothing.', 'author': 'Eevee Engine', 'ts': '2025-09-12T22:54:03+00:00', 'event_id': 94}
+2025-09-12 17:54:04 | INFO | sent: {'event': 'evolution_attempt', 'species': 'Eevee', 'chosen_evolution': 'Umbreon', 'chosen_action': 'Leveled with a Thunder Stone', 'is_valid': False, 'message': 'Eevee chases its tail.', 'author': 'Eevee Engine', 'ts': '2025-09-12T22:54:04+00:00', 'event_id': 95}
+2025-09-12 17:54:05 | INFO | sent: {'event': 'evolution_attempt', 'species': 'Eevee', 'chosen_evolution': 'Flareon', 'chosen_action': 'Leveled with an Ice Stone', 'is_valid': False, 'message': 'Eevee tilts its head curiously.', 'author': 'Eevee Engine', 'ts': '2025-09-12T22:54:05+00:00', 'event_id': 96}
+2025-09-12 17:54:06 | INFO | sent: {'event': 'evolution_attempt', 'species': 'Eevee', 'chosen_evolution': 'Jolteon', 'chosen_action': 'Practiced Quick Attack', 'is_valid': False, 'message': 'Eevee does nothing.', 'author': 'Eevee Engine', 'ts': '2025-09-12T22:54:06+00:00', 'event_id': 97}
+2025-09-12 17:54:07 | INFO | sent: {'event': 'evolution_attempt', 'species': 'Eevee', 'chosen_evolution': 'Jolteon', 'chosen_action': 'Leveled with a Fire Stone', 'is_valid': False, 'message': 'Eevee tilts its head curiously.', 'author': 'Eevee Engine', 'ts': '2025-09-12T22:54:07+00:00', 'event_id': 98}
+2025-09-12 17:54:08 | INFO | sent: {'event': 'evolution_attempt', 'species': 'Eevee', 'chosen_evolution': 'Flareon', 'chosen_action': 'Took a nap', 'is_valid': False, 'message': 'Eevee tilts its head curiously.', 'author': 'Eevee Engine', 'ts': '2025-09-12T22:54:08+00:00', 'event_id': 99}
+2025-09-12 17:54:09 | INFO | sent: {'event': 'evolution_attempt', 'species': 'Eevee', 'chosen_evolution': 'Vaporeon', 'chosen_action': 'Leveled during day with high friendship', 'is_valid': False, 'message': 'Eevee is bored.', 'author': 'Eevee Engine', 'ts': '2025-09-12T22:54:09+00:00', 'event_id': 100}
+2025-09-12 17:54:10 | INFO | sent: {'event': 'evolution_attempt', 'species': 'Eevee', 'chosen_evolution': 'Umbreon', 'chosen_action': 'Ate a berry', 'is_valid': False, 'message': 'Eevee is smelling a flower.', 'author': 'Eevee Engine', 'ts': '2025-09-12T22:54:10+00:00', 'event_id': 101}
+2025-09-12 17:54:11 | INFO | sent: {'event': 'evolution_attempt', 'species': 'Eevee', 'chosen_evolution': 'Espeon', 'chosen_action': 'Leveled with a Leaf Stone', 'is_valid': False, 'message': 'Eevee tilts its head curiously.', 'author': 'Eevee Engine', 'ts': '2025-09-12T22:54:11+00:00', 'event_id': 102}
+2025-09-12 17:54:11 | INFO | === Eevee Evolution Leaderboard (rolling) ===
+2025-09-12 17:54:11 | INFO | Overall: total=103  success=5 (4.9%)  fail=98 (95.1%)
+2025-09-12 17:54:11 | INFO | Most successful:  Vaporeon  (successes=1, attempts=14, rate=7.1%)
+2025-09-12 17:54:11 | INFO | Least successful: Glaceon  (successes=0, attempts=9, rate=0.0%)
+2025-09-12 17:54:11 | INFO | Top 5 by successes:
+2025-09-12 17:54:11 | INFO | 
+- Vaporeon   attempts=14    successes=1     rate=  7.1%
+- Espeon     attempts=12    successes=1     rate=  8.3%
+- Umbreon    attempts=11    successes=1     rate=  9.1%
+- Jolteon    attempts=11    successes=1     rate=  9.1%
+- Sylveon    attempts=10    successes=1     rate= 10.0%
+2025-09-12 17:54:12 | INFO | sent: {'event': 'evolution_attempt', 'species': 'Eevee', 'chosen_evolution': 'Espeon', 'chosen_action': 'Leveled with a Leaf Stone', 'is_valid': False, 'message': 'Eevee tilts its head curiously.', 'author': 'Eevee Engine', 'ts': '2025-09-12T22:54:12+00:00', 'event_id': 103}
+2025-09-12 17:54:13 | INFO | sent: {'event': 'evolution_attempt', 'species': 'Eevee', 'chosen_evolution': 'Vaporeon', 'chosen_action': 'Leveled with a Water Stone', 'is_valid': True, 'message': 'Your Eevee is evolving into Vaporeon!', 'author': 'Eevee Engine', 'ts': '2025-09-12T22:54:13+00:00', 'event_id': 104}
+2025-09-12 17:54:14 | INFO | sent: {'event': 'evolution_attempt', 'species': 'Eevee', 'chosen_evolution': 'Espeon', 'chosen_action': 'Leveled with a Water Stone', 'is_valid': False, 'message': 'Eevee tilts its head curiously.', 'author': 'Eevee Engine', 'ts': '2025-09-12T22:54:14+00:00', 'event_id': 105}
+2025-09-12 17:54:15 | INFO | sent: {'event': 'evolution_attempt', 'species': 'Eevee', 'chosen_evolution': 'Sylveon', 'chosen_action': 'Took a nap', 'is_valid': False, 'message': 'Eevee is smelling a flower.', 'author': 'Eevee Engine', 'ts': '2025-09-12T22:54:15+00:00', 'event_id': 106}
+2025-09-12 17:54:16 | INFO | sent: {'event': 'evolution_attempt', 'species': 'Eevee', 'chosen_evolution': 'Vaporeon', 'chosen_action': 'Leveled with a Thunder Stone', 'is_valid': False, 'message': 'Eevee does nothing.', 'author': 'Eevee Engine', 'ts': '2025-09-12T22:54:16+00:00', 'event_id': 107}
+2025-09-12 17:54:17 | INFO | sent: {'event': 'evolution_attempt', 'species': 'Eevee', 'chosen_evolution': 'Vaporeon', 'chosen_action': 'Leveled with an Ice Stone', 'is_valid': False, 'message': 'Eevee does nothing.', 'author': 'Eevee Engine', 'ts': '2025-09-12T22:54:17+00:00', 'event_id': 108}
+2025-09-12 17:54:18 | INFO | sent: {'event': 'evolution_attempt', 'species': 'Eevee', 'chosen_evolution': 'Leafeon', 'chosen_action': 'Practiced Quick Attack', 'is_valid': False, 'message': 'Eevee is bored.', 'author': 'Eevee Engine', 'ts': '2025-09-12T22:54:18+00:00', 'event_id': 109}
+2025-09-12 17:54:19 | INFO | sent: {'event': 'evolution_attempt', 'species': 'Eevee', 'chosen_evolution': 'Flareon', 'chosen_action': 'Ate a berry', 'is_valid': False, 'message': 'Eevee is smelling a flower.', 'author': 'Eevee Engine', 'ts': '2025-09-12T22:54:19+00:00', 'event_id': 110}
+2025-09-12 17:54:20 | INFO | sent: {'event': 'evolution_attempt', 'species': 'Eevee', 'chosen_evolution': 'Leafeon', 'chosen_action': 'Threw a Poké Ball', 'is_valid': False, 'message': 'Eevee is bored.', 'author': 'Eevee Engine', 'ts': '2025-09-12T22:54:20+00:00', 'event_id': 111}
+2025-09-12 17:54:21 | INFO | sent: {'event': 'evolution_attempt', 'species': 'Eevee', 'chosen_evolution': 'Vaporeon', 'chosen_action': 'Leveled during day with high friendship', 'is_valid': False, 'message': 'Eevee is smelling a flower.', 'author': 'Eevee Engine', 'ts': '2025-09-12T22:54:21+00:00', 'event_id': 112}
+2025-09-12 17:54:22 | INFO | sent: {'event': 'evolution_attempt', 'species': 'Eevee', 'chosen_evolution': 'Flareon', 'chosen_action': 'Threw a Poké Ball', 'is_valid': False, 'message': 'Eevee tilts its head curiously.', 'author': 'Eevee Engine', 'ts': '2025-09-12T22:54:22+00:00', 'event_id': 113}
+2025-09-12 17:54:22 | WARNING | Consumer interrupted by user.
+2025-09-12 17:54:22 | INFO | Kafka consumer closed.
+2025-09-12 17:54:22 | INFO | END Eevee Polars consumer.
+2025-09-12 17:54:23 | INFO | sent: {'event': 'evolution_attempt', 'species': 'Eevee', 'chosen_evolution': 'Jolteon', 'chosen_action': 'Leveled with a Fire Stone', 'is_valid': False, 'message': 'Eevee is smelling a flower.', 'author': 'Eevee Engine', 'ts': '2025-09-12T22:54:23+00:00', 'event_id': 114}
+2025-09-12 17:54:24 | INFO | sent: {'event': 'evolution_attempt', 'species': 'Eevee', 'chosen_evolution': 'Sylveon', 'chosen_action': 'Leveled with Baby Doll TM with high friendship', 'is_valid': True, 'message': 'Your Eevee is evolving into Sylveon!', 'author': 'Eevee Engine', 'ts': '2025-09-12T22:54:24+00:00', 'event_id': 115}
+2025-09-12 17:54:25 | INFO | sent: {'event': 'evolution_attempt', 'species': 'Eevee', 'chosen_evolution': 'Leafeon', 'chosen_action': 'Leveled during day with high friendship', 'is_valid': False, 'message': 'Eevee is smelling a flower.', 'author': 'Eevee Engine', 'ts': '2025-09-12T22:54:25+00:00', 'event_id': 116}
+2025-09-12 17:54:26 | INFO | sent: {'event': 'evolution_attempt', 'species': 'Eevee', 'chosen_evolution': 'Espeon', 'chosen_action': 'Leveled with Baby Doll TM with high friendship', 'is_valid': False, 'message': 'Eevee tilts its head curiously.', 'author': 'Eevee Engine', 'ts': '2025-09-12T22:54:26+00:00', 'event_id': 117}
+2025-09-12 17:54:27 | INFO | sent: {'event': 'evolution_attempt', 'species': 'Eevee', 'chosen_evolution': 'Flareon', 'chosen_action': 'Leveled with a Leaf Stone', 'is_valid': False, 'message': 'Eevee is bored.', 'author': 'Eevee Engine', 'ts': '2025-09-12T22:54:27+00:00', 'event_id': 118}
+2025-09-12 17:54:28 | INFO | sent: {'event': 'evolution_attempt', 'species': 'Eevee', 'chosen_evolution': 'Sylveon', 'chosen_action': 'Leveled with a Fire Stone', 'is_valid': False, 'message': 'Eevee tilts its head curiously.', 'author': 'Eevee Engine', 'ts': '2025-09-12T22:54:28+00:00', 'event_id': 119}
+2025-09-12 17:54:29 | INFO | sent: {'event': 'evolution_attempt', 'species': 'Eevee', 'chosen_evolution': 'Leafeon', 'chosen_action': 'Leveled with a Leaf Stone', 'is_valid': True, 'message': 'Your Eevee is evolving into Leafeon!', 'author': 'Eevee Engine', 'ts': '2025-09-12T22:54:29+00:00', 'event_id': 120}
+2025-09-12 17:54:30 | WARNING | Producer interrupted by user.
+2025-09-12 17:54:30 | INFO | Kafka producer closed.
+2025-09-12 17:54:30 | INFO | END Eevee producer (Polars).
