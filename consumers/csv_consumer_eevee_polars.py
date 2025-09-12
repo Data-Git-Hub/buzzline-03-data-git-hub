@@ -2,27 +2,25 @@
 csv_consumer_eevee_polars.py
 
 Consume CSV lines from Kafka, parse to dicts, aggregate with Polars, and every N seconds:
-  - print overall totals and Top-5 leaderboard
-  - added save a bar chart of Top-5 successes
+  - print overall totals
+  - print Top-5 leaderboard (by successes)
+  - render an ASCII bar chart under the Top-5 (no image files)
+
+Env:
+  EEVEE_CSV_TOPIC=eevee_csv_v1
+  EEVEE_CSV_GROUP_ID=eevee_csv_g1
+  EEVEE_LEADERBOARD_INTERVAL_SECONDS=15
+
+Requires: polars, kafka-python, python-dotenv, loguru
 """
 
 # Stdlib
-import os, time, csv, io
-from pathlib import Path
-from typing import Any, Dict, List, Iterable
+import os, time, csv
+from typing import Any, Dict, List
 
 # External
 import polars as pl
 from dotenv import load_dotenv
-
-# Charting (optional; handles headless envs)
-_HAVE_MPL = True
-try:
-    import matplotlib
-    matplotlib.use("Agg")
-    import matplotlib.pyplot as plt
-except Exception:
-    _HAVE_MPL = False
 
 # Local utils
 from utils.utils_logger import logger
@@ -46,11 +44,11 @@ def get_interval_secs() -> float:
     except Exception:
         return 15.0
 
-def get_chart_path() -> Path:
-    return Path(os.getenv("EEVEE_CHART_PATH", "charts/eevee_top5_csv.png"))
-
 # -------------------- CSV / POLARS HELPERS --------------------
-COLUMNS = ["event","species","chosen_evolution","chosen_action","is_valid","message","author","ts","event_id"]
+COLUMNS = [
+    "event","species","chosen_evolution","chosen_action",
+    "is_valid","message","author","ts","event_id"
+]
 
 EMPTY_SCHEMA = {
     "chosen_evolution": pl.Utf8,
@@ -62,7 +60,6 @@ def parse_csv_line(line: str) -> Dict[str, Any]:
     """
     Parse a single CSV line into a dict using fixed fieldnames.
     """
-    # DictReader expects an iterable of lines
     r = csv.DictReader([line], fieldnames=COLUMNS)
     row = next(r)
     # normalize key fields for analytics
@@ -130,34 +127,40 @@ def format_leaderboard(tbl: pl.DataFrame, k: int = 5) -> str:
         )
     return "\n".join(out)
 
-def save_top5_chart(tbl: pl.DataFrame, out_path: Path) -> None:
-    if not _HAVE_MPL or tbl.is_empty():
-        return
-    top5 = tbl.head(5)
-    labels = top5["chosen_evolution"].to_list()
-    successes = top5["successes"].to_list()
-    rates = top5["success_rate_pct"].to_list()
+# -------------------- ASCII BAR CHART --------------------
+def ascii_bar_chart(tbl: pl.DataFrame, width: int = 40) -> str:
+    """
+    Render an ASCII bar chart for Top-5 by successes.
+    Uses full block '█' characters; falls back to '#' if needed.
+    """
+    if tbl.is_empty():
+        return "(no data yet)"
 
-    out_path.parent.mkdir(parents=True, exist_ok=True)
-    plt.figure(figsize=(8, 4))
-    plt.bar(labels, successes)
-    plt.title("Eevee Evolutions — Top 5 by Successes (CSV stream)")
-    plt.xlabel("Evolution")
-    plt.ylabel("Successes")
-    for i, (x, val, rate) in enumerate(zip(labels, successes, rates)):
-        plt.text(i, val, f"{val} ({rate:.1f}%)", ha="center", va="bottom", fontsize=9)
-    plt.tight_layout()
-    plt.savefig(out_path, dpi=120)
-    plt.close()
+    top5 = tbl.head(5).to_dicts()
+    max_val = max((r["successes"] for r in top5), default=1)
+    char = "█"
+    try:
+        "█".encode("utf-8")
+    except Exception:
+        char = "#"
+
+    lines = ["", "Top-5 Successes (ASCII bars)"]
+    for r in top5:
+        val = r["successes"]
+        rate = r["success_rate_pct"]
+        bar_len = 0 if max_val == 0 else int(round((val / max_val) * width))
+        bar = char * bar_len
+        name = f"{r['chosen_evolution']:<9}"
+        lines.append(f"{name} | {bar:<{width}} | {val} ({rate:.1f}%)")
+    return "\n".join(lines)
 
 # -------------------- MAIN --------------------
 def main() -> None:
     topic = get_topic()
     group_id = get_group_id()
     interval = get_interval_secs()
-    chart_path = get_chart_path()
 
-    logger.info(f"START Eevee CSV consumer | topic='{topic}' group='{group_id}' interval={interval}s chart='{chart_path}'")
+    logger.info(f"START Eevee CSV consumer | topic='{topic}' group='{group_id}' interval={interval}s")
     consumer = create_kafka_consumer(topic, group_id)
 
     df_all = pl.DataFrame(schema=EMPTY_SCHEMA)
@@ -165,14 +168,28 @@ def main() -> None:
 
     try:
         while True:
-            records = consumer.poll(timeout_ms=1000, max_records=200)
-            lines: List[str] = []
+            # --- poll with resilience against Windows fd hiccup ---
+            try:
+                records = consumer.poll(timeout_ms=1000, max_records=200)
+            except (OSError, ValueError) as e:
+                # kafka-python on Windows can raise "Invalid file descriptor: -1" sporadically.
+                if "Invalid file descriptor" in str(e):
+                    logger.warning("Kafka consumer socket issue detected; recreating consumer...")
+                    try:
+                        consumer.close()
+                    except Exception:
+                        pass
+                    time.sleep(1.0)
+                    consumer = create_kafka_consumer(topic, group_id)
+                    continue
+                else:
+                    raise
 
+            lines: List[str] = []
             if records:
                 for _tp, batch in records.items():
                     for msg in batch:
                         val = msg.value
-                        # utils_consumer typically sets value to str; handle bytes just in case
                         if isinstance(val, bytes):
                             try:
                                 val = val.decode("utf-8", errors="ignore")
@@ -192,17 +209,15 @@ def main() -> None:
                 stats = overall_stats(df_all)
 
                 logger.info("=== Eevee Evolution Leaderboard (rolling) [CSV] ===")
-                logger.info(f"Overall: total={stats['total']}  success={stats['success']} ({stats['success_pct']}%)  "
-                            f"fail={stats['fail']} ({stats['fail_pct']}%)")
+                logger.info(
+                    f"Overall: total={stats['total']}  "
+                    f"success={stats['success']} ({stats['success_pct']}%)  "
+                    f"fail={stats['fail']} ({stats['fail_pct']}%)"
+                )
                 logger.info("Top 5 by successes:")
                 logger.info("\n" + format_leaderboard(tbl, k=5))
-
-                try:
-                    save_top5_chart(tbl, chart_path)
-                    if _HAVE_MPL:
-                        logger.info(f"Chart written: {chart_path}")
-                except Exception as e:
-                    logger.warning(f"Could not write chart: {e}")
+                # ASCII bar chart directly in the console
+                logger.info(ascii_bar_chart(tbl, width=40))
 
                 next_report += interval
                 if now > next_report + interval:

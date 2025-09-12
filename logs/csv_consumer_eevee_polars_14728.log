@@ -1,0 +1,9 @@
+2025-09-12 18:43:51 | INFO | Logging to file: logs/csv_consumer_eevee_polars_14728.log
+2025-09-12 18:43:51 | INFO | Log sanitization enabled, personal info removed
+2025-09-12 18:43:51 | INFO | START Eevee CSV consumer | topic='eevee_csv_v1' group='eevee_csv_g1' interval=15.0s chart='charts/eevee_top5_csv.png'
+2025-09-12 18:43:51 | INFO | Kafka broker address: localhost:9092
+2025-09-12 18:43:51 | INFO | Creating Kafka consumer. Topic='eevee_csv_v1' and group ID='eevee_csv_g1'.
+2025-09-12 18:43:51 | INFO | Kafka consumer created successfully.
+2025-09-12 18:43:51 | ERROR | Error while consuming messages: Invalid file descriptor: -1
+2025-09-12 18:43:51 | INFO | Kafka consumer closed.
+2025-09-12 18:43:51 | INFO | END Eevee CSV consumer.
