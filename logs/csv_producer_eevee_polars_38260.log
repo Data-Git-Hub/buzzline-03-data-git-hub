@@ -1,0 +1,164 @@
+2025-09-12 18:37:03 | INFO | Logging to file: logs/csv_producer_eevee_polars_38260.log
+2025-09-12 18:37:03 | INFO | Log sanitization enabled, personal info removed
+2025-09-12 18:37:03 | INFO | START Eevee CSV producer (Polars).
+2025-09-12 18:37:03 | INFO | Kafka broker address: localhost:9092
+2025-09-12 18:37:04 | INFO | Kafka is ready. Brokers: {'throttle_time_ms': 0, 'brokers': [{'node_id': 1, 'host': '127.0.0.1', 'port': 9092, 'rack': None}], 'cluster_id': 'izX4qtgsSweNTi1cWUWQEA', 'controller_id': 1}
+2025-09-12 18:37:04 | INFO | Kafka topic: eevee_csv_v1
+2025-09-12 18:37:04 | INFO | Loaded 8 evolution rules from data/eevee_rules.csv
+2025-09-12 18:37:04 | INFO | Kafka broker address: localhost:9092
+2025-09-12 18:37:04 | INFO | Connecting to Kafka broker at localhost:9092...
+2025-09-12 18:37:04 | INFO | Kafka producer successfully created.
+2025-09-12 18:37:04 | INFO | Kafka broker address: localhost:9092
+2025-09-12 18:37:04 | INFO | Topic 'eevee_csv_v1' already exists. Recreating fresh...
+2025-09-12 18:37:04 | INFO | Requested deletion of topic 'eevee_csv_v1'.
+2025-09-12 18:37:04 | INFO | Topic 'eevee_csv_v1' created successfully.
+2025-09-12 18:37:04 | INFO | Producing CSV events to 'eevee_csv_v1'...
+2025-09-12 18:37:04 | INFO | sent: evolution_attempt,Eevee,Glaceon,Ate a berry,False,Eevee does nothing.,Eevee Engine,2025-09-12T23:37:04+00:00,0
+2025-09-12 18:37:05 | INFO | sent: evolution_attempt,Eevee,Flareon,Took a nap,False,Eevee chases its tail.,Eevee Engine,2025-09-12T23:37:05+00:00,1
+2025-09-12 18:37:06 | INFO | sent: evolution_attempt,Eevee,Glaceon,Practiced Quick Attack,False,Eevee chases its tail.,Eevee Engine,2025-09-12T23:37:06+00:00,2
+2025-09-12 18:37:07 | INFO | sent: evolution_attempt,Eevee,Vaporeon,Leveled with a Thunder Stone,False,Eevee is bored.,Eevee Engine,2025-09-12T23:37:07+00:00,3
+2025-09-12 18:37:08 | INFO | sent: evolution_attempt,Eevee,Glaceon,Leveled with a Leaf Stone,False,Eevee chases its tail.,Eevee Engine,2025-09-12T23:37:08+00:00,4
+2025-09-12 18:37:09 | INFO | sent: evolution_attempt,Eevee,Flareon,Leveled with a Thunder Stone,False,Eevee does nothing.,Eevee Engine,2025-09-12T23:37:09+00:00,5
+2025-09-12 18:37:10 | INFO | sent: evolution_attempt,Eevee,Umbreon,Leveled with a Thunder Stone,False,Eevee is smelling a flower.,Eevee Engine,2025-09-12T23:37:10+00:00,6
+2025-09-12 18:37:11 | INFO | sent: evolution_attempt,Eevee,Sylveon,Leveled during day with high friendship,False,Eevee tilts its head curiously.,Eevee Engine,2025-09-12T23:37:11+00:00,7
+2025-09-12 18:37:12 | INFO | sent: evolution_attempt,Eevee,Glaceon,Leveled during day with high friendship,False,Eevee chases its tail.,Eevee Engine,2025-09-12T23:37:12+00:00,8
+2025-09-12 18:37:13 | INFO | sent: evolution_attempt,Eevee,Glaceon,Practiced Quick Attack,False,Eevee chases its tail.,Eevee Engine,2025-09-12T23:37:13+00:00,9
+2025-09-12 18:37:14 | INFO | sent: evolution_attempt,Eevee,Glaceon,Leveled with a Leaf Stone,False,Eevee is smelling a flower.,Eevee Engine,2025-09-12T23:37:14+00:00,10
+2025-09-12 18:37:15 | INFO | sent: evolution_attempt,Eevee,Jolteon,Leveled with an Ice Stone,False,Eevee chases its tail.,Eevee Engine,2025-09-12T23:37:15+00:00,11
+2025-09-12 18:37:16 | INFO | sent: evolution_attempt,Eevee,Vaporeon,Threw a Poké Ball,False,Eevee is bored.,Eevee Engine,2025-09-12T23:37:16+00:00,12
+2025-09-12 18:37:17 | INFO | sent: evolution_attempt,Eevee,Flareon,Ate a berry,False,Eevee does nothing.,Eevee Engine,2025-09-12T23:37:17+00:00,13
+2025-09-12 18:37:18 | INFO | sent: evolution_attempt,Eevee,Glaceon,Leveled during day with high friendship,False,Eevee is bored.,Eevee Engine,2025-09-12T23:37:18+00:00,14
+2025-09-12 18:37:19 | INFO | sent: evolution_attempt,Eevee,Leafeon,Leveled with Baby Doll TM with high friendship,False,Eevee is smelling a flower.,Eevee Engine,2025-09-12T23:37:19+00:00,15
+2025-09-12 18:37:20 | INFO | sent: evolution_attempt,Eevee,Flareon,Threw a Poké Ball,False,Eevee tilts its head curiously.,Eevee Engine,2025-09-12T23:37:20+00:00,16
+2025-09-12 18:37:21 | INFO | sent: evolution_attempt,Eevee,Leafeon,Leveled at night with high friendship,False,Eevee is bored.,Eevee Engine,2025-09-12T23:37:21+00:00,17
+2025-09-12 18:37:22 | INFO | sent: evolution_attempt,Eevee,Sylveon,Leveled at night with high friendship,False,Eevee chases its tail.,Eevee Engine,2025-09-12T23:37:22+00:00,18
+2025-09-12 18:37:23 | INFO | sent: evolution_attempt,Eevee,Espeon,Leveled with a Water Stone,False,Eevee is bored.,Eevee Engine,2025-09-12T23:37:23+00:00,19
+2025-09-12 18:37:24 | INFO | sent: evolution_attempt,Eevee,Glaceon,Leveled at night with high friendship,False,Eevee tilts its head curiously.,Eevee Engine,2025-09-12T23:37:24+00:00,20
+2025-09-12 18:37:25 | INFO | sent: evolution_attempt,Eevee,Leafeon,Leveled with a Leaf Stone,True,Your Eevee is evolving into Leafeon!,Eevee Engine,2025-09-12T23:37:25+00:00,21
+2025-09-12 18:37:26 | INFO | sent: evolution_attempt,Eevee,Flareon,Leveled with an Ice Stone,False,Eevee tilts its head curiously.,Eevee Engine,2025-09-12T23:37:26+00:00,22
+2025-09-12 18:37:27 | INFO | sent: evolution_attempt,Eevee,Espeon,Leveled at night with high friendship,False,Eevee does nothing.,Eevee Engine,2025-09-12T23:37:27+00:00,23
+2025-09-12 18:37:28 | INFO | sent: evolution_attempt,Eevee,Sylveon,Leveled with a Leaf Stone,False,Eevee is smelling a flower.,Eevee Engine,2025-09-12T23:37:28+00:00,24
+2025-09-12 18:37:29 | INFO | sent: evolution_attempt,Eevee,Sylveon,Leveled at night with high friendship,False,Eevee does nothing.,Eevee Engine,2025-09-12T23:37:29+00:00,25
+2025-09-12 18:37:30 | INFO | sent: evolution_attempt,Eevee,Glaceon,Leveled during day with high friendship,False,Eevee chases its tail.,Eevee Engine,2025-09-12T23:37:30+00:00,26
+2025-09-12 18:37:31 | INFO | sent: evolution_attempt,Eevee,Glaceon,Leveled at night with high friendship,False,Eevee does nothing.,Eevee Engine,2025-09-12T23:37:31+00:00,27
+2025-09-12 18:37:32 | INFO | sent: evolution_attempt,Eevee,Leafeon,Threw a Poké Ball,False,Eevee tilts its head curiously.,Eevee Engine,2025-09-12T23:37:32+00:00,28
+2025-09-12 18:37:33 | INFO | sent: evolution_attempt,Eevee,Espeon,Ate a berry,False,Eevee tilts its head curiously.,Eevee Engine,2025-09-12T23:37:33+00:00,29
+2025-09-12 18:37:34 | INFO | sent: evolution_attempt,Eevee,Glaceon,Leveled with a Leaf Stone,False,Eevee chases its tail.,Eevee Engine,2025-09-12T23:37:34+00:00,30
+2025-09-12 18:37:35 | INFO | sent: evolution_attempt,Eevee,Umbreon,Leveled with Baby Doll TM with high friendship,False,Eevee tilts its head curiously.,Eevee Engine,2025-09-12T23:37:35+00:00,31
+2025-09-12 18:37:36 | INFO | sent: evolution_attempt,Eevee,Sylveon,Leveled with a Leaf Stone,False,Eevee tilts its head curiously.,Eevee Engine,2025-09-12T23:37:36+00:00,32
+2025-09-12 18:37:37 | INFO | sent: evolution_attempt,Eevee,Umbreon,Practiced Quick Attack,False,Eevee chases its tail.,Eevee Engine,2025-09-12T23:37:37+00:00,33
+2025-09-12 18:37:38 | INFO | sent: evolution_attempt,Eevee,Espeon,Threw a Poké Ball,False,Eevee does nothing.,Eevee Engine,2025-09-12T23:37:38+00:00,34
+2025-09-12 18:37:39 | INFO | sent: evolution_attempt,Eevee,Leafeon,Leveled during day with high friendship,False,Eevee is smelling a flower.,Eevee Engine,2025-09-12T23:37:39+00:00,35
+2025-09-12 18:37:40 | INFO | sent: evolution_attempt,Eevee,Glaceon,Leveled with an Ice Stone,True,Your Eevee is evolving into Glaceon!,Eevee Engine,2025-09-12T23:37:40+00:00,36
+2025-09-12 18:37:41 | INFO | sent: evolution_attempt,Eevee,Sylveon,Threw a Poké Ball,False,Eevee does nothing.,Eevee Engine,2025-09-12T23:37:41+00:00,37
+2025-09-12 18:37:42 | INFO | sent: evolution_attempt,Eevee,Glaceon,Took a nap,False,Eevee tilts its head curiously.,Eevee Engine,2025-09-12T23:37:42+00:00,38
+2025-09-12 18:37:43 | INFO | sent: evolution_attempt,Eevee,Leafeon,Practiced Quick Attack,False,Eevee is bored.,Eevee Engine,2025-09-12T23:37:43+00:00,39
+2025-09-12 18:37:44 | INFO | sent: evolution_attempt,Eevee,Sylveon,Went for a walk,False,Eevee does nothing.,Eevee Engine,2025-09-12T23:37:44+00:00,40
+2025-09-12 18:37:45 | INFO | sent: evolution_attempt,Eevee,Vaporeon,Leveled with a Fire Stone,False,Eevee is smelling a flower.,Eevee Engine,2025-09-12T23:37:45+00:00,41
+2025-09-12 18:37:46 | INFO | sent: evolution_attempt,Eevee,Leafeon,Threw a Poké Ball,False,Eevee is bored.,Eevee Engine,2025-09-12T23:37:46+00:00,42
+2025-09-12 18:37:47 | INFO | sent: evolution_attempt,Eevee,Flareon,Leveled with Baby Doll TM with high friendship,False,Eevee chases its tail.,Eevee Engine,2025-09-12T23:37:47+00:00,43
+2025-09-12 18:37:48 | INFO | sent: evolution_attempt,Eevee,Umbreon,Ate a berry,False,Eevee is smelling a flower.,Eevee Engine,2025-09-12T23:37:48+00:00,44
+2025-09-12 18:37:49 | INFO | sent: evolution_attempt,Eevee,Flareon,Took a nap,False,Eevee tilts its head curiously.,Eevee Engine,2025-09-12T23:37:49+00:00,45
+2025-09-12 18:37:50 | INFO | sent: evolution_attempt,Eevee,Umbreon,Went for a walk,False,Eevee tilts its head curiously.,Eevee Engine,2025-09-12T23:37:50+00:00,46
+2025-09-12 18:37:51 | INFO | sent: evolution_attempt,Eevee,Flareon,Went for a walk,False,Eevee tilts its head curiously.,Eevee Engine,2025-09-12T23:37:51+00:00,47
+2025-09-12 18:37:52 | INFO | sent: evolution_attempt,Eevee,Umbreon,Practiced Quick Attack,False,Eevee tilts its head curiously.,Eevee Engine,2025-09-12T23:37:52+00:00,48
+2025-09-12 18:37:53 | INFO | sent: evolution_attempt,Eevee,Flareon,Ate a berry,False,Eevee chases its tail.,Eevee Engine,2025-09-12T23:37:53+00:00,49
+2025-09-12 18:37:54 | INFO | sent: evolution_attempt,Eevee,Glaceon,Leveled at night with high friendship,False,Eevee does nothing.,Eevee Engine,2025-09-12T23:37:54+00:00,50
+2025-09-12 18:37:55 | INFO | sent: evolution_attempt,Eevee,Glaceon,Took a nap,False,Eevee chases its tail.,Eevee Engine,2025-09-12T23:37:55+00:00,51
+2025-09-12 18:37:56 | INFO | sent: evolution_attempt,Eevee,Vaporeon,Leveled with a Water Stone,True,Your Eevee is evolving into Vaporeon!,Eevee Engine,2025-09-12T23:37:56+00:00,52
+2025-09-12 18:37:57 | INFO | sent: evolution_attempt,Eevee,Umbreon,Leveled at night with high friendship,True,Your Eevee is evolving into Umbreon!,Eevee Engine,2025-09-12T23:37:57+00:00,53
+2025-09-12 18:37:58 | INFO | sent: evolution_attempt,Eevee,Espeon,Took a nap,False,Eevee does nothing.,Eevee Engine,2025-09-12T23:37:58+00:00,54
+2025-09-12 18:37:59 | INFO | sent: evolution_attempt,Eevee,Flareon,Leveled with a Fire Stone,True,Your Eevee is evolving into Flareon!,Eevee Engine,2025-09-12T23:37:59+00:00,55
+2025-09-12 18:38:00 | INFO | sent: evolution_attempt,Eevee,Sylveon,Leveled with a Leaf Stone,False,Eevee does nothing.,Eevee Engine,2025-09-12T23:38:00+00:00,56
+2025-09-12 18:38:01 | INFO | sent: evolution_attempt,Eevee,Jolteon,Leveled with a Thunder Stone,True,Your Eevee is evolving into Jolteon!,Eevee Engine,2025-09-12T23:38:01+00:00,57
+2025-09-12 18:38:02 | INFO | sent: evolution_attempt,Eevee,Vaporeon,Threw a Poké Ball,False,Eevee tilts its head curiously.,Eevee Engine,2025-09-12T23:38:02+00:00,58
+2025-09-12 18:38:03 | INFO | sent: evolution_attempt,Eevee,Jolteon,Went for a walk,False,Eevee tilts its head curiously.,Eevee Engine,2025-09-12T23:38:03+00:00,59
+2025-09-12 18:38:04 | INFO | sent: evolution_attempt,Eevee,Jolteon,Went for a walk,False,Eevee tilts its head curiously.,Eevee Engine,2025-09-12T23:38:04+00:00,60
+2025-09-12 18:38:05 | INFO | sent: evolution_attempt,Eevee,Espeon,Leveled during day with high friendship,True,Your Eevee is evolving into Espeon!,Eevee Engine,2025-09-12T23:38:05+00:00,61
+2025-09-12 18:38:06 | INFO | sent: evolution_attempt,Eevee,Jolteon,Practiced Quick Attack,False,Eevee chases its tail.,Eevee Engine,2025-09-12T23:38:06+00:00,62
+2025-09-12 18:38:07 | INFO | sent: evolution_attempt,Eevee,Umbreon,Leveled during day with high friendship,False,Eevee chases its tail.,Eevee Engine,2025-09-12T23:38:07+00:00,63
+2025-09-12 18:38:08 | INFO | sent: evolution_attempt,Eevee,Leafeon,Leveled with a Thunder Stone,False,Eevee chases its tail.,Eevee Engine,2025-09-12T23:38:08+00:00,64
+2025-09-12 18:38:09 | INFO | sent: evolution_attempt,Eevee,Flareon,Took a nap,False,Eevee is bored.,Eevee Engine,2025-09-12T23:38:09+00:00,65
+2025-09-12 18:38:10 | INFO | sent: evolution_attempt,Eevee,Sylveon,Leveled with a Fire Stone,False,Eevee chases its tail.,Eevee Engine,2025-09-12T23:38:10+00:00,66
+2025-09-12 18:38:11 | INFO | sent: evolution_attempt,Eevee,Sylveon,Threw a Poké Ball,False,Eevee tilts its head curiously.,Eevee Engine,2025-09-12T23:38:11+00:00,67
+2025-09-12 18:38:12 | INFO | sent: evolution_attempt,Eevee,Leafeon,Leveled with Baby Doll TM with high friendship,False,Eevee is bored.,Eevee Engine,2025-09-12T23:38:12+00:00,68
+2025-09-12 18:38:13 | INFO | sent: evolution_attempt,Eevee,Leafeon,Leveled during day with high friendship,False,Eevee does nothing.,Eevee Engine,2025-09-12T23:38:13+00:00,69
+2025-09-12 18:38:14 | INFO | sent: evolution_attempt,Eevee,Umbreon,Leveled with an Ice Stone,False,Eevee chases its tail.,Eevee Engine,2025-09-12T23:38:14+00:00,70
+2025-09-12 18:38:15 | INFO | sent: evolution_attempt,Eevee,Espeon,Practiced Quick Attack,False,Eevee tilts its head curiously.,Eevee Engine,2025-09-12T23:38:15+00:00,71
+2025-09-12 18:38:16 | INFO | sent: evolution_attempt,Eevee,Glaceon,Leveled with a Thunder Stone,False,Eevee chases its tail.,Eevee Engine,2025-09-12T23:38:16+00:00,72
+2025-09-12 18:38:17 | INFO | sent: evolution_attempt,Eevee,Jolteon,Leveled with a Thunder Stone,True,Your Eevee is evolving into Jolteon!,Eevee Engine,2025-09-12T23:38:17+00:00,73
+2025-09-12 18:38:18 | INFO | sent: evolution_attempt,Eevee,Jolteon,Leveled with a Fire Stone,False,Eevee is bored.,Eevee Engine,2025-09-12T23:38:18+00:00,74
+2025-09-12 18:38:19 | INFO | sent: evolution_attempt,Eevee,Flareon,Ate a berry,False,Eevee does nothing.,Eevee Engine,2025-09-12T23:38:19+00:00,75
+2025-09-12 18:38:20 | INFO | sent: evolution_attempt,Eevee,Jolteon,Threw a Poké Ball,False,Eevee does nothing.,Eevee Engine,2025-09-12T23:38:20+00:00,76
+2025-09-12 18:38:21 | INFO | sent: evolution_attempt,Eevee,Leafeon,Took a nap,False,Eevee does nothing.,Eevee Engine,2025-09-12T23:38:21+00:00,77
+2025-09-12 18:38:22 | INFO | sent: evolution_attempt,Eevee,Leafeon,Leveled with a Leaf Stone,True,Your Eevee is evolving into Leafeon!,Eevee Engine,2025-09-12T23:38:22+00:00,78
+2025-09-12 18:38:23 | INFO | sent: evolution_attempt,Eevee,Flareon,Took a nap,False,Eevee is bored.,Eevee Engine,2025-09-12T23:38:23+00:00,79
+2025-09-12 18:38:24 | INFO | sent: evolution_attempt,Eevee,Umbreon,Leveled during day with high friendship,False,Eevee tilts its head curiously.,Eevee Engine,2025-09-12T23:38:24+00:00,80
+2025-09-12 18:38:25 | INFO | sent: evolution_attempt,Eevee,Sylveon,Threw a Poké Ball,False,Eevee is bored.,Eevee Engine,2025-09-12T23:38:25+00:00,81
+2025-09-12 18:38:26 | INFO | sent: evolution_attempt,Eevee,Vaporeon,Threw a Poké Ball,False,Eevee is smelling a flower.,Eevee Engine,2025-09-12T23:38:26+00:00,82
+2025-09-12 18:38:27 | INFO | sent: evolution_attempt,Eevee,Leafeon,Leveled with a Leaf Stone,True,Your Eevee is evolving into Leafeon!,Eevee Engine,2025-09-12T23:38:27+00:00,83
+2025-09-12 18:38:28 | INFO | sent: evolution_attempt,Eevee,Glaceon,Leveled during day with high friendship,False,Eevee tilts its head curiously.,Eevee Engine,2025-09-12T23:38:28+00:00,84
+2025-09-12 18:38:29 | INFO | sent: evolution_attempt,Eevee,Leafeon,Practiced Quick Attack,False,Eevee is bored.,Eevee Engine,2025-09-12T23:38:29+00:00,85
+2025-09-12 18:38:30 | INFO | sent: evolution_attempt,Eevee,Leafeon,Leveled with a Water Stone,False,Eevee tilts its head curiously.,Eevee Engine,2025-09-12T23:38:30+00:00,86
+2025-09-12 18:38:31 | INFO | sent: evolution_attempt,Eevee,Jolteon,Ate a berry,False,Eevee tilts its head curiously.,Eevee Engine,2025-09-12T23:38:31+00:00,87
+2025-09-12 18:38:32 | INFO | sent: evolution_attempt,Eevee,Umbreon,Leveled with a Water Stone,False,Eevee is bored.,Eevee Engine,2025-09-12T23:38:32+00:00,88
+2025-09-12 18:38:33 | INFO | sent: evolution_attempt,Eevee,Flareon,Leveled with a Leaf Stone,False,Eevee tilts its head curiously.,Eevee Engine,2025-09-12T23:38:33+00:00,89
+2025-09-12 18:38:34 | INFO | sent: evolution_attempt,Eevee,Leafeon,Took a nap,False,Eevee tilts its head curiously.,Eevee Engine,2025-09-12T23:38:34+00:00,90
+2025-09-12 18:38:35 | INFO | sent: evolution_attempt,Eevee,Sylveon,Leveled with a Thunder Stone,False,Eevee is bored.,Eevee Engine,2025-09-12T23:38:35+00:00,91
+2025-09-12 18:38:36 | INFO | sent: evolution_attempt,Eevee,Sylveon,Threw a Poké Ball,False,Eevee chases its tail.,Eevee Engine,2025-09-12T23:38:36+00:00,92
+2025-09-12 18:38:37 | INFO | sent: evolution_attempt,Eevee,Glaceon,Ate a berry,False,Eevee is smelling a flower.,Eevee Engine,2025-09-12T23:38:37+00:00,93
+2025-09-12 18:38:38 | INFO | sent: evolution_attempt,Eevee,Espeon,Leveled with a Fire Stone,False,Eevee does nothing.,Eevee Engine,2025-09-12T23:38:38+00:00,94
+2025-09-12 18:38:39 | INFO | sent: evolution_attempt,Eevee,Umbreon,Went for a walk,False,Eevee is bored.,Eevee Engine,2025-09-12T23:38:39+00:00,95
+2025-09-12 18:38:40 | INFO | sent: evolution_attempt,Eevee,Sylveon,Threw a Poké Ball,False,Eevee chases its tail.,Eevee Engine,2025-09-12T23:38:40+00:00,96
+2025-09-12 18:38:41 | INFO | sent: evolution_attempt,Eevee,Vaporeon,Leveled with a Thunder Stone,False,Eevee tilts its head curiously.,Eevee Engine,2025-09-12T23:38:41+00:00,97
+2025-09-12 18:38:42 | INFO | sent: evolution_attempt,Eevee,Glaceon,Leveled with a Water Stone,False,Eevee does nothing.,Eevee Engine,2025-09-12T23:38:42+00:00,98
+2025-09-12 18:38:43 | INFO | sent: evolution_attempt,Eevee,Leafeon,Leveled with a Water Stone,False,Eevee is bored.,Eevee Engine,2025-09-12T23:38:43+00:00,99
+2025-09-12 18:38:44 | INFO | sent: evolution_attempt,Eevee,Sylveon,Leveled with an Ice Stone,False,Eevee tilts its head curiously.,Eevee Engine,2025-09-12T23:38:44+00:00,100
+2025-09-12 18:38:45 | INFO | sent: evolution_attempt,Eevee,Vaporeon,Ate a berry,False,Eevee does nothing.,Eevee Engine,2025-09-12T23:38:45+00:00,101
+2025-09-12 18:38:46 | INFO | sent: evolution_attempt,Eevee,Vaporeon,Leveled with a Fire Stone,False,Eevee is smelling a flower.,Eevee Engine,2025-09-12T23:38:46+00:00,102
+2025-09-12 18:38:47 | INFO | sent: evolution_attempt,Eevee,Flareon,Leveled with an Ice Stone,False,Eevee tilts its head curiously.,Eevee Engine,2025-09-12T23:38:47+00:00,103
+2025-09-12 18:38:48 | INFO | sent: evolution_attempt,Eevee,Glaceon,Leveled with a Fire Stone,False,Eevee does nothing.,Eevee Engine,2025-09-12T23:38:48+00:00,104
+2025-09-12 18:38:49 | INFO | sent: evolution_attempt,Eevee,Sylveon,Leveled during day with high friendship,False,Eevee is smelling a flower.,Eevee Engine,2025-09-12T23:38:49+00:00,105
+2025-09-12 18:38:50 | INFO | sent: evolution_attempt,Eevee,Jolteon,Leveled at night with high friendship,False,Eevee chases its tail.,Eevee Engine,2025-09-12T23:38:50+00:00,106
+2025-09-12 18:38:51 | INFO | sent: evolution_attempt,Eevee,Leafeon,Leveled with a Leaf Stone,True,Your Eevee is evolving into Leafeon!,Eevee Engine,2025-09-12T23:38:51+00:00,107
+2025-09-12 18:38:52 | INFO | sent: evolution_attempt,Eevee,Jolteon,Took a nap,False,Eevee chases its tail.,Eevee Engine,2025-09-12T23:38:52+00:00,108
+2025-09-12 18:38:53 | INFO | sent: evolution_attempt,Eevee,Espeon,Leveled with an Ice Stone,False,Eevee is bored.,Eevee Engine,2025-09-12T23:38:53+00:00,109
+2025-09-12 18:38:54 | INFO | sent: evolution_attempt,Eevee,Umbreon,Practiced Quick Attack,False,Eevee does nothing.,Eevee Engine,2025-09-12T23:38:54+00:00,110
+2025-09-12 18:38:55 | INFO | sent: evolution_attempt,Eevee,Vaporeon,Ate a berry,False,Eevee is bored.,Eevee Engine,2025-09-12T23:38:55+00:00,111
+2025-09-12 18:38:56 | INFO | sent: evolution_attempt,Eevee,Glaceon,Leveled during day with high friendship,False,Eevee tilts its head curiously.,Eevee Engine,2025-09-12T23:38:56+00:00,112
+2025-09-12 18:38:57 | INFO | sent: evolution_attempt,Eevee,Vaporeon,Went for a walk,False,Eevee does nothing.,Eevee Engine,2025-09-12T23:38:57+00:00,113
+2025-09-12 18:38:58 | INFO | sent: evolution_attempt,Eevee,Sylveon,Leveled with a Thunder Stone,False,Eevee is smelling a flower.,Eevee Engine,2025-09-12T23:38:58+00:00,114
+2025-09-12 18:38:59 | INFO | sent: evolution_attempt,Eevee,Umbreon,Leveled during day with high friendship,False,Eevee is smelling a flower.,Eevee Engine,2025-09-12T23:38:59+00:00,115
+2025-09-12 18:39:00 | INFO | sent: evolution_attempt,Eevee,Sylveon,Leveled during day with high friendship,False,Eevee is smelling a flower.,Eevee Engine,2025-09-12T23:39:00+00:00,116
+2025-09-12 18:39:01 | INFO | sent: evolution_attempt,Eevee,Umbreon,Leveled with an Ice Stone,False,Eevee is smelling a flower.,Eevee Engine,2025-09-12T23:39:01+00:00,117
+2025-09-12 18:39:02 | INFO | sent: evolution_attempt,Eevee,Jolteon,Leveled with a Leaf Stone,False,Eevee tilts its head curiously.,Eevee Engine,2025-09-12T23:39:02+00:00,118
+2025-09-12 18:39:03 | INFO | sent: evolution_attempt,Eevee,Sylveon,Ate a berry,False,Eevee is smelling a flower.,Eevee Engine,2025-09-12T23:39:03+00:00,119
+2025-09-12 18:39:04 | INFO | sent: evolution_attempt,Eevee,Vaporeon,Leveled with a Leaf Stone,False,Eevee chases its tail.,Eevee Engine,2025-09-12T23:39:04+00:00,120
+2025-09-12 18:39:05 | INFO | sent: evolution_attempt,Eevee,Umbreon,Ate a berry,False,Eevee is bored.,Eevee Engine,2025-09-12T23:39:05+00:00,121
+2025-09-12 18:39:06 | INFO | sent: evolution_attempt,Eevee,Espeon,Ate a berry,False,Eevee tilts its head curiously.,Eevee Engine,2025-09-12T23:39:06+00:00,122
+2025-09-12 18:39:07 | INFO | sent: evolution_attempt,Eevee,Umbreon,Leveled with a Fire Stone,False,Eevee is bored.,Eevee Engine,2025-09-12T23:39:07+00:00,123
+2025-09-12 18:39:08 | INFO | sent: evolution_attempt,Eevee,Vaporeon,Leveled with a Fire Stone,False,Eevee is smelling a flower.,Eevee Engine,2025-09-12T23:39:08+00:00,124
+2025-09-12 18:39:09 | INFO | sent: evolution_attempt,Eevee,Vaporeon,Took a nap,False,Eevee is smelling a flower.,Eevee Engine,2025-09-12T23:39:09+00:00,125
+2025-09-12 18:39:10 | INFO | sent: evolution_attempt,Eevee,Vaporeon,Took a nap,False,Eevee tilts its head curiously.,Eevee Engine,2025-09-12T23:39:10+00:00,126
+2025-09-12 18:39:11 | INFO | sent: evolution_attempt,Eevee,Leafeon,Leveled with a Water Stone,False,Eevee tilts its head curiously.,Eevee Engine,2025-09-12T23:39:11+00:00,127
+2025-09-12 18:39:12 | INFO | sent: evolution_attempt,Eevee,Sylveon,Ate a berry,False,Eevee is bored.,Eevee Engine,2025-09-12T23:39:12+00:00,128
+2025-09-12 18:39:13 | INFO | sent: evolution_attempt,Eevee,Flareon,Practiced Quick Attack,False,Eevee chases its tail.,Eevee Engine,2025-09-12T23:39:13+00:00,129
+2025-09-12 18:39:14 | INFO | sent: evolution_attempt,Eevee,Umbreon,Leveled with Baby Doll TM with high friendship,False,Eevee tilts its head curiously.,Eevee Engine,2025-09-12T23:39:14+00:00,130
+2025-09-12 18:39:15 | INFO | sent: evolution_attempt,Eevee,Flareon,Leveled with a Thunder Stone,False,Eevee tilts its head curiously.,Eevee Engine,2025-09-12T23:39:15+00:00,131
+2025-09-12 18:39:16 | INFO | sent: evolution_attempt,Eevee,Glaceon,Leveled with a Leaf Stone,False,Eevee is bored.,Eevee Engine,2025-09-12T23:39:16+00:00,132
+2025-09-12 18:39:17 | INFO | sent: evolution_attempt,Eevee,Jolteon,Ate a berry,False,Eevee tilts its head curiously.,Eevee Engine,2025-09-12T23:39:17+00:00,133
+2025-09-12 18:39:18 | INFO | sent: evolution_attempt,Eevee,Jolteon,Leveled with an Ice Stone,False,Eevee chases its tail.,Eevee Engine,2025-09-12T23:39:18+00:00,134
+2025-09-12 18:39:19 | INFO | sent: evolution_attempt,Eevee,Vaporeon,Leveled with a Fire Stone,False,Eevee tilts its head curiously.,Eevee Engine,2025-09-12T23:39:19+00:00,135
+2025-09-12 18:39:20 | INFO | sent: evolution_attempt,Eevee,Umbreon,Leveled at night with high friendship,True,Your Eevee is evolving into Umbreon!,Eevee Engine,2025-09-12T23:39:20+00:00,136
+2025-09-12 18:39:21 | INFO | sent: evolution_attempt,Eevee,Umbreon,Leveled with a Leaf Stone,False,Eevee chases its tail.,Eevee Engine,2025-09-12T23:39:21+00:00,137
+2025-09-12 18:39:22 | INFO | sent: evolution_attempt,Eevee,Umbreon,Leveled with a Fire Stone,False,Eevee chases its tail.,Eevee Engine,2025-09-12T23:39:22+00:00,138
+2025-09-12 18:39:23 | INFO | sent: evolution_attempt,Eevee,Leafeon,Went for a walk,False,Eevee chases its tail.,Eevee Engine,2025-09-12T23:39:23+00:00,139
+2025-09-12 18:39:24 | INFO | sent: evolution_attempt,Eevee,Vaporeon,Threw a Poké Ball,False,Eevee does nothing.,Eevee Engine,2025-09-12T23:39:24+00:00,140
+2025-09-12 18:39:25 | INFO | sent: evolution_attempt,Eevee,Sylveon,Went for a walk,False,Eevee does nothing.,Eevee Engine,2025-09-12T23:39:25+00:00,141
+2025-09-12 18:39:26 | INFO | sent: evolution_attempt,Eevee,Umbreon,Leveled with a Thunder Stone,False,Eevee is smelling a flower.,Eevee Engine,2025-09-12T23:39:26+00:00,142
+2025-09-12 18:39:27 | INFO | sent: evolution_attempt,Eevee,Espeon,Leveled with an Ice Stone,False,Eevee tilts its head curiously.,Eevee Engine,2025-09-12T23:39:27+00:00,143
+2025-09-12 18:39:28 | INFO | sent: evolution_attempt,Eevee,Flareon,Threw a Poké Ball,False,Eevee tilts its head curiously.,Eevee Engine,2025-09-12T23:39:28+00:00,144
+2025-09-12 18:39:29 | INFO | sent: evolution_attempt,Eevee,Leafeon,Leveled with a Fire Stone,False,Eevee is bored.,Eevee Engine,2025-09-12T23:39:29+00:00,145
+2025-09-12 18:39:30 | WARNING | Producer interrupted by user.
+2025-09-12 18:39:30 | INFO | Kafka producer closed.
+2025-09-12 18:39:30 | INFO | END Eevee CSV producer.

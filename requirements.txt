@@ -115,3 +115,5 @@ pyarrow>=16
 # Supports Kafka 3.5+ with KRaft mode (no ZooKeeper required)
 kafka-python-ng
 
+# For graphic outputs
+matplotlib>=3.8

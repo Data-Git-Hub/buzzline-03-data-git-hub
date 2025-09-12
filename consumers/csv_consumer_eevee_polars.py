@@ -2,16 +2,27 @@
 csv_consumer_eevee_polars.py
 
 Consume CSV lines from Kafka, parse to dicts, aggregate with Polars, and every N seconds:
-  - print overall totals and a Top-5 leaderboard (by successes)
+  - print overall totals and Top-5 leaderboard
+  - added save a bar chart of Top-5 successes
 """
 
 # Stdlib
-import os, time, csv
-from typing import Any, Dict, List
+import os, time, csv, io
+from pathlib import Path
+from typing import Any, Dict, List, Iterable
 
 # External
 import polars as pl
 from dotenv import load_dotenv
+
+# Charting (optional; handles headless envs)
+_HAVE_MPL = True
+try:
+    import matplotlib
+    matplotlib.use("Agg")
+    import matplotlib.pyplot as plt
+except Exception:
+    _HAVE_MPL = False
 
 # Local utils
 from utils.utils_logger import logger
@@ -35,11 +46,11 @@ def get_interval_secs() -> float:
     except Exception:
         return 15.0
 
+def get_chart_path() -> Path:
+    return Path(os.getenv("EEVEE_CHART_PATH", "charts/eevee_top5_csv.png"))
+
 # -------------------- CSV / POLARS HELPERS --------------------
-COLUMNS = [
-    "event","species","chosen_evolution","chosen_action",
-    "is_valid","message","author","ts","event_id"
-]
+COLUMNS = ["event","species","chosen_evolution","chosen_action","is_valid","message","author","ts","event_id"]
 
 EMPTY_SCHEMA = {
     "chosen_evolution": pl.Utf8,
@@ -51,6 +62,7 @@ def parse_csv_line(line: str) -> Dict[str, Any]:
     """
     Parse a single CSV line into a dict using fixed fieldnames.
     """
+    # DictReader expects an iterable of lines
     r = csv.DictReader([line], fieldnames=COLUMNS)
     row = next(r)
     # normalize key fields for analytics
@@ -118,13 +130,34 @@ def format_leaderboard(tbl: pl.DataFrame, k: int = 5) -> str:
         )
     return "\n".join(out)
 
+def save_top5_chart(tbl: pl.DataFrame, out_path: Path) -> None:
+    if not _HAVE_MPL or tbl.is_empty():
+        return
+    top5 = tbl.head(5)
+    labels = top5["chosen_evolution"].to_list()
+    successes = top5["successes"].to_list()
+    rates = top5["success_rate_pct"].to_list()
+
+    out_path.parent.mkdir(parents=True, exist_ok=True)
+    plt.figure(figsize=(8, 4))
+    plt.bar(labels, successes)
+    plt.title("Eevee Evolutions — Top 5 by Successes (CSV stream)")
+    plt.xlabel("Evolution")
+    plt.ylabel("Successes")
+    for i, (x, val, rate) in enumerate(zip(labels, successes, rates)):
+        plt.text(i, val, f"{val} ({rate:.1f}%)", ha="center", va="bottom", fontsize=9)
+    plt.tight_layout()
+    plt.savefig(out_path, dpi=120)
+    plt.close()
+
 # -------------------- MAIN --------------------
 def main() -> None:
     topic = get_topic()
     group_id = get_group_id()
     interval = get_interval_secs()
+    chart_path = get_chart_path()
 
-    logger.info(f"START Eevee CSV consumer | topic='{topic}' group='{group_id}' interval={interval}s")
+    logger.info(f"START Eevee CSV consumer | topic='{topic}' group='{group_id}' interval={interval}s chart='{chart_path}'")
     consumer = create_kafka_consumer(topic, group_id)
 
     df_all = pl.DataFrame(schema=EMPTY_SCHEMA)
@@ -159,13 +192,17 @@ def main() -> None:
                 stats = overall_stats(df_all)
 
                 logger.info("=== Eevee Evolution Leaderboard (rolling) [CSV] ===")
-                logger.info(
-                    f"Overall: total={stats['total']}  "
-                    f"success={stats['success']} ({stats['success_pct']}%)  "
-                    f"fail={stats['fail']} ({stats['fail_pct']}%)"
-                )
+                logger.info(f"Overall: total={stats['total']}  success={stats['success']} ({stats['success_pct']}%)  "
+                            f"fail={stats['fail']} ({stats['fail_pct']}%)")
                 logger.info("Top 5 by successes:")
                 logger.info("\n" + format_leaderboard(tbl, k=5))
+
+                try:
+                    save_top5_chart(tbl, chart_path)
+                    if _HAVE_MPL:
+                        logger.info(f"Chart written: {chart_path}")
+                except Exception as e:
+                    logger.warning(f"Could not write chart: {e}")
 
                 next_report += interval
                 if now > next_report + interval:
