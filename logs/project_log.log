@@ -213,3 +213,42 @@
 2025-09-07 16:16:20 | WARNING | Producer interrupted by user.
 2025-09-07 16:16:20 | INFO | Kafka producer closed.
 2025-09-07 16:16:20 | INFO | END producer.
+2025-09-12 17:41:01 | INFO | Logging to file: logs/project_log.log
+2025-09-12 17:41:01 | INFO | Log sanitization enabled, personal info removed
+2025-09-12 17:41:01 | INFO | START Eevee producer (Polars).
+2025-09-12 17:41:01 | INFO | Kafka broker address: localhost:9092
+2025-09-12 17:41:01 | INFO | Kafka is ready. Brokers: {'throttle_time_ms': 0, 'brokers': [{'node_id': 1, 'host': '127.0.0.1', 'port': 9092, 'rack': None}], 'cluster_id': 'izX4qtgsSweNTi1cWUWQEA', 'controller_id': 1}
+2025-09-12 17:41:01 | INFO | Kafka topic: eevee_json_v1
+2025-09-12 17:41:01 | INFO | Loaded 8 evolution rules from data/eevee_rules.csv
+2025-09-12 17:41:01 | INFO | Kafka broker address: localhost:9092
+2025-09-12 17:41:01 | INFO | Connecting to Kafka broker at localhost:9092...
+2025-09-12 17:41:01 | INFO | Kafka producer successfully created.
+2025-09-12 17:41:01 | INFO | Kafka broker address: localhost:9092
+2025-09-12 17:41:02 | INFO | Topic 'eevee_json_v1' created successfully.
+2025-09-12 17:41:02 | INFO | Producing Eevee evolution attempts to 'eevee_json_v1'...
+2025-09-12 17:41:02 | INFO | sent: {'event': 'evolution_attempt', 'species': 'Eevee', 'chosen_evolution': 'Umbreon', 'chosen_action': 'Leveled with Baby Doll TM with high friendship', 'is_valid': False, 'message': 'Eevee does nothing.', 'author': 'Eevee Engine', 'ts': '2025-09-12T22:41:02+00:00', 'event_id': 0}
+2025-09-12 17:41:03 | INFO | sent: {'event': 'evolution_attempt', 'species': 'Eevee', 'chosen_evolution': 'Leafeon', 'chosen_action': 'Leveled with a Fire Stone', 'is_valid': False, 'message': 'Eevee chases its tail.', 'author': 'Eevee Engine', 'ts': '2025-09-12T22:41:03+00:00', 'event_id': 1}
+2025-09-12 17:41:04 | INFO | sent: {'event': 'evolution_attempt', 'species': 'Eevee', 'chosen_evolution': 'Sylveon', 'chosen_action': 'Ate a berry', 'is_valid': False, 'message': 'Eevee does nothing.', 'author': 'Eevee Engine', 'ts': '2025-09-12T22:41:04+00:00', 'event_id': 2}
+2025-09-12 17:41:05 | INFO | sent: {'event': 'evolution_attempt', 'species': 'Eevee', 'chosen_evolution': 'Espeon', 'chosen_action': 'Threw a Poké Ball', 'is_valid': False, 'message': 'Eevee is smelling a flower.', 'author': 'Eevee Engine', 'ts': '2025-09-12T22:41:05+00:00', 'event_id': 3}
+2025-09-12 17:41:06 | INFO | sent: {'event': 'evolution_attempt', 'species': 'Eevee', 'chosen_evolution': 'Leafeon', 'chosen_action': 'Went for a walk', 'is_valid': False, 'message': 'Eevee chases its tail.', 'author': 'Eevee Engine', 'ts': '2025-09-12T22:41:06+00:00', 'event_id': 4}
+2025-09-12 17:41:07 | INFO | sent: {'event': 'evolution_attempt', 'species': 'Eevee', 'chosen_evolution': 'Sylveon', 'chosen_action': 'Leveled during day with high friendship', 'is_valid': False, 'message': 'Eevee does nothing.', 'author': 'Eevee Engine', 'ts': '2025-09-12T22:41:07+00:00', 'event_id': 5}
+2025-09-12 17:41:08 | INFO | sent: {'event': 'evolution_attempt', 'species': 'Eevee', 'chosen_evolution': 'Sylveon', 'chosen_action': 'Leveled at night with high friendship', 'is_valid': False, 'message': 'Eevee tilts its head curiously.', 'author': 'Eevee Engine', 'ts': '2025-09-12T22:41:08+00:00', 'event_id': 6}
+2025-09-12 17:41:09 | INFO | sent: {'event': 'evolution_attempt', 'species': 'Eevee', 'chosen_evolution': 'Espeon', 'chosen_action': 'Practiced Quick Attack', 'is_valid': False, 'message': 'Eevee does nothing.', 'author': 'Eevee Engine', 'ts': '2025-09-12T22:41:09+00:00', 'event_id': 7}
+2025-09-12 17:41:10 | INFO | sent: {'event': 'evolution_attempt', 'species': 'Eevee', 'chosen_evolution': 'Umbreon', 'chosen_action': 'Threw a Poké Ball', 'is_valid': False, 'message': 'Eevee is smelling a flower.', 'author': 'Eevee Engine', 'ts': '2025-09-12T22:41:10+00:00', 'event_id': 8}
+2025-09-12 17:41:11 | INFO | sent: {'event': 'evolution_attempt', 'species': 'Eevee', 'chosen_evolution': 'Sylveon', 'chosen_action': 'Leveled with a Water Stone', 'is_valid': False, 'message': 'Eevee tilts its head curiously.', 'author': 'Eevee Engine', 'ts': '2025-09-12T22:41:11+00:00', 'event_id': 9}
+2025-09-12 17:41:12 | INFO | sent: {'event': 'evolution_attempt', 'species': 'Eevee', 'chosen_evolution': 'Jolteon', 'chosen_action': 'Leveled during day with high friendship', 'is_valid': False, 'message': 'Eevee chases its tail.', 'author': 'Eevee Engine', 'ts': '2025-09-12T22:41:12+00:00', 'event_id': 10}
+2025-09-12 17:41:13 | INFO | sent: {'event': 'evolution_attempt', 'species': 'Eevee', 'chosen_evolution': 'Umbreon', 'chosen_action': 'Threw a Poké Ball', 'is_valid': False, 'message': 'Eevee tilts its head curiously.', 'author': 'Eevee Engine', 'ts': '2025-09-12T22:41:13+00:00', 'event_id': 11}
+2025-09-12 17:41:14 | INFO | sent: {'event': 'evolution_attempt', 'species': 'Eevee', 'chosen_evolution': 'Umbreon', 'chosen_action': 'Practiced Quick Attack', 'is_valid': False, 'message': 'Eevee is bored.', 'author': 'Eevee Engine', 'ts': '2025-09-12T22:41:14+00:00', 'event_id': 12}
+2025-09-12 17:41:15 | INFO | sent: {'event': 'evolution_attempt', 'species': 'Eevee', 'chosen_evolution': 'Espeon', 'chosen_action': 'Leveled with an Ice Stone', 'is_valid': False, 'message': 'Eevee tilts its head curiously.', 'author': 'Eevee Engine', 'ts': '2025-09-12T22:41:15+00:00', 'event_id': 13}
+2025-09-12 17:41:16 | INFO | sent: {'event': 'evolution_attempt', 'species': 'Eevee', 'chosen_evolution': 'Glaceon', 'chosen_action': 'Went for a walk', 'is_valid': False, 'message': 'Eevee chases its tail.', 'author': 'Eevee Engine', 'ts': '2025-09-12T22:41:16+00:00', 'event_id': 14}
+2025-09-12 17:41:17 | INFO | sent: {'event': 'evolution_attempt', 'species': 'Eevee', 'chosen_evolution': 'Leafeon', 'chosen_action': 'Leveled during day with high friendship', 'is_valid': False, 'message': 'Eevee does nothing.', 'author': 'Eevee Engine', 'ts': '2025-09-12T22:41:17+00:00', 'event_id': 15}
+2025-09-12 17:41:18 | INFO | sent: {'event': 'evolution_attempt', 'species': 'Eevee', 'chosen_evolution': 'Jolteon', 'chosen_action': 'Leveled with an Ice Stone', 'is_valid': False, 'message': 'Eevee chases its tail.', 'author': 'Eevee Engine', 'ts': '2025-09-12T22:41:18+00:00', 'event_id': 16}
+2025-09-12 17:41:19 | INFO | sent: {'event': 'evolution_attempt', 'species': 'Eevee', 'chosen_evolution': 'Umbreon', 'chosen_action': 'Leveled with a Thunder Stone', 'is_valid': False, 'message': 'Eevee tilts its head curiously.', 'author': 'Eevee Engine', 'ts': '2025-09-12T22:41:19+00:00', 'event_id': 17}
+2025-09-12 17:41:20 | INFO | sent: {'event': 'evolution_attempt', 'species': 'Eevee', 'chosen_evolution': 'Jolteon', 'chosen_action': 'Leveled with a Fire Stone', 'is_valid': False, 'message': 'Eevee is smelling a flower.', 'author': 'Eevee Engine', 'ts': '2025-09-12T22:41:20+00:00', 'event_id': 18}
+2025-09-12 17:41:21 | INFO | sent: {'event': 'evolution_attempt', 'species': 'Eevee', 'chosen_evolution': 'Sylveon', 'chosen_action': 'Took a nap', 'is_valid': False, 'message': 'Eevee is bored.', 'author': 'Eevee Engine', 'ts': '2025-09-12T22:41:21+00:00', 'event_id': 19}
+2025-09-12 17:41:22 | INFO | sent: {'event': 'evolution_attempt', 'species': 'Eevee', 'chosen_evolution': 'Leafeon', 'chosen_action': 'Leveled with a Fire Stone', 'is_valid': False, 'message': 'Eevee is smelling a flower.', 'author': 'Eevee Engine', 'ts': '2025-09-12T22:41:22+00:00', 'event_id': 20}
+2025-09-12 17:41:23 | INFO | sent: {'event': 'evolution_attempt', 'species': 'Eevee', 'chosen_evolution': 'Umbreon', 'chosen_action': 'Leveled during day with high friendship', 'is_valid': False, 'message': 'Eevee is smelling a flower.', 'author': 'Eevee Engine', 'ts': '2025-09-12T22:41:23+00:00', 'event_id': 21}
+2025-09-12 17:41:24 | INFO | sent: {'event': 'evolution_attempt', 'species': 'Eevee', 'chosen_evolution': 'Flareon', 'chosen_action': 'Took a nap', 'is_valid': False, 'message': 'Eevee tilts its head curiously.', 'author': 'Eevee Engine', 'ts': '2025-09-12T22:41:24+00:00', 'event_id': 22}
+2025-09-12 17:41:24 | WARNING | Producer interrupted by user.
+2025-09-12 17:41:24 | INFO | Kafka producer closed.
+2025-09-12 17:41:24 | INFO | END Eevee producer (Polars).
