@@ -249,9 +249,7 @@ Real-time streaming pipelines using Apache Kafka, Python 3.11, and Polars.
 You’ll run two flavors side-by-side:
 
 JSON pipeline (optional)
-
 CSV pipeline with Polars analytics + a console ASCII bar chart (Top-5)
-
 Works on Windows (with WSL for Kafka) and macOS/Linux.
 
 ## Install & Setup
@@ -273,7 +271,7 @@ python -m pip install --upgrade pip wheel setuptools
 python -m pip install -r requirements.txt
 ```
    4. WSL (Ubuntu) for Kafka only
-   . In VS Cose: Terminal - New Terminal:
+   * In VS Cose: Terminal - New Terminal:
 ```shell
 wsl
 ```
@@ -307,7 +305,101 @@ Note: Keep this terminal open (Kafka runs in the foreground).
       Wait until you see “started (kafka.server.KafkaServer)”.
 
 ## Run the Pipelines
+Open new terminals for each process.
+Always activate the venv first:
 
+Windows:
+`.\.venv\Scripts\Activate.psl`
+Use `python ...` (not `py`) to ensure the use of the venv.
+
+macOS/Linux:
+`source .vene/bin/activate`
+
+## CSV Producer (Polars)
+Streams one CSV line per event based on `data/eevee_rules.csv`.
+
+Windows:
+```shell
+.venv\Scripts\Activate.ps1
+python -m producers.csv_producer_eevee_polars
+```
+
+macOS/Linux:
+```bash
+source .venv/bin/activate
+python -m producers.csv_producer_eevee_polars
+```
+
+## CSV Consumer (Polars + ASCII chart)
+Every 15s prints totals, Top-5 by successes, and an ASCII bar chart.
+
+Windows:
+```shell
+.venv\Scripts\Activate.ps1
+python -m consumers.csv_consumer_eevee_polars
+```
+
+macOS/Linux
+```bash
+source .venv/bin/activate
+python -m consumers.csv_consumer_eevee_polars
+```
+
+csv_consumer_eevee_polars.py output should look like
+
+```shell
+=== Eevee Evolution Leaderboard (rolling) [CSV] ===
+Overall: total=137  success=59 (43.1%)  fail=78 (56.9%)
+Top 5 by successes:
+- Jolteon   attempts=19   successes=12   rate=63.2%
+- Flareon   attempts=17   successes=10   rate=58.8%
+- Vaporeon  attempts=18   successes= 9   rate=50.0%
+- Espeon    attempts=21   successes= 8   rate=38.1%
+- Umbreon   attempts=16   successes= 5   rate=31.2%
+
+Top-5 Successes (ASCII bars)
+Jolteon   | ████████████████████████████            | 12 (63.2%)
+Flareon   | █████████████████████████               | 10 (58.8%)
+Vaporeon  | ████████████████████                    |  9 (50.0%)
+Espeon    | █████████████████                       |  8 (38.1%)
+Umbreon   | ████████████                            |  5 (31.2%)
+```
+
+## Troubleshooting
+
+1) ModuleNotFoundError: polars
+
+* You installed Polars in a different interpreter.
+* Fix: activate the venv you’re actually using and install:
+
+```shell
+.venv\Scripts\Activate.ps1
+python -m pip install -U "polars>=0.20" pyarrow
+```
+
+```shell
+python -c "import sys, polars; print(sys.executable, polars.__version__)"
+```
+2) Windows: using py bypasses venv
+
+* Use python, not py, after activating the venv.
+
+3) Log file locking on Windows
+
+* If multiple processes wrote to the same log file you can see:
+`PermissionError: [WinError 32] ... project_log.log`
+   Fix: This repo’s logger writes to per-process files `(logs/<script>_<pid>.log)` to avoid conflicts.
+
+4) Error while consuming messages: Invalid file descriptor: -1 (Windows)
+* Occasional socket hiccup with kafka-python on Windows.
+   Fix: The consumer auto-recovers by closing and re-creating the Kafka consumer.
+
+5) Kafka connection / `localhost:9092` unreachable
+* Make sure Kafka is running and listening on `localhost:9092`.
+* If Kafka is running in WSL, that’s fine—Windows clients can reach `localhost:9092` if configured by your `prepare_kafka.sh`. If not, ensure your `listeners/advertised.listeners` in `server.properties` are set appropriately (e.g., `PLAINTEXT://0.0.0.0:9092` and `PLAINTEXT://localhost:9092`).
+
+6) WSL Python vs Windows Python
+* Kafka runs in WSL; Python apps can run on Windows or WSL, but each side needs its own venv + pip installs.
 
 ## Save Space
 
