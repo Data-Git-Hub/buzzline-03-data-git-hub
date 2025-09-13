@@ -243,6 +243,72 @@ git commit -m "your message in quotes"
 git push -u origin main
 ```
 
+# P3 JSON & CSV Streaming with Kafka + Polars (Eevee Evolutions Edition)
+
+Real-time streaming pipelines using Apache Kafka, Python 3.11, and Polars.
+You’ll run two flavors side-by-side:
+
+JSON pipeline (optional)
+
+CSV pipeline with Polars analytics + a console ASCII bar chart (Top-5)
+
+Works on Windows (with WSL for Kafka) and macOS/Linux.
+
+## Install & Setup
+
+Windows (with WSL for Kafka)
+
+   1. Open VS Code - open this project folder.
+   2. Powershell terminal - create and activate venv:
+
+```shell
+py -3.11 -m venv .venv
+.venv\Scripts\Activate.ps1
+# If you get an execution policy error:
+# Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+```
+   3. Install dependences (in the venv):
+```shell
+python -m pip install --upgrade pip wheel setuptools
+python -m pip install -r requirements.txt
+```
+   4. WSL (Ubuntu) for Kafka only
+   . In VS Cose: Terminal - New Terminal:
+```shell
+wsl
+```
+
+macOS/Linux
+   1. Terminal in the project root:
+```bash
+python3.11 -m venv .venv
+source .venv/bin/activate
+python -m pip install --upgrade pip wheel setuptools
+python -m pip install -r requirements.txt
+```
+Note: If `python3.11` not found, install it (macOS: `brew install python@3.11` ; Ubuntu `subo apt install python 3.11 python 3.11-venv`)
+
+## Start Kafka
+
+Windows: run Kafka inside WSL
+
+macOS/Linux: run Kafka directly in your shell.
+
+```bash
+# Make helper script executable (from project root, in WSL/macOS/Linux)
+chmod +x scripts/prepare_kafka.sh
+scripts/prepare_kafka.sh
+
+# Start Kafka (KRaft)
+cd ~/kafka
+bin/kafka-server-start.sh config/kraft/server.properties
+```
+Note: Keep this terminal open (Kafka runs in the foreground).
+      Wait until you see “started (kafka.server.KafkaServer)”.
+
+## Run the Pipelines
+
+
 ## Save Space
 
 To save disk space, you can delete the .venv folder when not actively working on this project.
